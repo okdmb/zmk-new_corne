@@ -96,6 +96,8 @@
 &trans  &trans    &trans    &trans     &trans     &trans  &trans            &trans          &kp INSERT    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
                             &trans     &trans     &trans                                    &kp ENTER     &kp BSPC  &kp DEL
             >;
+
+            label = "Nav";
         };
 
         MOUSE {
@@ -105,6 +107,8 @@
 &trans       &trans    &trans    &trans     &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans    &trans    &trans
                                  &trans     &trans     &trans                                    &trans  &trans     &trans
             >;
+
+            label = "Mouse";
         };
 
         MEDIA {
@@ -114,6 +118,8 @@
 &trans  &trans    &trans    &trans     &trans     &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                             &trans     &trans     &trans                                    &trans  &trans  &trans
             >;
+
+            label = "Media";
         };
 
         NUM {
