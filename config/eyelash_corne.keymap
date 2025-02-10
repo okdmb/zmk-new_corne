@@ -91,10 +91,10 @@
 
         NAV {
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans                    &trans          &trans          &trans     &trans     &trans     &trans     &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans            &trans  &trans  &trans  &trans          &kp LEFT_ARROW  &kp DOWN   &kp UP  &kp RIGHT  &trans
-&trans  &trans    &trans    &trans     &trans     &trans  &trans            &trans          &trans          &kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &trans
-                            &trans     &trans     &trans                                    &kp ENTER       &kp BSPC   &kp DEL
+&trans  &trans    &trans    &trans     &trans     &trans                    &trans          &trans     &trans          &trans     &trans     &trans     &trans
+&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans            &trans  &trans  &trans  &trans     &kp LEFT_ARROW  &kp DOWN   &kp UP     &kp RIGHT  &trans
+&trans  &trans    &trans    &trans     &trans     &trans  &trans            &trans          &trans     &kp HOME        &kp PG_DN  &kp PG_UP  &kp END    &trans
+                            &trans     &trans     &trans                                    &kp ENTER  &kp BSPC        &kp DEL
             >;
 
             label = "Nav";
@@ -102,10 +102,10 @@
 
         MOUSE {
             bindings = <
-&bootloader  &trans    &trans    &trans     &trans     &trans                    &trans          &trans  &trans     &trans     &trans    &trans    &trans
-&trans       &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans            &trans  &trans  &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-&trans       &trans    &trans    &trans     &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans    &trans    &trans
-                                 &trans     &trans     &trans                                    &trans  &trans     &trans
+&bootloader     &trans    &trans    &trans     &trans     &trans                    &trans          &trans  &trans     &trans     &trans    &trans    &trans
+&bt BT_CLR      &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans            &trans  &trans  &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&bt BT_CLR_ALL  &trans    &trans    &trans     &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans    &trans    &trans
+                                    &trans     &trans     &trans                                    &trans  &trans     &trans
             >;
 
             label = "Mouse";
@@ -138,8 +138,8 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE                            &mmv MOVE_UP                     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &bootloader
-&trans  &kp SEMICOLON   &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SPACE  &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI   &kp SPACE
-&trans  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp POUND              &kp PIPE         &trans                    &mmv MOVE_DOWN                   &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
+&trans  &kp SEMICOLON   &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SPACE  &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI   &bt BT_CLR
+&trans  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp POUND              &kp PIPE         &trans                    &mmv MOVE_DOWN                   &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &bt BT_CLR_ALL
                                          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE                                                              &kp SPACE  &trans     &trans
             >;
 
