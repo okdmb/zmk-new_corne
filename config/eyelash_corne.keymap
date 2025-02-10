@@ -97,7 +97,7 @@
                             &trans     &trans     &trans                                    &kp ENTER  &kp BSPC        &kp DEL
             >;
 
-            label = "Nav";
+            label = "NAV";
         };
 
         MEDIA {
@@ -108,7 +108,7 @@
                             &trans     &trans     &trans                                    &trans  &trans  &trans
             >;
 
-            label = "Media";
+            label = "MEDIA";
         };
 
         MOUSE {
@@ -119,11 +119,11 @@
                                         &trans        &trans        &trans                                        &trans  &trans     &trans
             >;
 
-            label = "Mouse";
+            label = "MOUSE";
         };
 
         NUM {
-            display-name = "NUMBER";
+            display-name = "NUM";
             bindings = <
 &trans          &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT                                 &mmv MOVE_UP                     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
 &trans          &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SPACE  &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI   &kp SPACE
@@ -147,7 +147,7 @@
         };
 
         FUN {
-            display-name = "Fn";
+            display-name = "FUN";
             bindings = <
 &studio_unlock  &kp F12  &kp F7  &kp F8  &kp F9     &kp SPACE                                &mmv MOVE_UP                     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
 &trans          &kp F11  &kp F4  &kp F5  &kp F6     &kp SPACE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SPACE  &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI   &kp SPACE
@@ -156,7 +156,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            label = "Fn";
+            label = "FUN";
         };
     };
 };
