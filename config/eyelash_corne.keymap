@@ -102,10 +102,10 @@
 
         MOUSE {
             bindings = <
-&bootloader     &trans    &trans    &trans     &trans     &trans                    &trans          &trans  &trans     &trans     &trans    &trans    &trans
-&bt BT_CLR      &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans            &trans  &trans  &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-&bt BT_CLR_ALL  &trans    &trans    &trans     &trans     &trans  &trans            &trans          &trans  &trans     &trans     &trans    &trans    &trans
-                                    &trans     &trans     &trans                                    &trans  &trans     &trans
+&bootloader     &trans    &trans        &trans        &trans        &trans                        &trans          &trans  &trans     &trans     &trans    &trans    &trans
+&bt BT_CLR      &kp LGUI  &kp LALT      &kp LCTRL     &kp LSHFT     &trans                &trans  &trans  &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&bt BT_CLR_ALL  &trans    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_NXT  &trans            &trans          &trans  &trans     &trans     &trans    &trans    &trans
+                                        &trans        &trans        &trans                                        &trans  &trans     &trans
             >;
 
             label = "Mouse";
