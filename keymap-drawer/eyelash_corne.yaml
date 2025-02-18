@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - '&key_repeat'
   - Q
   - W
   - E
