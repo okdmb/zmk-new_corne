@@ -272,7 +272,7 @@ layers:
   - {t: Gui+Ctl+8, s: Gui+Ctl+*}
   - {t: Ctl+Gui+9, s: Ctl+Gui+(}
   - {t: Ctl+Gui+0, s: Ctl+Gui+)}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
