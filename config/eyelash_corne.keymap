@@ -3,11 +3,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/backlight.h>
+
+
 
 /*
 
@@ -65,7 +65,7 @@
             bindings = <
 &kp TAB        &kp Q           &kp W           &kp E           &kp R        &kp T                                      &mmv MOVE_UP                     &kp Y        &kp U            &kp I        &kp O           &kp P              &kp HOME
 &mt LCTRL ESC  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LSHIFT D    &mt LCTRL F  &kp G                      &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp H        &mt RCTRL J      &mt RSHFT K  &mt LEFT_ALT L  &mt LEFT_GUI SEMI  &kp SQT
-&kp TAB        &kp Z           &kp X           &kp C           &kp V        &kp B      &lt 5 K_MUTE                    &mmv MOVE_DOWN                   &kp N        &kp M            &kp COMMA    &kp DOT         &kp FSLH           &kp END
+&lt 3 TAB      &kp Z           &kp X           &kp C           &kp V        &kp B      &lt 5 K_MUTE                    &mmv MOVE_DOWN                   &kp N        &kp M            &kp COMMA    &kp DOT         &kp FSLH           &kp END
                                                &lt 5 C_REPEAT  &lt 4 SPACE  &lt 6 TAB                                                                   &lt 8 ENTER  &lt 7 BACKSPACE  &lt 9 DEL
             >;
 
@@ -92,9 +92,9 @@
 
         BUTTON {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &bl BL_TOG                    &trans         &rgb_ug RGB_TOG  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &bl BL_CYCLE  &bl BL_INC            &trans  &trans   &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &bl BL_SET  &bl BL_DEC  &trans            &trans     &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &trans  &trans  &trans
                         &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
         };
