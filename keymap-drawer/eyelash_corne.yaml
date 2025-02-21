@@ -172,8 +172,8 @@ layers:
   - RGB BRI
   - RGB SPI
   - RGB EFF
-  - RGB COLOR HSB(118,79,20)
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB HUI
+  - RGB SAI
   - EP OFF
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -186,8 +186,8 @@ layers:
   - RGB BRD
   - RGB SPD
   - RGB EFR
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB HUD
+  - RGB SAD
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
