@@ -37,10 +37,10 @@ layers:
   - {t: '$$mdi:volume-off$$', h: MEDIA}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
-  - M
+  - {t: M, h: HOME}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: /, h: END, s: '?'}
   - {t: END, h: BUTTON}
   - {t: REPEAT, h: MEDIA}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
