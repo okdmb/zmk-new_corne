@@ -126,7 +126,7 @@
 
         MOUSE {
             bindings = <
-&bootloader     &sys_reset    &soft_off     &trans        &trans        &studio_unlock                            &mmv MOVE_UP                     &trans     &trans          &trans          &trans        &trans           &trans
+&bootloader     &trans        &kp LA(F4)    &trans        &trans        &studio_unlock                            &mmv MOVE_UP                     &trans     &trans          &trans          &trans        &trans           &trans
 &bt BT_CLR_ALL  &kp LGUI      &kp LALT      &kp LSHFT     &kp LCTRL     &trans                    &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_NXT      &trans                    &mmv MOVE_DOWN                   &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
                                             &trans        &trans        &trans                                                                     &mkp LCLK  &mkp RCLK       &mkp MCLK
