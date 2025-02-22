@@ -28,7 +28,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:keyboard-tab$$', h: NAV}
+  - {t: '$$mdi:keyboard-tab$$', h: BUTTON}
   - Z
   - X
   - C
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: END, s: '?'}
-  - {t: END, h: NAV}
+  - {t: END, h: BUTTON}
   - {t: REPEAT, h: MEDIA}
   - {t: '$$mdi:keyboard-space$$', h: MEDIA}
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
@@ -175,7 +175,7 @@ layers:
   - RGB HUI
   - RGB SAI
   - EP OFF
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - SLEEP MODE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -188,7 +188,7 @@ layers:
   - RGB EFR
   - RGB HUD
   - RGB SAD
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -224,7 +224,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -237,7 +237,7 @@ layers:
   - PG DN
   - PG UP
   - END
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
