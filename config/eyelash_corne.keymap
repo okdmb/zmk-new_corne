@@ -94,10 +94,10 @@
 
         BUTTON {
             bindings = <
-&trans  &kp K_SLEEP       &trans  &trans  &trans        &bl BL_TOG                    &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &trans           &trans           &ext_power EP_ON
-&trans  &kp C_SLEEP       &trans  &trans  &bl BL_CYCLE  &bl BL_INC            &trans  &trans  &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &ext_power EP_OFF
-&trans  &kp C_SLEEP_MODE  &trans  &trans  &trans        &bl BL_DEC  &trans            &trans          &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &trans
-                                  &trans  &trans        &trans                                        &trans           &trans           &trans
+&trans  &kp K_SLEEP       &kp C_MUTE   &trans  &trans        &bl BL_TOG                    &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &trans           &trans           &ext_power EP_ON
+&trans  &kp C_SLEEP       &kp K_MUTE   &trans  &bl BL_CYCLE  &bl BL_INC            &trans  &trans  &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &ext_power EP_OFF
+&trans  &kp C_SLEEP_MODE  &kp K_MUTE2  &trans  &trans        &bl BL_DEC  &trans            &trans          &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &trans
+                                       &trans  &trans        &trans                                        &trans           &trans           &trans
             >;
         };
 
