@@ -3,8 +3,8 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   # nice_oled
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+ #   - name: mctechnology17
+ #     url-base: #https://github.com/mctechnology17
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
