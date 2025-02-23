@@ -149,7 +149,7 @@ layers:
   BUTTON:
   - {t: '$$mdi:transfer$$', type: trans}
   - SLEEP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_TOG'
@@ -162,7 +162,7 @@ layers:
   - EP ON
   - {t: '$$mdi:transfer$$', type: trans}
   - SLEEP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - MUTE
   - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_CYCLE'
   - '&bl BL_INC'
@@ -177,7 +177,7 @@ layers:
   - EP OFF
   - {type: held}
   - SLEEP MODE
-  - {t: '$$mdi:transfer$$', type: trans}
+  - MUTE2
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&bl BL_DEC'
