@@ -358,9 +358,9 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ;, s: ':'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - {t: '=', s: +}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -373,9 +373,9 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
   - {t: \, s: '|'}
   - MUTE
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -442,11 +442,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
   - '&studio_unlock'
-  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
   - F7
   - F8
   - F9
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
@@ -455,11 +455,11 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - F11
-  - F4
-  - F5
-  - F6
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F1
+  - F2
+  - F3
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -470,11 +470,11 @@ layers:
   - LGUI
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - F10
-  - F1
-  - F2
-  - F3
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F4
+  - F5
+  - F6
+  - {t: '$$mdi:transfer$$', type: trans}
   - MUTE
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -483,9 +483,9 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-space$$
+  - F10
+  - F11
+  - F12
   - {t: '$$mdi:keyboard-space$$', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
