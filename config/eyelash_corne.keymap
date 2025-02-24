@@ -23,7 +23,7 @@
 
  */
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 2400 // 1200  // 600
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 7200 // 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
 / {
@@ -139,8 +139,8 @@
             display-name = "NUM";
             bindings = <
 &trans  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT                                 &mmv MOVE_UP                     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &bootloader
-&trans  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SPACE  &kp RCTRL  &kp RSHFT  &kp LALT   &kp LGUI   &bootloader
-&trans  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH   &kp K_MUTE                    &mmv MOVE_DOWN                   &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
+&trans  &kp SEMI   &kp N1 &kp N2   &kp N3  &kp EQUAL                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SPACE  &kp RCTRL  &kp RSHFT  &kp LALT   &kp LGUI   &bootloader
+&trans  &kp GRAVE  &kp N4  &kp N5   &kp N6  &kp BSLH   &kp K_MUTE                    &mmv MOVE_DOWN                   &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
                            &kp DOT  &kp N0  &kp MINUS                                                                 &kp SPACE  &kp SPACE  &trans
             >;
 
@@ -162,10 +162,10 @@
         Fn {
             display-name = "FUN";
             bindings = <
-&studio_unlock  &kp F12  &kp F7  &kp F8   &kp F9   &kp SPACE                                &mmv MOVE_UP                     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-&trans          &kp F11  &kp F4  &kp F5   &kp F6   &kp SPACE                &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp SPACE  &kp LCTRL  &kp RSHFT  &kp LALT   &kp LGUI   &kp SPACE
-&trans          &kp F10  &kp F1  &kp F2   &kp F3   &kp SPACE  &kp K_MUTE                    &mmv MOVE_DOWN                   &trans     &trans     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-                                 &kp TAB  &kp TAB  &kp SPACE                                                                 &kt SPACE  &trans     &trans
+&studio_unlock  &trans  &kp F7  &kp F8   &kp F9   &trans                                &mmv MOVE_UP                     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
+&trans          &trans  &kp F1  &kp F2   &kp F3   &trans                &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp SPACE  &kp LCTRL  &kp RSHFT  &kp LALT   &kp LGUI   &kp SPACE
+&trans          &trans  &kp F4  &kp F5   &kp F6   &trans  &kp K_MUTE                    &mmv MOVE_DOWN                   &trans     &trans     &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
+                                 &kp F10  &kp F11  &kp F12                                                                 &kt SPACE  &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
