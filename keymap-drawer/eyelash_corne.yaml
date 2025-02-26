@@ -26,7 +26,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: dot morph, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ., h: '$$mdi:apple-keyboard-command$$', s: '>'}
   - {t: '''', s: '"'}
   - {t: F19, h: TAP}
   - Z
@@ -40,7 +40,7 @@ layers:
   - {t: M, h: HOME}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: qexcl, h: END}
+  - {t: X, h: END}
   - {t: END, h: TAP}
   - {t: '$$mdi:backspace$$', h: MEDIA}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
