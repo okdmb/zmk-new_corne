@@ -125,15 +125,6 @@
             >;
         };
 
-        TAP {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
-            >;
-        };
-
         NAV {
             bindings = <
 &trans  &kp LS(F10)  &kp LC(W)  &trans     &trans     &trans                    &trans          &trans     &trans    &trans     &trans     &trans     &trans
@@ -206,38 +197,3 @@
         };
     };
 };
-
-{
-  "configurations": [
-    {
-      "type": "cppdbg",
-      "request": "launch",
-      "name": "Launch Program",
-      "program": "${workspaceFolder}/${input:executableName}",
-      "preLaunchTask": "build",
-      "cwd": "${workspaceFolder}",
-      "stopAtEntry": true
-    }
-  ],
-  "inputs": [
-    {
-      "type": "promptString",
-      "id": "executableName",
-      "description": "Name of your executable"
-    }
-  ],
-  "tasks": [
-    {
-      "type": "shell",
-      "label": "build",
-      "command": "cmake",
-      "args": [
-        "--build",
-        "."
-      ],
-      "options": {
-        "cwd": "${workspaceFolder}/boards/arm/eyelash_corne"
-      }
-    }
-  ]
-}
