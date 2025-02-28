@@ -172,9 +172,6 @@
                                                                                                            &to 6
             >;
 
-            label = "Qwery";
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
-        };
 
         Navi {
             bindings = <
