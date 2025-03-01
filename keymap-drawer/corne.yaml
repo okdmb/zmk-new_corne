@@ -99,7 +99,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - '!'
   - '@'
   - '#'
@@ -111,8 +111,8 @@ layers:
   - '*'
   - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
+  - BT CLR ALL
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-caps$$
   - HOME
