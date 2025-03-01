@@ -2,19 +2,19 @@ layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   Qwery:
   - {t: '`', h: '~', s: '~'}
-  - Q
+  - {t: Q, h: Sft+F10}
   - W
   - E
   - R
   - T
   - $$mdi:arrow-up-bold$$
   - Y
-  - U
+  - {t: U, h: HOME}
   - I
   - O
-  - P
+  - {t: P, h: END}
   - {t: '=', h: +, s: +}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:keyboard-esc$$', h: Navi}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
@@ -73,8 +73,8 @@ layers:
   - $$mdi:brightness-7$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
