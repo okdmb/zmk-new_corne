@@ -284,7 +284,7 @@ MIRYOKU_X(FUN,    "Fun")
         layer_7 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(LC(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))    &trans  &kp LC(LG(N6))  &kp LC(LG(N7))    &kp LG(LC(N8))  &kp LC(LG(N9))  &kp LC(LG(N0))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
                                                   &trans
