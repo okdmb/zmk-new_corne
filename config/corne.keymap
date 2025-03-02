@@ -12,7 +12,6 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
-
 #define XXX &none
 #define ___ &trans
 
@@ -42,7 +41,6 @@ MIRYOKU_X(FUN,    "Fun")
 #define U_FUN    9
 
 */
-
 
 / {
     zip_scroll_scaler: zip_scroll_scaler {
@@ -281,6 +279,36 @@ MIRYOKU_X(FUN,    "Fun")
 
             label = "Mouse";
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                  &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                  &trans
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                  &trans
+            >;
         };
     };
 
