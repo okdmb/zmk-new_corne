@@ -358,17 +358,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+Ctl+1
+  - Ctl+Gui+2
+  - Ctl+Gui+3
+  - Ctl+Gui+4
+  - {t: Ctl+Gui+5, s: Ctl+Gui+%}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Ctl+Gui+6, s: Ctl+Gui+^}
+  - {t: Ctl+Gui+7, s: Ctl+Gui+&}
+  - {t: Gui+Ctl+8, s: Gui+Ctl+*}
+  - {t: Ctl+Gui+9, s: Ctl+Gui+(}
+  - {t: Ctl+Gui+0, s: Ctl+Gui+)}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
