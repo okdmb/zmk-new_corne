@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  Qwery:
+  Qwerty:
   - {t: '`', h: '~', s: '~'}
   - {t: Q, h: Sft+F10}
   - W
@@ -285,7 +285,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Qwery, h: toggle}
+  - {t: Qwerty, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -342,7 +342,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {type: held}
-  - {t: Qwery, h: toggle}
+  - {t: Qwerty, h: toggle}
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
