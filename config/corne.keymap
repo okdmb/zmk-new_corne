@@ -270,10 +270,10 @@ MIRYOKU_X(FUN,    "Fun")
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_UP     &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_DOWN   &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_LEFT   &trans     &trans     &trans  &trans  &trans  &trans
-                &trans  &trans  &mkp LCLK  &mkp RCLK    &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_UP     &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_DOWN   &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_LEFT   &trans     &trans          &trans          &trans        &trans           &trans
+                &trans  &trans  &mkp LCLK  &mkp RCLK    &mmv MOVE_RIGHT  &mkp RCLK  &mkp LCLK       &mkp MCLK
                                                         &to 0
             >;
 
