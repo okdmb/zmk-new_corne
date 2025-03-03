@@ -244,7 +244,7 @@ MIRYOKU_X(FUN,    "Fun")
 
         NAV {
             bindings = <
-&trans  &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &trans
+&trans  &trans        &kp LA(F4)    &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &trans
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans        &trans           &trans
                       &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans
@@ -252,16 +252,16 @@ MIRYOKU_X(FUN,    "Fun")
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
-            label = "NAV";
+            label = "Nav";
         };
 
         Mouse {
             bindings = <
-&bootloader     &trans  &trans  &trans  &trans     &trans       &mmv MOVE_UP     &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-&trans          &trans  &trans  &trans  &trans     &trans       &mmv MOVE_DOWN   &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&bt BT_CLR_ALL  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_LEFT   &trans     &trans          &trans          &trans        &trans           &trans
-                        &to 0   &trans  &mkp LCLK  &mkp RCLK    &mmv MOVE_RIGHT  &mkp RCLK  &mkp LCLK       &mkp MCLK
-                                                                &to 0
+&bootloader     &trans  &kp LA(F4)  &trans  &trans     &trans       &mmv MOVE_UP     &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans          &trans  &trans      &trans  &trans     &trans       &mmv MOVE_DOWN   &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&bt BT_CLR_ALL  &trans  &trans      &trans  &trans     &trans       &mmv MOVE_LEFT   &trans     &trans          &trans          &trans        &trans           &trans
+                        &to 0       &trans  &mkp LCLK  &mkp RCLK    &mmv MOVE_RIGHT  &mkp RCLK  &mkp LCLK       &mkp MCLK
+                                                                    &to 0
             >;
 
             label = "Mouse";
@@ -277,7 +277,7 @@ MIRYOKU_X(FUN,    "Fun")
                                                                                                                           &trans
             >;
 
-            label = "MEDIA";
+            label = "Media";
         };
 
         NUM {
@@ -289,7 +289,7 @@ MIRYOKU_X(FUN,    "Fun")
                                                          &trans
             >;
 
-            label = "NUM";
+            label = "Num";
         };
 
         Symbol {
@@ -301,7 +301,7 @@ MIRYOKU_X(FUN,    "Fun")
                                                                                        &trans
             >;
 
-            label = "Symbol";
+            label = "Sym";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
