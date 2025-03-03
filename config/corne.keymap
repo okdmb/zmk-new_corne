@@ -193,20 +193,56 @@ MIRYOKU_X(FUN,    "Fun")
     keymap {
         compatible = "zmk,keymap";
 
-        Qwerty {
+        QWERTY {
             bindings = <
 &as TILDE GRAVE  &mt LS(F10) Q    &kp W            &kp E                &kp R              &kp T         &kp UP_ARROW     &kp Y         &mt HOME U          &kp I                 &kp O                    &mt END P            &as PLUS EQUAL
-&lt 1 ESCAPE     &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G         &kp DOWN_ARROW   &kp H         &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L         &as COLON SEMICOLON  &as DOUBLE_QUOTES SQT
+&lt 5 ESCAPE     &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G         &kp DOWN_ARROW   &kp H         &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L         &as COLON SEMICOLON  &as DOUBLE_QUOTES SQT
 &bt BT_CLR_ALL   &kp Z            &kp X            &kp C                &kp V              &kp B         &kp LEFT_ARROW   &kp N         &kp M               &as LESS_THAN COMMA   &as GREATER_THAN PERIOD  &as QUESTION SLASH   &kp ENTER
-                                  &to 5            &ltq 1 BACKSPACE     &ltq 3 SPACE       &ltq 2 TAB    &kp RIGHT_ARROW  &ltq 2 ENTER  &ltq 3 BACKSPACE    &ltq 6 DELETE
-                                                                                                         &to 6
+                                  &to 5            &ltq 5 BACKSPACE     &ltq 10 SPACE      &ltq 8 TAB    &kp RIGHT_ARROW  &ltq 8 ENTER  &ltq 10 BACKSPACE   &ltq 5 DELETE
+                                                                                                         &to 5
             >;
 
-            label = "Qwerty";
+            label = "QWERTY";
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
-        Navi {
+        EXTRA {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                  &trans
+            >;
+
+            label = "EXTRA";
+        };
+
+        TAP {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                  &trans
+            >;
+
+            label = "TAP";
+        };
+
+        BUTTON {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                                                  &trans
+            >;
+
+            label = "BUTTON";
+        };
+
+        NAV {
             bindings = <
 &trans  &trans        &trans        &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &trans          &kp UP_ARROW    &trans        &trans           &trans
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
@@ -216,56 +252,7 @@ MIRYOKU_X(FUN,    "Fun")
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
-            label = "Navi";
-        };
-
-        Symbol {
-            bindings = <
-&bootloader     &kp EXCLAMATION  &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT       &trans  &kp LCTRL  &kp AMPERSAND    &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &bootloader
-&trans          &kp ESCAPE       &kp CAPSLOCK  &kp HOME  &kp END     &kp UNDERSCORE    &trans  &kp MINUS  &kp RIGHT_SHIFT  &kp PAGE_UP            &kp PAGE_DOWN         &kp INSERT             &trans
-&bt BT_CLR_ALL  &kp BACKSPACE    &trans        &trans    &trans      &kp TILDE         &trans  &kp GRAVE  &as PLUS EQUAL   &as DOUBLE_QUOTES SQT  &as PIPE BACKSLASH    &kp DELETE             &trans
-                                 &trans        &trans    &trans      &trans            &trans  &trans     &trans           &trans
-                                                                                       &trans
-            >;
-
-            label = "Symbol";
-        };
-
-        Modify {
-            bindings = <
-&kp LG(Q)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5        &trans  &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &trans
-&trans     &kp LG(A)     &kp LG(S)     &kp LG(D)     &kp LG(F)     &kp LEFT_BRACKET    &trans  &kp RIGHT_BRACKET  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
-&trans     &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)     &kp LEFT_BRACE      &trans  &kp RIGHT_BRACE    &kp F1           &kp F2             &kp F3         &kp F4         &trans
-                         &trans        &trans        &trans        &trans              &trans  &trans             &trans           &trans
-                                                                                       &trans
-            >;
-
-            label = "Modify";
-        };
-
-        Flash {
-            bindings = <
-&flash_macro  &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
-&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans        &trans        &trans        &trans
-&trans        &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_CLR    &trans        &trans        &trans        &trans        &bt BT_CLR_ALL
-                      &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans
-                                                        &trans
-            >;
-
-            label = "Flash";
-        };
-
-        Rgb {
-            bindings = <
-&ext_power EP_TOG  &trans  &trans  &trans  &trans           &rgb_ug RGB_SPI    &rgb_ug RGB_HUI  &rgb_ug RGB_SPD  &trans           &trans  &trans  &trans  &trans
-&trans             &trans  &trans  &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR    &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &trans  &trans  &trans  &trans
-&trans             &trans  &trans  &trans  &trans           &trans             &rgb_ug RGB_SAI  &trans           &trans           &trans  &trans  &trans  &trans
-                           &to 0   &trans  &trans           &trans             &rgb_ug RGB_SAD  &trans           &trans           &trans
-                                                                               &rgb_ug RGB_TOG
-            >;
-
-            label = "Rgb";
-            sensor-bindings = <&rgb_encoder &scroll_encoder>;
+            label = "NAV";
         };
 
         Mouse {
@@ -274,14 +261,14 @@ MIRYOKU_X(FUN,    "Fun")
 &trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_DOWN   &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
 &trans  &trans  &trans  &trans  &trans     &trans       &mmv MOVE_LEFT   &trans     &trans          &trans          &trans        &trans           &trans
                 &trans  &trans  &mkp LCLK  &mkp RCLK    &mmv MOVE_RIGHT  &mkp RCLK  &mkp LCLK       &mkp MCLK
-                                                        &to 0
+                                                        &to 11
             >;
 
             label = "Mouse";
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_7 {
+        MEDIA {
             bindings = <
 &trans  &trans                &trans                &trans                &trans                &trans            &trans  &trans          &trans          &trans          &trans          &trans          &trans
 &trans  &kp LG(LC(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))    &trans  &kp LC(LG(N6))  &kp LC(LG(N7))  &kp LG(LC(N8))  &kp LC(LG(N9))  &kp LC(LG(N0))  &trans
@@ -289,6 +276,8 @@ MIRYOKU_X(FUN,    "Fun")
                               &trans                &trans                &trans                &trans            &trans  &trans          &trans          &trans
                                                                                                                   &trans
             >;
+
+            label = "MEDIA";
         };
 
         NUM {
@@ -303,6 +292,18 @@ MIRYOKU_X(FUN,    "Fun")
             label = "NUM";
         };
 
+        Symbol {
+            bindings = <
+&bootloader     &kp EXCLAMATION  &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT       &trans  &kp LCTRL  &kp AMPERSAND    &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &bootloader
+&trans          &kp ESCAPE       &kp CAPSLOCK  &kp HOME  &kp END     &kp UNDERSCORE    &trans  &kp MINUS  &kp RIGHT_SHIFT  &kp PAGE_UP            &kp PAGE_DOWN         &kp INSERT             &trans
+&bt BT_CLR_ALL  &kp BACKSPACE    &trans        &trans    &trans      &kp TILDE         &trans  &kp GRAVE  &as PLUS EQUAL   &as DOUBLE_QUOTES SQT  &as PIPE BACKSLASH    &kp DELETE             &trans
+                                 &trans        &trans    &trans      &trans            &trans  &trans     &trans           &trans
+                                                                                       &trans
+            >;
+
+            label = "Symbol";
+        };
+
         Fn {
             bindings = <
 &trans  &kp F12  &kp F7  &kp F8  &kp F9     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -315,14 +316,41 @@ MIRYOKU_X(FUN,    "Fun")
             label = "Fn";
         };
 
-        layer_10 {
+        Modify {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-                                                  &trans
+&kp LG(Q)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5        &trans  &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &trans
+&trans     &kp LG(A)     &kp LG(S)     &kp LG(D)     &kp LG(F)     &kp LEFT_BRACKET    &trans  &kp RIGHT_BRACKET  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
+&trans     &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)     &kp LEFT_BRACE      &trans  &kp RIGHT_BRACE    &kp F1           &kp F2             &kp F3         &kp F4         &trans
+                         &trans        &trans        &trans        &trans              &trans  &trans             &trans           &trans
+                                                                                       &trans
             >;
+
+            label = "Modify";
+        };
+
+        Rgb {
+            bindings = <
+&ext_power EP_TOG  &trans  &trans  &trans  &trans           &rgb_ug RGB_SPI    &rgb_ug RGB_HUI  &rgb_ug RGB_SPD  &trans           &trans  &trans  &trans  &trans
+&trans             &trans  &trans  &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR    &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &trans  &trans  &trans  &trans
+&trans             &trans  &trans  &trans  &trans           &trans             &rgb_ug RGB_SAI  &trans           &trans           &trans  &trans  &trans  &trans
+                           &to 11  &trans  &trans           &trans             &rgb_ug RGB_SAD  &trans           &trans           &trans
+                                                                               &rgb_ug RGB_TOG
+            >;
+
+            label = "Rgb";
+            sensor-bindings = <&rgb_encoder &scroll_encoder>;
+        };
+
+        Flash {
+            bindings = <
+&flash_macro  &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
+&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans        &trans  &trans  &trans  &trans  &trans    &trans  &bt BT_CLR    &trans        &trans        &trans        &trans        &bt BT_CLR_ALL
+                      &trans  &trans  &trans  &trans    &trans  &trans        &trans        &trans
+                                                        &trans
+            >;
+
+            label = "Flash";
         };
     };
 
@@ -330,8 +358,8 @@ MIRYOKU_X(FUN,    "Fun")
         compatible = "zmk,conditional-layers";
 
         Flash {
-            if-layers = <3 2>;
-            then-layer = <4>;
+            if-layers = <10 8>;
+            then-layer = <12>;
         };
     };
 };
