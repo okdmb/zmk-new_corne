@@ -272,7 +272,7 @@ MIRYOKU_X(FUN,    "Fun")
             bindings = <
 &trans          &trans                &kp LA(F4)            &trans                &trans                &trans            &trans  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &trans
 &trans          &kp LG(LC(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))    &trans  &kp LC(LG(N6))  &kp LC(LG(N7))  &kp LG(LC(N8))  &kp LC(LG(N9))  &kp LC(LG(N0))  &trans
-&bt BT_CLR_ALL  &trans                &trans                &trans                &trans                &trans            &trans  &trans          &trans          &trans          &trans          &trans          &trans
+&bt BT_CLR_ALL  &trans                &trans                &trans                &trans                &trans            &trans  &bt BT_NXT      &bt BT_PRV      &trans          &trans          &trans          &trans
                                       &trans                &trans                &trans                &trans            &trans  &bt BT_PRV      &bt BT_NXT      &bt BT_CLR
                                                                                                                           &trans
             >;
