@@ -302,6 +302,7 @@ MIRYOKU_X(FUN,    "Fun")
             >;
 
             label = "Symbol";
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         Fn {
