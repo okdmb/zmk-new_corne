@@ -244,10 +244,10 @@ MIRYOKU_X(FUN,    "Fun")
 
         NAV {
             bindings = <
-&trans  &trans        &kp LA(F4)    &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &trans
+&trans  &kp LS(F10)   &kp LA(F4)    &kp HOME          &kp PAGE_UP     &kp C_VOLUME_UP      &trans  &kp C_BRIGHTNESS_INC   &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &trans
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN    &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans        &trans        &kp END           &kp PAGE_DOWN   &kp K_MUTE           &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans        &trans           &trans
-                      &trans        &trans            &trans          &trans               &trans  &trans                 &trans          &trans
+                      &trans        &trans            &trans          &trans               &trans  &kp ENTER              &kp BACKSPACE   &kp DELETE
                                                                                            &trans
             >;
 
@@ -270,10 +270,10 @@ MIRYOKU_X(FUN,    "Fun")
 
         MEDIA {
             bindings = <
-&trans          &trans                &kp LA(F4)            &trans                &trans                &trans            &trans  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &trans
-&trans          &kp LG(LC(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))    &trans  &kp LC(LG(N6))  &kp LC(LG(N7))  &kp LG(LC(N8))  &kp LC(LG(N9))  &kp LC(LG(N0))  &trans
-&bt BT_CLR_ALL  &trans                &trans                &trans                &trans                &trans            &trans  &bt BT_NXT      &bt BT_PRV      &trans          &trans          &trans          &trans
-                                      &trans                &trans                &trans                &trans            &trans  &bt BT_PRV      &bt BT_NXT      &bt BT_CLR
+&trans          &trans                &kp LA(F4)            &trans                &trans                &trans            &kp LG(UP)     &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &trans
+&kp LG(TAB)     &kp LG(LC(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))    &kp LG(DOWN)   &kp LC(LG(N6))  &kp LC(LG(N7))    &kp LG(LC(N8))  &kp LC(LG(N9))  &kp LC(LG(N0))  &trans
+&bt BT_CLR_ALL  &trans                &trans                &trans                &trans                &trans            &kp LG(LEFT)   &bt BT_NXT      &bt BT_PRV        &trans          &trans          &trans          &trans
+                                      &trans                &trans                &trans                &trans            &kp LG(RIGHT)  &kp K_PREV      &kp K_PLAY_PAUSE  &kp C_NEXT
                                                                                                                           &trans
             >;
 
