@@ -159,7 +159,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+Ctl+Alt+P
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - Gui+Ctl+Alt+T
@@ -168,7 +168,7 @@ layers:
   - Gui+Ctl+Alt+F
   - Gui+Ctl+Alt+G
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+Ctl+Alt+H
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
