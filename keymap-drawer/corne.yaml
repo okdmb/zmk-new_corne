@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: Mouse, s: ':'}
   - {t: '''', h: Mouse, s: '"'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: F19, h: BUTTON}
   - Z
   - X
   - C
@@ -174,7 +174,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+C
