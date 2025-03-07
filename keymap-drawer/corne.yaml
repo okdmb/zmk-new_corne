@@ -335,8 +335,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Hyper+F9, type: held alternate}
+  - Hyper+F11
   - {type: held alternate}
   - Gui+$$mdi:arrow-right-bold$$
   - PREVIOUS
