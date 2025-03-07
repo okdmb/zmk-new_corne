@@ -40,7 +40,7 @@ layers:
   - {t: ., h: '>'}
   - {t: /, h: '?', s: '?'}
   - {t: Mouse, h: toggle}
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:volume-off$$', h: Media}
   - {t: '$$mdi:backspace$$', h: Media}
   - {t: '$$mdi:keyboard-space$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Mouse}
@@ -334,8 +334,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:arrow-right-bold$$
