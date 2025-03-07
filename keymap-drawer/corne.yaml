@@ -25,7 +25,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: ':', s: ':'}
+  - {t: ;, h: RIGHT GUI, s: ':'}
   - {t: '''', h: '"', s: '"'}
   - {t: Nav, h: toggle}
   - Z
@@ -394,11 +394,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Sym:
   - $$mdi:progress-download$$
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - '&'
@@ -407,11 +407,11 @@ layers:
   - )
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-caps$$
-  - HOME
-  - END
-  - _
+  - {t: ;, s: ':'}
+  - $
+  - '%'
+  - ^
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-shift$$
@@ -420,11 +420,11 @@ layers:
   - LGUI
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - {t: '=', h: +, s: +}
@@ -433,9 +433,9 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+(
-  - {t: '9', s: (}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - (
+  - )
+  - _
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
