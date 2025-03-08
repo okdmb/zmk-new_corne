@@ -41,12 +41,12 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:volume-off$$', h: Media}
-  - {t: '$$mdi:backspace$$', h: Media}
-  - {t: '$$mdi:keyboard-space$$', h: Nav}
-  - {t: '$$mdi:keyboard-return$$', h: Media}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Media}
+  - {t: '$$mdi:backspace$$', h: Nav}
+  - {t: '$$mdi:keyboard-tab$$', h: Media}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-tab$$', h: Sym}
-  - {t: '$$mdi:backspace$$', h: Num}
+  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: '$$mdi:keyboard-space$$', h: Num}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Fn}
   - {t: Mouse, h: toggle}
   EXTRA:
