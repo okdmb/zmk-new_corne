@@ -33,7 +33,7 @@ layers:
   - C
   - {t: V, h: V}
   - B
-  - Gui+$$mdi:arrow-left-bold$$
+  - $$mdi:arrow-left-bold$$
   - N
   - M
   - {t: ',', h: <, s: <}
@@ -44,7 +44,7 @@ layers:
   - {t: F19, h: BUTTON}
   - {t: '$$mdi:backspace$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Media}
-  - Gui+$$mdi:arrow-right-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', h: Sym}
   - {t: '$$mdi:keyboard-space$$', h: Num}
   - {t: F19, h: Fn}
