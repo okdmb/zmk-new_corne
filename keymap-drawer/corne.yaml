@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - {t: P, h: END}
-  - {t: '=', h: +, s: +}
+  - {t: '-', h: _, s: _}
   - {t: '$$mdi:keyboard-esc$$', h: BUTTON}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -39,7 +39,7 @@ layers:
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
   - {t: /, h: '?', s: '?'}
-  - {t: '-', s: _}
+  - {t: '=', h: +, s: +}
   - {t: '$$mdi:volume-off$$', h: Media}
   - {t: F19, h: BUTTON}
   - {t: '$$mdi:backspace$$', h: Nav}
