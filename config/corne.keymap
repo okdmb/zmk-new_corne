@@ -271,11 +271,11 @@ MIRYOKU_X(FUN,    "Fun")
 
         Mouse {
             bindings = <
-&bootloader  &kp LS(F10)  &trans          &mmv MOVE_UP    &trans           &msc SCRL_UP      &mmv MOVE_UP     &trans     &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-&trans       &trans       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK         &mmv MOVE_DOWN   &to 4      &kp RCTRL       &kp RIGHT_SHIFT  &kp LALT      &kp LGUI         &trans
-&trans       &trans       &trans          &trans          &trans           &msc SCRL_DOWN    &mmv MOVE_LEFT   &trans     &trans          &trans           &trans        &trans           &to 0
-                          &to 0           &mkp MCLK       &mkp RCLK        &mkp LCLK         &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK       &mkp MCLK
-                                                                                             &to 0
+&bootloader  &kp LS(F10)     &mmv MOVE_UP    &mmv MOVE_UP     &trans           &msc SCRL_UP      &mmv MOVE_UP     &trans     &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &mkp RCLK         &mmv MOVE_DOWN   &to 4      &kp RCTRL       &kp RIGHT_SHIFT  &kp LALT      &kp LGUI         &trans
+&trans       &trans          &trans          &trans           &trans           &msc SCRL_DOWN    &mmv MOVE_LEFT   &trans     &trans          &trans           &trans        &trans           &to 0
+                             &to 0           &mkp MCLK        &mkp RCLK        &mkp LCLK         &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK       &mkp MCLK
+                                                                                                 &to 0
             >;
 
             label = "Mouse";
