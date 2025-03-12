@@ -39,7 +39,7 @@ layers:
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
   - {t: /, h: '?', s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - {t: '$$mdi:volume-off$$', h: Media}
   - {t: F19, h: Media}
   - {t: '$$mdi:backspace$$', h: Nav}
@@ -210,14 +210,14 @@ layers:
   - PG UP
   - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Qwerty, h: toggle}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
+  - {t: Qwerty, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:brightness-7$$
+  - {t: Qwerty, h: toggle}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -231,19 +231,19 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - BRIGHTNESS AUTO
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - BRIGHTNESS MAXIMUM
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', type: held}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F19
+  - {t: '$$mdi:backspace$$', type: held}
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - F19
   - {t: Qwerty, h: toggle}
   Mouse:
   - $$mdi:progress-download$$
@@ -418,7 +418,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LGUI
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&flash_macro'
   - BT CLR ALL
   - '~'
   - '!'
@@ -633,26 +633,38 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
+  l: [EXTRA]
 - p: [3, 4]
   k: {t: '[', s: '{'}
+  l: [Qwerty]
 - p: [9, 8]
   k: {t: ']', s: '}'}
+  l: [Qwerty]
 - p: [16, 17]
   k: (
+  l: [Qwerty]
 - p: [21, 22]
   k: )
+  l: [Qwerty]
 - p: [29, 30]
   k: '{'
+  l: [Qwerty]
 - p: [34, 35]
   k: '}'
+  l: [Qwerty]
 - p: [5, 7]
   k: {t: \, s: '|'}
-- p: [18, 20]
+  l: [EXTRA]
+- p: [31, 33]
   k: '|'
+  l: [EXTRA]
+- p: [18, 20]
+  k: {t: Nav, h: toggle}
+  l: [Qwerty]
