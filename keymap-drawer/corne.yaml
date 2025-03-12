@@ -41,7 +41,7 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: '-', s: _}
   - {t: '$$mdi:volume-off$$', h: Media}
-  - {t: F19, h: Media}
+  - {t: F19, h: BUTTON}
   - {t: '$$mdi:backspace$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Media}
   - Gui+$$mdi:arrow-right-bold$$
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PREVIOUS
+  - {t: PREVIOUS, type: held alternate}
   - PLAY PAUSE
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -335,7 +335,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: Hyper+F9, type: held alternate}
+  - Hyper+F9
   - Hyper+F11
   - {type: held alternate}
   - Gui+$$mdi:arrow-right-bold$$
