@@ -31,7 +31,7 @@ layers:
   - Z
   - X
   - C
-  - V
+  - {t: V, h: V}
   - B
   - $$mdi:arrow-left-bold$$
   - N
@@ -41,7 +41,7 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:volume-off$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Media}
+  - {t: F19, h: Media}
   - {t: '$$mdi:backspace$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Media}
   - $$mdi:arrow-right-bold$$
@@ -150,7 +150,7 @@ layers:
   BUTTON:
   - {t: '$$mdi:transfer$$', type: trans}
   - Hyper+Q
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+F4
   - Gui+Ctl+Alt+E
   - Ctl+F24
   - Hyper+T
@@ -169,10 +169,10 @@ layers:
   - Gui+Ctl+Alt+G
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+H
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-down-bold$$
+  - Gui+$$mdi:arrow-up-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -192,9 +192,9 @@ layers:
   - PLAY PAUSE
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:skip-previous$$
+  - PLAY PAUSE
+  - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
   Nav:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -231,7 +231,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - BRIGHTNESS AUTO
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BRIGHTNESS MAXIMUM
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
