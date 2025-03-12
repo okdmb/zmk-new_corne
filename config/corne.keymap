@@ -193,11 +193,11 @@ MIRYOKU_X(FUN,    "Fun")
 
         QWERTY {
             bindings = <
-&as TILDE GRAVE  &mt LS(F10) Q    &kp W            &kp E                &kp R              &kp T         &kp UP_ARROW     &kp Y         &mt HOME U          &kp I                 &kp O                    &mt END P           &as PLUS EQUAL
-&ltq 3 ESCAPE    &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G         &kp DOWN_ARROW   &kp H         &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L         &ltq 5 SEMICOLON    &ltq 5 SQT
-&ltq 3 F19       &kp Z            &kp X            &kp C                &kp V              &kp B         &kp LEFT_ARROW   &kp N         &kp M               &as LESS_THAN COMMA   &as GREATER_THAN PERIOD  &as QUESTION SLASH  &trans
-                                  &ltq 6 C_MUTE    &ltq 6 DELETE        &ltq 4 BACKSPACE   &ltq 6 TAB    &kp RIGHT_ARROW  &ltq 8 ENTER  &ltq 7 SPACE        &ltq 9 DELETE
-                                                                                                         &to 5
+&as TILDE GRAVE  &mt LS(F10) Q    &kp W            &kp E              &kp R             &kp T         &kp UP_ARROW     &kp Y         &mt HOME U    &kp I                &kp O                    &mt END P           &as PLUS EQUAL
+&ltq 3 ESCAPE    &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F      &kp G         &kp DOWN_ARROW   &kp H         &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr RIGHT_ALT L         &ltq 5 SEMICOLON    &ltq 5 SQT
+&ltq 3 F19       &kp Z            &kp X            &kp C              &kp V             &kp B         &kp LEFT_ARROW   &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &trans
+                                  &ltq 6 C_MUTE    &ltq 6 DELETE      &ltq 4 BACKSPACE  &ltq 6 TAB    &kp RIGHT_ARROW  &ltq 8 ENTER  &ltq 7 SPACE  &ltq 9 F19
+                                                                                                      &to 5
             >;
 
             label = "Qwerty";
@@ -242,11 +242,11 @@ MIRYOKU_X(FUN,    "Fun")
 
         NAV {
             bindings = <
-&trans  &kp LS(F10)   &kp LA(F4)    &kp ENTER         &trans          &trans       &trans  &kp C_BRIGHTNESS_INC   &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans       &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&to 0   &trans        &trans        &trans            &trans          &trans       &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans        &trans           &trans
-                      &trans        &kp BACKSPACE     &kp SPACE       &kp ENTER    &trans  &kp TAB                &kp BACKSPACE   &kp DELETE
-                                                                                   &to 0
+&trans  &kp LS(F10)   &kp LA(F4)    &kp ENTER       &trans     &trans       &trans  &kp C_BRIGHTNESS_INC   &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans       &trans  &kp C_BRIGHTNESS_DEC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&to 0   &trans        &trans        &trans          &trans     &trans       &trans  &kp C_BRIGHTNESS_AUTO  &trans          &trans          &trans        &trans           &trans
+                      &trans        &kp BACKSPACE   &kp SPACE  &kp ENTER    &trans  &kp TAB                &kp BACKSPACE   &kp DELETE
+                                                                            &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
@@ -255,9 +255,9 @@ MIRYOKU_X(FUN,    "Fun")
 
         Mouse {
             bindings = <
-&bootloader  &kp LS(F10)  &trans          &mmv MOVE_UP    &trans           &msc SCRL_UP      &mmv MOVE_UP     &trans     &msc SCRL_LEFT  &mmv MOVE_UP  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-&trans       &trans       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &mmv MOVE_DOWN   &trans     &kp LSHFT       &kp LCTRL     &kp LALT      &kp LGUI         &trans
-&trans       &trans       &trans          &trans          &trans           &trans            &mmv MOVE_LEFT   &trans     &trans          &trans        &trans        &trans           &to 0
+&bootloader  &kp LS(F10)  &trans          &mmv MOVE_UP    &trans           &msc SCRL_UP      &mmv MOVE_UP     &trans     &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans       &trans       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK         &mmv MOVE_DOWN   &trans     &kp RCTRL       &kp RIGHT_SHIFT  &kp LALT      &kp LGUI         &trans
+&trans       &trans       &trans          &trans          &trans           &msc SCRL_DOWN    &mmv MOVE_LEFT   &trans     &trans          &trans           &trans        &trans           &to 0
                           &to 0           &mkp MCLK       &mkp LCLK        &mkp RCLK         &mmv MOVE_RIGHT  &mkp RCLK  &mkp LCLK       &mkp MCLK
                                                                                              &to 0
             >;
@@ -293,10 +293,10 @@ MIRYOKU_X(FUN,    "Fun")
 
         Symbol {
             bindings = <
-&bootloader     &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &kp LCTRL  &kp AMPERSAND    &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &bootloader
-&trans          &kp SEMICOLON   &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS           &trans  &kp MINUS  &kp RIGHT_SHIFT  &kp LCTRL              &kp LALT              &kp LGUI               &trans
-&bt BT_CLR_ALL  &kp TILDE       &kp EXCL       &kp AT_SIGN           &kp POUND              &kp PIPE           &trans  &kp GRAVE  &as PLUS EQUAL   &as DOUBLE_QUOTES SQT  &as PIPE BACKSLASH    &kp DELETE             &bt BT_CLR_ALL
-                                &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &trans  &trans     &trans           &trans
+&bootloader     &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &kp LCTRL  &kp AMPERSAND   &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &bootloader
+&trans          &kp SEMICOLON   &kp DOLLAR     &kp PERCENT           &kp CARET              &kp PLUS           &trans  &kp MINUS  &kp RCTRL       &kp RIGHT_SHIFT        &kp LALT              &kp LGUI               &trans
+&bt BT_CLR_ALL  &kp TILDE       &kp EXCL       &kp AT_SIGN           &kp POUND              &kp PIPE           &trans  &kp GRAVE  &as PLUS EQUAL  &as DOUBLE_QUOTES SQT  &as PIPE BACKSLASH    &kp DELETE             &bt BT_CLR_ALL
+                                &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &trans  &trans     &trans          &trans
                                                                                                                &trans
             >;
 
@@ -306,10 +306,10 @@ MIRYOKU_X(FUN,    "Fun")
 
         Fn {
             bindings = <
-&trans  &kp F12  &kp F7  &kp F8  &kp F9     &trans     &trans  &kp CLCK  &trans  &trans  &trans  &trans  &bootloader
-&trans  &kp F11  &kp F4  &kp F5  &kp F6     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &bt BT_CLR_ALL
-                 &trans  &trans  &kp SPACE  &kp TAB    &trans  &trans    &trans  &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9     &trans     &trans  &kp CLCK  &trans     &trans     &trans    &trans    &bootloader
+&trans  &kp F11  &kp F4  &kp F5  &kp F6     &trans     &trans  &trans    &kp RCTRL  &kp LSHFT  &kp LALT  &kp RGUI  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3     &trans     &trans  &trans    &trans     &trans     &trans    &trans    &bt BT_CLR_ALL
+                 &trans  &trans  &kp SPACE  &kp TAB    &trans  &trans    &trans     &trans
                                                        &trans
             >;
 
