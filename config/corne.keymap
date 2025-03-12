@@ -202,13 +202,6 @@ MIRYOKU_X(FUN,    "Fun")
             key-positions = <31 33>;
             layers = <1>;
         };
-
-        to_NAV {
-            bindings = <&to 4>;
-            key-positions = <18 20>;
-            require-prior-idle-ms = <300>;
-            layers = <0>;
-        };
     };
 
     keymap {
@@ -253,10 +246,10 @@ MIRYOKU_X(FUN,    "Fun")
 
         BUTTON {
             bindings = <
-&trans  &kp LS(LG(LC(LA(Q))))  &kp LA(F4)  &kp LG(LC(LA(E)))  &kp LC(F24)        &kp LS(LG(LC(LA(T))))    &trans  &trans             &trans            &trans        &trans      &kp LG(LC(LA(P)))  &trans
-&trans  &kp LG(LC(LA(T)))      &kp F24     &kp LS(F24)        &kp LG(LC(LA(F)))  &kp LG(LC(LA(G)))        &trans  &kp LG(LC(LA(H)))  &kp LG(LEFT)      &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)      &trans
-&trans  &trans                 &trans      &kp LG(LC(LA(C)))  &kp LS(LC(V))      &kp LS(LG(LC(LA(B))))    &trans  &trans             &trans            &trans        &trans      &trans             &trans
-                               &trans      &kp C_PREVIOUS     &kp C_PLAY_PAUSE   &kp C_NEXT               &trans  &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT
+&trans  &kp LS(LG(LC(LA(Q))))  &kp LA(F4)  &kp LG(LC(LA(E)))  &kp LC(F24)        &kp LS(LG(LC(LA(T))))    &trans  &trans             &trans              &trans        &trans      &kp LG(LC(LA(P)))    &trans
+&trans  &kp LG(LC(LA(T)))      &kp F24     &kp LS(F24)        &kp LG(LC(LA(F)))  &kp LG(LC(LA(G)))        &trans  &kp LG(LC(LA(H)))  &kp RG(LEFT_ARROW)  &kp LG(DOWN)  &kp LG(UP)  &kp RG(RIGHT_ARROW)  &trans
+&trans  &trans                 &trans      &kp LG(LC(LA(C)))  &kp LS(LC(V))      &kp LS(LG(LC(LA(B))))    &trans  &trans             &trans              &trans        &trans      &trans               &trans
+                               &trans      &kp C_PREVIOUS     &kp C_PLAY_PAUSE   &kp C_NEXT               &trans  &kp C_PREV         &kp C_PLAY_PAUSE    &kp C_NEXT
                                                                                                           &trans
             >;
 
@@ -267,7 +260,7 @@ MIRYOKU_X(FUN,    "Fun")
             bindings = <
 &trans  &kp LS(F10)   &kp LA(F4)    &kp ENTER       &trans         &trans     &trans  &kp C_BRIGHTNESS_INC   &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &trans
 &to 0   &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL      &to 0      &trans  &to 0                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&to 0   &trans        &trans        &trans          &trans         &trans     &trans  &kp C_BRIGHTNESS_AUTO  &kp BSPC        &trans          &trans        &trans           &kp C_BRIGHTNESS_MAXIMUM
+&to 0   &trans        &trans        &trans          &kp LG(V)      &trans     &trans  &kp C_BRIGHTNESS_AUTO  &kp BSPC        &trans          &trans        &trans           &kp C_BRIGHTNESS_MAXIMUM
                       &trans        &kp F19         &kp BACKSPACE  &kp TAB    &trans  &kp ENTER              &kp SPACE       &kp F19
                                                                               &to 0
             >;
@@ -281,7 +274,7 @@ MIRYOKU_X(FUN,    "Fun")
 &bootloader  &kp LS(F10)  &trans          &mmv MOVE_UP    &trans           &msc SCRL_UP      &mmv MOVE_UP     &trans     &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &trans
 &trans       &trans       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK         &mmv MOVE_DOWN   &to 4      &kp RCTRL       &kp RIGHT_SHIFT  &kp LALT      &kp LGUI         &trans
 &trans       &trans       &trans          &trans          &trans           &msc SCRL_DOWN    &mmv MOVE_LEFT   &trans     &trans          &trans           &trans        &trans           &to 0
-                          &to 0           &mkp MCLK       &mkp LCLK        &mkp RCLK         &mmv MOVE_RIGHT  &mkp RCLK  &mkp LCLK       &mkp MCLK
+                          &to 0           &mkp MCLK       &mkp RCLK        &mkp LCLK         &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK       &mkp MCLK
                                                                                              &to 0
             >;
 
