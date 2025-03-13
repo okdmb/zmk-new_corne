@@ -10,8 +10,8 @@ layers:
   - $$mdi:arrow-up-bold$$
   - Y
   - {t: U, h: HOME}
-  - I
-  - O
+  - {t: I, h: PgDn}
+  - {t: O, h: PgUp}
   - {t: P, h: END}
   - {t: '-', h: _, s: _}
   - {t: '$$mdi:keyboard-esc$$', h: BUTTON}
@@ -215,7 +215,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: Qwerty, h: toggle}
+  - {t: Mouse, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Qwerty, h: toggle}
   - $$mdi:arrow-left-bold$$
@@ -254,17 +254,17 @@ layers:
   - $$mdi:pan-up$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-left$$
+  - $$mdi:pan-right$$
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
-  - $$mdi:pan-right$$
+  - $$mdi:pan-left$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Qwerty, h: toggle}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:apple-keyboard-control$$
+  - {t: Qwerty, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: Nav, h: toggle}
   - $$mdi:apple-keyboard-control$$
