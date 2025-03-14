@@ -236,7 +236,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - BRIGHTNESS MAXIMUM
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Qwerty, h: toggle}
   - F19
   - {t: '$$mdi:backspace$$', type: held}
   - $$mdi:keyboard-tab$$
