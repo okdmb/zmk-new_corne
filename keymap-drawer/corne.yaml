@@ -249,8 +249,8 @@ layers:
   - $$mdi:progress-download$$
   - Sft+F10
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
   - $$mdi:pan-up$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -259,7 +259,7 @@ layers:
   - $$mdi:pan-up$$
   - $$mdi:pan-left$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Qwerty, h: toggle}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -272,7 +272,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: LGUI, type: held}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Qwerty, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
