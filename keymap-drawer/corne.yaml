@@ -210,7 +210,7 @@ layers:
   - PG UP
   - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Qwerty, h: toggle}
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
