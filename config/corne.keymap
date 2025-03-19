@@ -203,6 +203,18 @@ MIRYOKU_X(FUN,    "Fun")
             key-positions = <31 33>;
             layers = <1>;
         };
+
+        alt+left {
+            bindings = <&kp LA(LEFT_ARROW)>;
+            key-positions = <14 15>;
+            layers = <0>;
+        };
+
+        alt+right {
+            bindings = <&kp LA(RIGHT_ARROW)>;
+            key-positions = <14 16>;
+            layers = <0>;
+        };
     };
 
     keymap {
