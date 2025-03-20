@@ -222,11 +222,11 @@ MIRYOKU_X(FUN,    "Fun")
 
         QWERTY {
             bindings = <
-&as TILDE GRAVE  &mt LS(F10) Q    &kp W            &kp E              &kp R             &kp T              &kp UP_ARROW    &kp Y         &as HOME U    &as PAGE_DOWN I      &as PAGE_UP O            &as END P           &as UNDERSCORE MINUS
-&ltq 3 ESCAPE    &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F      &hml LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
-&ltq 3 F19       &kp Z            &kp X            &as LC(C) C        &as LG(V) V       &kp B              &kp LEFT        &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
-                                  &ltq 6 C_MUTE    &ltq 3 F19         &ltq 4 BACKSPACE  &ltq 6 TAB         &kp RIGHT       &ltq 8 ENTER  &ltq 7 SPACE  &ltq 9 F19
-                                                                                                           &to 5
+&as TILDE GRAVE  &mt LS(F10) Q  &kp W            &kp E              &kp R             &kp T              &kp UP_ARROW    &kp Y         &as HOME U    &as PAGE_DOWN I      &as PAGE_UP O            &as END P           &as UNDERSCORE MINUS
+&ltq 3 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F      &hml LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
+&ltq 3 F19       &kp Z          &kp X            &as LC(C) C        &as LC(V) V       &as LG(V) B        &kp LEFT        &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
+                                &ltq 6 C_MUTE    &ltq 3 F19         &ltq 4 BACKSPACE  &ltq 6 TAB         &kp RIGHT       &ltq 8 ENTER  &ltq 7 SPACE  &ltq 9 F19
+                                                                                                         &to 5
             >;
 
             label = "Qwerty";
@@ -260,7 +260,7 @@ MIRYOKU_X(FUN,    "Fun")
         BUTTON {
             bindings = <
 &trans  &kp LS(LG(LC(LA(Q))))  &kp LA(F4)  &kp LG(LC(LA(E)))  &kp LC(F24)        &kp LS(LG(LC(LA(T))))    &trans  &trans             &trans              &trans        &trans      &kp LG(LC(LA(P)))    &trans
-&trans  &kp LG(LC(LA(T)))      &kp F24     &kp LS(F24)        &kp LG(LC(LA(F)))  &kp LG(LC(LA(G)))        &trans  &kp LG(LC(LA(H)))  &kp RG(LEFT_ARROW)  &kp LG(DOWN)  &kp LG(UP)  &kp RG(RIGHT_ARROW)  &trans
+&trans  &kp LG(LC(LA(T)))      &kp F24     &kp LS(F24)        &kp LG(LC(LA(F)))  &kp LG(LC(LA(G)))        &trans  &kp LG(LC(LA(H)))  &kp LG(LEFT_ARROW)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT_ARROW)  &trans
 &trans  &trans                 &trans      &kp LG(LC(LA(C)))  &kp LS(LC(V))      &kp LS(LG(LC(LA(B))))    &trans  &trans             &trans              &trans        &trans      &trans               &trans
                                &trans      &kp C_PREVIOUS     &kp C_PLAY_PAUSE   &kp C_NEXT               &trans  &kp C_PREV         &kp C_PLAY_PAUSE    &kp C_NEXT
                                                                                                           &trans
@@ -345,6 +345,18 @@ MIRYOKU_X(FUN,    "Fun")
             label = "Fn";
         };
 
+        L10 {
+            bindings = <
+&trans  &trans  &trans        &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans        &trans         &trans  &trans    &trans  &trans  &trans  &trans
+                                                               &trans
+            >;
+
+            label = "L10";
+        };
+
         Modify {
             bindings = <
 &kp LG(Q)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5        &trans  &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0   &trans
@@ -362,7 +374,7 @@ MIRYOKU_X(FUN,    "Fun")
 &ext_power EP_TOG  &trans  &trans  &trans  &trans           &rgb_ug RGB_SPI    &rgb_ug RGB_HUI  &rgb_ug RGB_SPD  &trans           &trans  &trans  &trans  &trans
 &trans             &trans  &trans  &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR    &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &trans  &trans  &trans  &trans
 &trans             &trans  &trans  &trans  &trans           &trans             &rgb_ug RGB_SAI  &trans           &trans           &trans  &trans  &trans  &trans
-                           &to 11  &trans  &trans           &trans             &rgb_ug RGB_SAD  &trans           &trans           &trans
+                           &to 12  &trans  &trans           &trans             &rgb_ug RGB_SAD  &trans           &trans           &trans
                                                                                &rgb_ug RGB_TOG
             >;
 
@@ -387,7 +399,7 @@ MIRYOKU_X(FUN,    "Fun")
         compatible = "zmk,conditional-layers";
 
         Flash {
-            if-layers = <10 8>;
+            if-layers = <12 8>;
             then-layer = <0>;
         };
     };
