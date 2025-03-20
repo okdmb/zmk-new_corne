@@ -263,7 +263,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: Qwerty, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: Nav, h: toggle}
@@ -508,14 +508,14 @@ layers:
   - {type: held}
   - Alt+$$mdi:arrow-left-bold$$
   - Alt+$$mdi:arrow-right-bold$$
+  - Ctl+$$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-down-bold$$
+  - Gui+$$mdi:arrow-up-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
