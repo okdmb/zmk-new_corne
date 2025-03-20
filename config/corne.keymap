@@ -65,6 +65,11 @@ MIRYOKU_X(FUN,    "Fun")
     acceleration-exponent = <1>;
 };
 
+&inc_dec_kp {
+    tap-ms = <20>;
+    bindings = <&kp>, <&kp>;
+};
+
 / {
     macros {
         flash_macro: flash_macro {
@@ -210,12 +215,14 @@ MIRYOKU_X(FUN,    "Fun")
             bindings = <&kp LA(LEFT_ARROW)>;
             key-positions = <14 15>;
             layers = <0>;
+            require-prior-idle-ms = <300>;
         };
 
         alt+right {
             bindings = <&kp LA(RIGHT_ARROW)>;
             key-positions = <14 16>;
             layers = <0>;
+            require-prior-idle-ms = <300>;
         };
     };
 
