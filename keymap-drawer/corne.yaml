@@ -15,7 +15,7 @@ layers:
   - {t: P, h: END}
   - {t: '-', h: _, s: _}
   - {t: '$$mdi:keyboard-esc$$', h: BUTTON}
-  - {t: A, h: L10}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
@@ -231,10 +231,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - BRIGHTNESS AUTO
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+$$mdi:arrow-left-bold$$
+  - Ctl+HOME
+  - Alt+END
+  - Alt+$$mdi:arrow-right-bold$$
   - BRIGHTNESS MAXIMUM
   - {t: Qwerty, h: toggle}
   - F19
@@ -505,7 +505,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:arrow-left-bold$$
   - Alt+$$mdi:arrow-right-bold$$
   - Ctl+$$mdi:keyboard-space$$
