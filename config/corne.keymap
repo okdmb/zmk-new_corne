@@ -213,15 +213,15 @@ MIRYOKU_X(FUN,    "Fun")
 
         alt+left {
             bindings = <&kp LA(LEFT_ARROW)>;
-            key-positions = <>;
-            layers = <0>;
+            key-positions = <14 15>;
+            layers = <1>;
             require-prior-idle-ms = <300>;
         };
 
         alt+right {
             bindings = <&kp LA(RIGHT_ARROW)>;
-            key-positions = <>;
-            layers = <0>;
+            key-positions = <14 16>;
+            layers = <1>;
             require-prior-idle-ms = <300>;
         };
     };
