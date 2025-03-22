@@ -232,9 +232,9 @@ MIRYOKU_X(FUN,    "Fun")
         QWERTY {
             bindings = <
 &as TILDE GRAVE  &mt LS(F10) Q  &kp W            &kp E              &kp R             &kp T              &kp UP_ARROW    &kp Y         &as HOME U    &as PAGE_DOWN I      &as PAGE_UP O            &as END P           &as UNDERSCORE MINUS
-&ltq 3 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F      &hml LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
-&ltq 3 F19       &kp Z          &kp X            &as LC(C) C        &as LC(V) V       &as LG(V) B        &kp LEFT        &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
-                                &ltq 6 C_MUTE    &ltq 3 F19         &ltq 4 BACKSPACE  &ltq 6 TAB         &kp RIGHT       &ltq 8 ENTER  &ltq 7 SPACE  &ltq 9 F19
+&as F19 ESCAPE   &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F      &hml LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
+&ltq 3 LEFT_GUI  &kp Z          &kp X            &as LC(C) C        &as LC(V) V       &as LG(V) B        &kp LEFT        &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
+                                &ltq 6 C_MUTE    &key_repeat        &ltq 4 BACKSPACE  &ltq 6 TAB         &kp RIGHT       &ltq 8 ENTER  &ltq 7 SPACE  &ltq 9 F19
                                                                                                          &to 5
             >;
 
@@ -269,9 +269,9 @@ MIRYOKU_X(FUN,    "Fun")
         BUTTON {
             bindings = <
 &trans  &kp LS(LG(LC(LA(Q))))  &kp LA(F4)  &kp LG(LC(LA(E)))  &kp LC(F24)        &kp LS(LG(LC(LA(T))))    &trans  &trans             &trans              &trans        &trans      &kp LG(LC(LA(P)))    &trans
-&trans  &kp LG(LC(LA(T)))      &kp F24     &kp LS(F24)        &kp LG(LC(LA(F)))  &kp LG(LC(LA(G)))        &trans  &kp LG(LC(LA(H)))  &kp LG(LEFT_ARROW)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT_ARROW)  &trans
+&trans  &kp LG(LC(LA(T)))      &kp LA(S)   &kp LA(D)          &kp LG(LC(LA(F)))  &kp LG(LC(LA(G)))        &trans  &kp LG(LC(LA(H)))  &kp LG(LEFT_ARROW)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT_ARROW)  &trans
 &trans  &trans                 &trans      &kp LG(LC(LA(C)))  &kp LS(LC(V))      &kp LS(LG(LC(LA(B))))    &trans  &trans             &trans              &trans        &trans      &trans               &trans
-                               &trans      &kp C_PREVIOUS     &kp C_PLAY_PAUSE   &kp C_NEXT               &trans  &kp C_PREV         &kp C_PLAY_PAUSE    &kp C_NEXT
+                               &trans      &kp LG(LC(LA(H)))  &kp F24            &kp LS(F24)              &trans  &kp C_PREV         &kp C_PLAY_PAUSE    &kp C_NEXT
                                                                                                           &trans
             >;
 
@@ -356,11 +356,11 @@ MIRYOKU_X(FUN,    "Fun")
 
         L10 {
             bindings = <
-&trans  &trans  &trans        &trans         &trans         &trans    &trans  &trans  &trans        &trans              &trans            &trans         &trans
-&trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LC(SPACE)  &trans    &trans  &trans  &kp LG(LEFT)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT)  &trans
-&trans  &trans  &trans        &trans         &trans         &trans    &trans  &trans  &trans        &trans              &trans            &trans         &trans
-                &trans        &trans         &trans         &trans    &trans  &trans  &trans        &trans
-                                                                      &trans
+&trans  &trans  &trans        &trans          &trans            &trans        &trans  &trans  &trans        &trans              &trans            &trans         &trans
+&trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)   &kp LC(SPACE)     &trans        &trans  &trans  &kp LG(LEFT)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT)  &trans
+&trans  &trans  &trans        &trans          &trans            &trans        &trans  &trans  &trans        &trans              &trans            &trans         &trans
+                &trans        &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &trans  &trans        &trans
+                                                                              &trans
             >;
 
             label = "L10";
