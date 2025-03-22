@@ -692,10 +692,10 @@ combos:
   l: [EXTRA]
 - p: [3, 4]
   k: {t: '[', s: '{'}
-  l: [Qwerty]
+  l: [EXTRA]
 - p: [9, 8]
   k: {t: ']', s: '}'}
-  l: [Qwerty]
+  l: [EXTRA]
 - p: [16, 17]
   k: (
   l: [EXTRA]
@@ -704,10 +704,10 @@ combos:
   l: [EXTRA]
 - p: [29, 30]
   k: '{'
-  l: [Qwerty]
+  l: [EXTRA]
 - p: [34, 35]
   k: '}'
-  l: [Qwerty]
+  l: [EXTRA]
 - p: [5, 7]
   k: {t: \, s: '|'}
   l: [EXTRA]
