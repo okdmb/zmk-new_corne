@@ -163,8 +163,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+T
-  - Alt+S
-  - Alt+D
+  - Alt+$$mdi:arrow-left-bold$$
+  - Alt+$$mdi:arrow-right-bold$$
   - Gui+Ctl+Alt+F
   - Gui+Ctl+Alt+G
   - {t: '$$mdi:transfer$$', type: trans}
@@ -189,12 +189,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+H
+  - {t: Nav, h: toggle}
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - F24
   - Sft+F24
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:skip-previous$$
-  - PLAY PAUSE
-  - $$mdi:skip-next$$
+  - Gui+Ctl+Alt+H
   - {t: '$$mdi:transfer$$', type: trans}
   Nav:
   - {t: '$$mdi:transfer$$', type: trans}
