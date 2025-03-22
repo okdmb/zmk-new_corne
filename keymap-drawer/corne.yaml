@@ -19,7 +19,7 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: G, h: '$$mdi:apple-keyboard-command$$'}
+  - G
   - $$mdi:arrow-down-bold$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: Mouse, s: ':'}
   - {t: '''', h: Mouse, s: '"'}
-  - {t: '$$mdi:apple-keyboard-command$$', h: BUTTON}
+  - {t: '$$mdi:keyboard-esc$$', h: BUTTON}
   - Z
   - X
   - {t: C, h: Ctl+C}
@@ -41,7 +41,7 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:volume-off$$', h: Media}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '?'
   - {t: '$$mdi:backspace$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Media}
   - $$mdi:arrow-right-bold$$
