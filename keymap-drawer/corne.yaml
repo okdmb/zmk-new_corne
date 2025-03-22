@@ -14,7 +14,7 @@ layers:
   - {t: O, h: PgUp}
   - {t: P, h: END}
   - {t: '-', h: _, s: _}
-  - {t: '$$mdi:keyboard-esc$$', h: BUTTON}
+  - {t: '$$mdi:keyboard-esc$$', h: F19}
   - {t: A, h: L10}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: Mouse, s: ':'}
   - {t: '''', h: Mouse, s: '"'}
-  - {t: F19, h: BUTTON}
+  - {t: '$$mdi:apple-keyboard-command$$', h: BUTTON}
   - Z
   - X
   - {t: C, h: Ctl+C}
@@ -41,7 +41,7 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:volume-off$$', h: Media}
-  - {t: F19, h: BUTTON}
+  - '&key_repeat'
   - {t: '$$mdi:backspace$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Media}
   - $$mdi:arrow-right-bold$$
@@ -161,10 +161,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+P
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+T
-  - F24
-  - Sft+F24
+  - Alt+S
+  - Alt+D
   - Gui+Ctl+Alt+F
   - Gui+Ctl+Alt+G
   - {t: '$$mdi:transfer$$', type: trans}
@@ -174,7 +174,7 @@ layers:
   - Gui+$$mdi:arrow-up-bold$$
   - Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+C
@@ -188,9 +188,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: PREVIOUS, type: held alternate}
-  - PLAY PAUSE
-  - $$mdi:skip-next$$
+  - Gui+Ctl+Alt+H
+  - F24
+  - Sft+F24
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:skip-previous$$
   - PLAY PAUSE
@@ -531,9 +531,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PREVIOUS
+  - PLAY PAUSE
+  - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
