@@ -41,7 +41,7 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:volume-off$$', h: Media}
-  - '&key_repeat'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Media}
   - $$mdi:arrow-right-bold$$
