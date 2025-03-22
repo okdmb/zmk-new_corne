@@ -62,7 +62,7 @@ MIRYOKU_X(FUN,    "Fun")
 
 &mmv {
     time-to-max-speed-ms = <400>;
-    acceleration-exponent = <2>;
+    acceleration-exponent = <1.5>;
 };
 
 &inc_dec_kp {
@@ -149,7 +149,8 @@ MIRYOKU_X(FUN,    "Fun")
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-            tap-ms = <30>;
+            tap-ms = <5>;
+            label = "scroll_encoder";
         };
     };
 
@@ -177,13 +178,13 @@ MIRYOKU_X(FUN,    "Fun")
         left_par {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 17>;
-            layers = <0>;
+            layers = <1>;
         };
 
         right_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <21 22>;
-            layers = <0>;
+            layers = <1>;
         };
 
         left_brace {
@@ -212,14 +213,14 @@ MIRYOKU_X(FUN,    "Fun")
 
         alt+left {
             bindings = <&kp LA(LEFT_ARROW)>;
-            key-positions = <14 15>;
+            key-positions = <>;
             layers = <0>;
             require-prior-idle-ms = <300>;
         };
 
         alt+right {
             bindings = <&kp LA(RIGHT_ARROW)>;
-            key-positions = <14 16>;
+            key-positions = <>;
             layers = <0>;
             require-prior-idle-ms = <300>;
         };
