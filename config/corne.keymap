@@ -62,7 +62,7 @@ MIRYOKU_X(FUN,    "Fun")
 
 &mmv {
     time-to-max-speed-ms = <400>;
-    acceleration-exponent = <1>;
+    acceleration-exponent = <2>;
 };
 
 &inc_dec_kp {
@@ -97,13 +97,12 @@ MIRYOKU_X(FUN,    "Fun")
             quick-tap-ms = <180>;
             flavor = "balanced";
             require-prior-idle-ms = <125>;
-            hold-trigger-key-positions = <21 22 23>;
-            hold-trigger-on-release;
+            hold-trigger-key-positions = <14 15 16 17 18>;
         };
 
-        hmr: hmr {
+        hmr: homerow_mods_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "HMR";
+            label = "HOMEROW_MODS_RIGHT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -111,8 +110,7 @@ MIRYOKU_X(FUN,    "Fun")
             quick-tap-ms = <180>;
             flavor = "balanced";
             require-prior-idle-ms = <125>;
-            hold-trigger-key-positions = <17 16 15 14>;
-            hold-trigger-on-release;
+            hold-trigger-key-positions = <21 22 23 24>;
         };
 
         ltq: ltq {
@@ -133,7 +131,8 @@ MIRYOKU_X(FUN,    "Fun")
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             quick-tap-ms = <0>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <300>;
+            flavor = "balanced";
         };
 
         rgb_encoder: rgb_encoder {
@@ -231,11 +230,11 @@ MIRYOKU_X(FUN,    "Fun")
 
         QWERTY {
             bindings = <
-&as TILDE GRAVE  &mt LS(F10) Q    &kp W            &kp E              &kp R             &kp T              &kp UP_ARROW    &kp Y         &as HOME U    &as PAGE_DOWN I      &as PAGE_UP O            &as END P           &as UNDERSCORE MINUS
-&ltq 3 ESCAPE    &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F      &hml LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
-&ltq 3 F19       &kp Z            &kp X            &as LC(C) C        &as LC(V) V       &as LG(V) B        &kp LEFT        &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
-                                  &ltq 6 C_MUTE    &ltq 3 F19         &ltq 4 BACKSPACE  &ltq 6 TAB         &kp RIGHT       &ltq 8 ENTER  &ltq 7 SPACE  &ltq 9 F19
-                                                                                                           &to 5
+&as TILDE GRAVE  &mt LS(F10) Q  &kp W            &kp E              &kp R             &kp T              &kp UP_ARROW    &kp Y         &as HOME U    &as PAGE_DOWN I      &as PAGE_UP O            &as END P           &as UNDERSCORE MINUS
+&ltq 3 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F      &hml LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
+&ltq 3 F19       &kp Z          &kp X            &as LC(C) C        &as LC(V) V       &as LG(V) B        &kp LEFT        &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
+                                &ltq 6 C_MUTE    &ltq 3 F19         &ltq 4 BACKSPACE  &ltq 6 TAB         &kp RIGHT       &ltq 8 ENTER  &ltq 7 SPACE  &ltq 9 F19
+                                                                                                         &to 5
             >;
 
             label = "Qwerty";
