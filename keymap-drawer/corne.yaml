@@ -41,7 +41,7 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:volume-off$$', h: Media}
-  - {t: F19, h: BUTTON}
+  - '&key_repeat'
   - {t: '$$mdi:backspace$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Media}
   - $$mdi:arrow-right-bold$$
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Gui+Ctl+Alt+H, type: held alternate}
+  - Gui+Ctl+Alt+H
   - {t: Nav, h: toggle}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
