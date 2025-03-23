@@ -230,11 +230,11 @@ MIRYOKU_X(FUN,    "Fun")
 
         QWERTY {
             bindings = <
-&as TILDE GRAVE  &mt LS(F10) Q  &kp W            &kp E              &kp R             &kp T          &kp UP_ARROW    &kp Y         &as HOME U    &as PAGE_DOWN I      &as PAGE_UP O            &as END P           &as UNDERSCORE MINUS
-&as F19 ESCAPE   &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F      &kp G          &kp DOWN_ARROW  &kp H         &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
-&ltq 3 ESCAPE    &kp Z          &kp X            &as LC(C) C        &as LC(V) V       &as LG(V) B    &kp LEFT        &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
-                                &ltq 6 C_MUTE    &ltq 3 F19         &ltq 4 BACKSPACE  &ltq 6 TAB     &kp RIGHT       &ltq 8 ENTER  &ltq 7 SPACE  &ltq 9 F19
-                                                                                                     &to 5
+&as TILDE GRAVE  &mt LS(F10) Q  &kp W            &kp E              &kp R             &kp T             &kp UP_ARROW    &kp Y         &as HOME U    &as PAGE_DOWN I      &as PAGE_UP O            &as END P           &as UNDERSCORE MINUS
+&as F19 ESCAPE   &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F      &mt LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
+&ltq 3 ESCAPE    &kp Z          &kp X            &as LC(C) C        &as LC(V) V       &as LG(V) B       &kp LEFT        &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
+                                &ltq 6 C_MUTE    &ltq 3 F19         &ltq 4 BACKSPACE  &ltq 6 TAB        &kp RIGHT       &ltq 8 ENTER  &ltq 7 SPACE  &ltq 9 F19
+                                                                                                        &to 5
             >;
 
             label = "Qwerty";
