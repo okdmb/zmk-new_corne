@@ -14,12 +14,12 @@ layers:
   - {t: O, h: PgUp}
   - {t: P, h: END}
   - {t: '-', h: _, s: _}
-  - {t: '$$mdi:keyboard-esc$$', h: BUTTON}
+  - {t: '$$mdi:keyboard-esc$$', h: F19}
   - {t: A, h: L10}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: G, h: '$$mdi:apple-keyboard-command$$'}
+  - G
   - $$mdi:arrow-down-bold$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: Mouse, s: ':'}
   - {t: '''', h: Mouse, s: '"'}
-  - {t: F19, h: BUTTON}
+  - {t: '$$mdi:keyboard-esc$$', h: BUTTON}
   - Z
   - X
   - {t: C, h: Ctl+C}
@@ -161,7 +161,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+P
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+T
   - F24
   - Sft+F24
@@ -174,7 +174,7 @@ layers:
   - Gui+$$mdi:arrow-up-bold$$
   - Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+C
