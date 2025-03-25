@@ -230,11 +230,11 @@ MIRYOKU_X(FUN,    "Fun")
 
         QWERTY {
             bindings = <
-&as TILDE GRAVE  &mt LS(F10) Q  &kp W            &kp E              &kp R             &kp T             &kp UP_ARROW    &kp Y         &as HOME U    &as PAGE_DOWN I      &as PAGE_UP O            &as END P           &as UNDERSCORE MINUS
-&as F19 ESCAPE   &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F      &mt LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
-&ltq 3 ESCAPE    &kp Z          &kp X            &as LC(C) C        &as LC(V) V       &as LG(V) B       &kp LEFT        &kp N         &kp M         &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
-                                &ltq 6 C_MUTE    &key_repeat        &ltq 4 BACKSPACE  &ltq 6 TAB        &kp RIGHT       &ltq 8 ENTER  &ltq 7 SPACE  &ltq 9 F19
-                                                                                                        &to 5
+&as TILDE GRAVE  &mt LS(F10) Q  &kp W            &kp E              &kp R         &kp T             &kp UP_ARROW    &kp Y         &as HOME U        &as PAGE_DOWN I      &as PAGE_UP O            &as END P           &as UNDERSCORE MINUS
+&as F19 ESCAPE   &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &mt LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J      &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
+&ltq 3 ESCAPE    &kp Z          &kp X            &as LC(C) C        &as LC(V) V   &as LG(V) B       &kp LEFT        &kp N         &kp M             &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
+                                &ltq 6 C_MUTE    &key_repeat        &ltq 4 SPACE  &ltq 6 TAB        &kp RIGHT       &ltq 8 ENTER  &ltq 7 BACKSPACE  &ltq 9 F19
+                                                                                                    &to 5
             >;
 
             label = "Qwerty";
@@ -279,11 +279,11 @@ MIRYOKU_X(FUN,    "Fun")
 
         NAV {
             bindings = <
-&trans      &kp LS(F10)   &kp LA(F4)    &kp ENTER       &trans         &trans     &trans  &kp C_BRIGHTNESS_INC   &kp HOME            &kp PG_DN       &kp PG_UP     &kp END              &trans
-&kp ESCAPE  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL      &to 5      &trans  &to 0                  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &trans
-&to 0       &trans        &trans        &trans          &kp LG(V)      &trans     &trans  &kp C_BRIGHTNESS_AUTO  &kp LA(LEFT_ARROW)  &kp LC(HOME)    &kp LA(END)   &kp LA(RIGHT_ARROW)  &kp C_BRIGHTNESS_MAXIMUM
-                          &to 0         &kp F19         &kp BACKSPACE  &kp TAB    &trans  &kp ENTER              &kp SPACE           &kp F19
-                                                                                  &to 0
+&trans      &kp LS(F10)   &kp LA(F4)    &kp ENTER       &trans     &trans     &trans  &kp C_BRIGHTNESS_INC   &kp HOME            &kp PG_DN       &kp PG_UP     &kp END              &trans
+&kp ESCAPE  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &to 5      &trans  &to 0                  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &trans
+&to 0       &trans        &trans        &trans          &kp LG(V)  &trans     &trans  &kp C_BRIGHTNESS_AUTO  &kp LA(LEFT_ARROW)  &kp LC(HOME)    &kp LA(END)   &kp LA(RIGHT_ARROW)  &kp C_BRIGHTNESS_MAXIMUM
+                          &to 0         &kp F19         &kp SPACE  &kp TAB    &trans  &kp ENTER              &kp BACKSPACE       &kp F19
+                                                                              &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
