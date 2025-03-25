@@ -42,11 +42,11 @@ layers:
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:volume-off$$', h: Media}
   - '&key_repeat'
-  - {t: '$$mdi:backspace$$', h: Nav}
+  - {t: '$$mdi:keyboard-space$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Media}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', h: Sym}
-  - {t: '$$mdi:keyboard-space$$', h: Num}
+  - {t: '$$mdi:backspace$$', h: Num}
   - {t: F19, h: Fn}
   - {t: Mouse, h: toggle}
   EXTRA:
@@ -238,11 +238,11 @@ layers:
   - BRIGHTNESS MAXIMUM
   - {t: Qwerty, h: toggle}
   - F19
-  - {t: '$$mdi:backspace$$', type: held}
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - F19
   - {t: Qwerty, h: toggle}
   Mouse:
