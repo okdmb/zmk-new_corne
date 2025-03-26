@@ -35,10 +35,10 @@ layers:
   - {t: B, h: V}
   - $$mdi:arrow-left-bold$$
   - N
-  - M
+  - {t: M, h: HOME}
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
-  - {t: /, h: '?', s: '?'}
+  - {t: /, h: END, s: '?'}
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:volume-off$$', h: Media}
   - '&key_repeat'
