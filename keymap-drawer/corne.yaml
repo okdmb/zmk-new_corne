@@ -339,7 +339,7 @@ layers:
   - Hyper+F11
   - {type: held alternate}
   - Gui+$$mdi:arrow-right-bold$$
-  - PREVIOUS
+  - Gui+$$mdi:keyboard-tab$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
