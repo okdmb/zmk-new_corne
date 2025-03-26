@@ -714,3 +714,7 @@ combos:
 - p: [31, 33]
   k: '|'
   l: [EXTRA]
+- p: [14, 16, 15, 17]
+  k: {t: Mouse, h: toggle}
+- p: [21, 22, 23, 24]
+  k: {t: Nav, h: toggle}
