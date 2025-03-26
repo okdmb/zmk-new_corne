@@ -211,6 +211,16 @@ MIRYOKU_X(FUN,    "Fun")
             key-positions = <31 33>;
             layers = <1>;
         };
+
+        to5 {
+            bindings = <&to 5>;
+            key-positions = <14 16 15 17>;
+        };
+
+        to4 {
+            bindings = <&to 4>;
+            key-positions = <21 22 23 24>;
+        };
     };
 
     keymap {
