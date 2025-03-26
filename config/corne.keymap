@@ -176,13 +176,13 @@ MIRYOKU_X(FUN,    "Fun")
 
         left_par {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 17>;
+            key-positions = <16 17 15>;
             layers = <0>;
         };
 
         right_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <21 22>;
+            key-positions = <21 22 23>;
             layers = <0>;
         };
 
