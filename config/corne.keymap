@@ -234,7 +234,7 @@ MIRYOKU_X(FUN,    "Fun")
 &as TILDE GRAVE  &mt LS(F10) Q  &kp W            &kp E              &kp R         &kp T             &kp UP_ARROW    &kp Y         &as HOME U        &as PAGE_DOWN I      &as PAGE_UP O            &as END P           &as UNDERSCORE MINUS
 &as F19 ESCAPE   &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &mt LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J      &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON    &ltq 5 SQT
 &ltq 3 ESCAPE    &kp Z          &kp X            &as LC(C) C        &as LC(V) V   &as LG(V) B       &kp LEFT        &kp N         &kp M             &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH  &as PLUS EQUAL
-                                &ltq 6 C_MUTE    &key_repeat        &ltq 4 SPACE  &ltq 6 TAB        &kp RIGHT       &ltq 8 ENTER  &ltq 7 BACKSPACE  &ltq 9 F19
+                                &ltq 6 C_MUTE    &key_repeat        &ltq 4 SPACE  &ltq 6 TAB        &kp RIGHT       &ltq 8 ENTER  &ltq 7 BACKSPACE  &ltq 9 DELETE
                                                                                                     &to 5
             >;
 
@@ -293,11 +293,11 @@ MIRYOKU_X(FUN,    "Fun")
 
         Mouse {
             bindings = <
-&bootloader  &kp LS(F10)     &mmv MOVE_UP    &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_UP      &mmv MOVE_UP     &trans     &msc SCRL_RIGHT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_LEFT  &trans
-&kp ESCAPE   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK     &to 0             &mmv MOVE_DOWN   &to 4      &kp RCTRL        &kp RIGHT_SHIFT  &kp LALT      &kp LGUI        &trans
-&to 0        &trans          &trans          &trans           &trans        &msc SCRL_DOWN    &mmv MOVE_LEFT   &trans     &trans           &trans           &trans        &trans          &to 0
-                             &to 0           &mkp MCLK        &mkp RCLK     &mkp LCLK         &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK        &mkp MCLK
-                                                                                              &to 0
+&bootloader  &kp LS(F10)     &mmv MOVE_UP    &msc SCRL_DOWN   &msc SCRL_UP    &msc SCRL_UP      &mmv MOVE_UP     &trans     &msc SCRL_RIGHT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_LEFT  &trans
+&kp ESCAPE   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &to 0             &mmv MOVE_DOWN   &to 4      &kp RCTRL        &kp RIGHT_SHIFT  &kp LALT      &kp LGUI        &trans
+&to 0        &trans          &trans          &trans           &trans          &msc SCRL_DOWN    &mmv MOVE_LEFT   &trans     &trans           &trans           &trans        &trans          &to 0
+                             &to 0           &mkp MCLK        &mkp RCLK       &mkp LCLK         &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK        &mkp MCLK
+                                                                                                &to 0
             >;
 
             label = "Mouse";
