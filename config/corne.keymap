@@ -61,12 +61,12 @@ MIRYOKU_X(FUN,    "Fun")
 };
 
 &mmv {
-    time-to-max-speed-ms = <600>;
+    time-to-max-speed-ms = <400>;
     acceleration-exponent = <2>;
 };
 
 &inc_dec_kp {
-    tap-ms = <200>;
+    tap-ms = <5>;
     bindings = <&kp>, <&kp>;
 };
 
