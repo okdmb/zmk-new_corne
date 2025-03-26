@@ -166,13 +166,13 @@ MIRYOKU_X(FUN,    "Fun")
 
         left_bkt {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <3 4>;
+            key-positions = <3 4 2>;
             layers = <0>;
         };
 
         right_bkt {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <9 8>;
+            key-positions = <9 8 10>;
             layers = <0>;
         };
 
@@ -190,13 +190,13 @@ MIRYOKU_X(FUN,    "Fun")
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <29 30>;
+            key-positions = <29 30 28>;
             layers = <0>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <34 35>;
+            key-positions = <34 35 36>;
             layers = <0>;
         };
 
@@ -210,20 +210,6 @@ MIRYOKU_X(FUN,    "Fun")
             bindings = <&kp PIPE>;
             key-positions = <31 33>;
             layers = <1>;
-        };
-
-        alt+left {
-            bindings = <&kp LA(LEFT_ARROW)>;
-            key-positions = <14 15>;
-            layers = <1>;
-            require-prior-idle-ms = <300>;
-        };
-
-        alt+right {
-            bindings = <&kp LA(RIGHT_ARROW)>;
-            key-positions = <14 16>;
-            layers = <1>;
-            require-prior-idle-ms = <300>;
         };
     };
 
