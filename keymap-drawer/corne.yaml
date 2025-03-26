@@ -47,7 +47,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', h: Sym}
   - {t: '$$mdi:backspace$$', h: Num}
-  - {t: F19, h: Fn}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fn}
   - {t: Mouse, h: toggle}
   EXTRA:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -263,7 +263,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:pan-down$$
   - {t: Qwerty, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: Nav, h: toggle}
