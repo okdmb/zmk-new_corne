@@ -278,7 +278,7 @@ MIRYOKU_X(FUN,    "Fun")
         NAV {
             bindings = <
 &trans      &kp LS(F10)   &kp LA(F4)    &kp ENTER       &trans     &trans     &trans  &kp C_BRIGHTNESS_INC   &kp HOME            &kp PG_DN       &kp PG_UP     &kp END              &trans
-&kp ESCAPE  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &to 5      &trans  &to 0                  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &trans
+&kp ESCAPE  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &to 0      &trans  &to 0                  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &trans
 &to 0       &trans        &trans        &trans          &kp LG(V)  &trans     &trans  &kp C_BRIGHTNESS_AUTO  &kp LA(LEFT_ARROW)  &kp LC(HOME)    &kp LA(END)   &kp LA(RIGHT_ARROW)  &kp C_BRIGHTNESS_MAXIMUM
                           &to 0         &kp F19         &kp SPACE  &kp TAB    &trans  &kp ENTER              &kp BACKSPACE       &kp F19
                                                                               &to 0
