@@ -157,12 +157,6 @@ MIRYOKU_X(FUN,    "Fun")
     combos {
         compatible = "zmk,combos";
 
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-            layers = <1>;
-        };
-
         left_bkt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <3 4 2>;
