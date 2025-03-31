@@ -161,7 +161,6 @@ MIRYOKU_X(FUN,    "Fun")
         to0 {
             bindings = <&to 0>;
             key-positions = <0 1>;
-            slow-release;
         };
 
         left_bkt {
