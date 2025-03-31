@@ -688,8 +688,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [0, 1]
-  k: $$mdi:keyboard-esc$$
-  l: [EXTRA]
+  k: {t: Qwerty, h: toggle}
 - p: [3, 4, 2]
   k: {t: '[', s: '{'}
   l: [Qwerty]
