@@ -416,8 +416,8 @@ layers:
   - ^
   - '&'
   - '*'
-  - $$mdi:apple-keyboard-option$$
-  - {t: Mouse, h: toggle}
+  - (
+  - )
   - '&flash_macro'
   - BT CLR ALL
   - '~'
