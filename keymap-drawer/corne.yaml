@@ -407,15 +407,15 @@ layers:
   - )
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ;, s: ':'}
+  - '!'
+  - '@'
+  - '#'
   - $
   - '%'
-  - ^
-  - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - ^
+  - '&'
+  - '*'
   - $$mdi:apple-keyboard-option$$
   - {t: Mouse, h: toggle}
   - '&flash_macro'
