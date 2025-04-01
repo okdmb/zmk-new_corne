@@ -189,8 +189,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Ctl+Alt+H
-  - {t: Nav, h: toggle}
-  - $$mdi:keyboard-tab$$
+  - F24
+  - Sft+F24
   - {t: '$$mdi:transfer$$', type: trans}
   - F24
   - Sft+F24
