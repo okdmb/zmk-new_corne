@@ -9,10 +9,10 @@ layers:
   - T
   - $$mdi:arrow-up-bold$$
   - Y
-  - {t: U, h: HOME}
-  - {t: I, h: PgDn}
-  - {t: O, h: PgUp}
-  - {t: P, h: END}
+  - U
+  - I
+  - O
+  - P
   - {t: '-', h: _, s: _}
   - {t: '$$mdi:backspace$$', h: F19}
   - {t: A, h: L10}
@@ -36,8 +36,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - N
   - {t: M, h: HOME}
-  - {t: ',', h: <, s: <}
-  - {t: ., h: '>'}
+  - {t: ',', h: PgDn, s: <}
+  - {t: ., h: PgUp}
   - {t: /, h: END, s: '?'}
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:volume-off$$', h: Media}
