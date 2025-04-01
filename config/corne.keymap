@@ -229,7 +229,7 @@ MIRYOKU_X(FUN,    "Fun")
             bindings = <
 &ltq 12 GRAVE      &mt LS(F10) Q  &kp W            &kp E              &kp R         &kp T              &kp UP_ARROW    &kp Y         &as HOME U        &as PAGE_DOWN I      &as PAGE_UP O            &as END P         &as UNDERSCORE MINUS
 &as F19 BACKSPACE  &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &kp DOWN_ARROW  &kp H         &hmr RCTRL J      &hmr LEFT_SHIFT K    &hmr LEFT_ALT L          &ltq 5 SEMICOLON  &ltq 5 SQT
-&ltq 3 ESCAPE      &kp Z          &kp X            &mt LC(C) C        &mt LC(V) V   &mt LG(V) B        &kp LEFT        &kp N         &mt HOME M        &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &mt END SLASH     &as PLUS EQUAL
+&ltq 3 ESCAPE      &kp Z          &kp X            &mt LC(C) C        &mt LC(V) V   &as LG(V) B        &kp LEFT        &kp N         &mt HOME M        &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &mt END SLASH     &as PLUS EQUAL
                                   &ltq 6 C_MUTE    &kp ESCAPE         &ltq 4 SPACE  &ltq 6 TAB         &kp RIGHT       &ltq 8 ENTER  &ltq 7 BACKSPACE  &ltq 9 DELETE
                                                                                                        &to 5
             >;
@@ -267,7 +267,7 @@ MIRYOKU_X(FUN,    "Fun")
 &trans  &kp LS(LG(LC(LA(Q))))  &kp LA(F4)          &kp LG(LC(LA(E)))    &kp LC(F24)        &kp LS(LG(LC(LA(T))))    &trans  &trans             &trans              &trans             &trans      &kp LG(LC(LA(P)))    &trans
 &trans  &kp LG(LC(LA(T)))      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LG(LC(LA(F)))  &kp LG(LC(LA(G)))        &trans  &kp LG(LC(LA(H)))  &kp LG(LEFT_ARROW)  &kp LG(DOWN)       &kp LG(UP)  &kp LG(RIGHT_ARROW)  &trans
 &trans  &trans                 &trans              &kp LG(LC(LA(C)))    &kp LS(LC(V))      &kp LS(LG(LC(LA(B))))    &trans  &trans             &trans              &trans             &trans      &trans               &trans
-                               &trans              &kp LG(LC(LA(H)))    &to 4              &kp TAB                  &trans  &kp F24            &kp RS(F24)         &kp LG(LC(LA(H)))
+                               &trans              &kp LG(LC(LA(H)))    &kp F24            &kp LS(F24)              &trans  &kp F24            &kp RS(F24)         &kp LG(LC(LA(H)))
                                                                                                                     &trans
             >;
 
