@@ -66,7 +66,7 @@ MIRYOKU_X(FUN,    "Fun")
 };
 
 &inc_dec_kp {
-    tap-ms = <5>;
+    tap-ms = <50>;
     bindings = <&kp>, <&kp>;
 };
 
@@ -153,6 +153,15 @@ MIRYOKU_X(FUN,    "Fun")
 
             tap-ms = <30>;
         };
+
+        bspc_del: backspace_delete {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT)>;
+        };
+
     };
 
     combos {
