@@ -1,3 +1,5 @@
+// https://peccu.github.io/zmk-cheat-sheet/
+
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 35    // 10
 
