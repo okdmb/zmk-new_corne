@@ -4,16 +4,29 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
+#include <behaviors/num_word.dtsi> // Requires auto-layer module.
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
+#include "zmk-helpers/helper.h"
+
+
 
 #define XXX &none
 #define ___ &trans
 
 #define QUICK_TAP_MS 175
+
+
+    // Tap: num-word | double-tap: sticky num-layer | Hold: num-layer.
+    #define SMART_NUM &smart_num NUM 0
+    ZMK_HOLD_TAP(smart_num, bindings = <&mo>, <&num_dance>; flavor = "balanced";
+                tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>;)
+    ZMK_TAP_DANCE(num_dance, bindings = <&num_word NUM>, <&sl NUM>;
+                tapping-term-ms = <200>;)
+
 
 /* #urob to implement
 https://github.com/Hypoactivity/urob-zmk-config-fork/blob/3ee00d589a477d2b2345a1bfd7aadfe352171574/config/base.keymap#L1 
@@ -162,7 +175,7 @@ urob_LAYER_LIST
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             flavor = "balanced";
-            require-prior-idle-ms = <25>;
+            require-prior-idle-ms = <125>;
             hold-trigger-key-positions = <14 15 16 17 18>;
         };
 
@@ -175,7 +188,7 @@ urob_LAYER_LIST
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             flavor = "balanced";
-            require-prior-idle-ms = <25>;
+            require-prior-idle-ms = <125>;
             hold-trigger-key-positions = <21 22 23 24>;
         };
 
@@ -188,7 +201,7 @@ urob_LAYER_LIST
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             flavor = "balanced";
-            require-prior-idle-ms = <25>;
+            require-prior-idle-ms = <125>;
         };
 
         as: auto_shift {
