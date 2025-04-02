@@ -717,3 +717,5 @@ combos:
   k: {t: Mouse, h: toggle}
 - p: [21, 22, 23, 24]
   k: {t: Nav, h: toggle}
+- p: [15, 16]
+  k: $$mdi:keyboard-tab$$
