@@ -20,14 +20,6 @@
 #define QUICK_TAP_MS 175
 
 
-    // Tap: num-word | double-tap: sticky num-layer | Hold: num-layer.
-#define SMART_NUM &smart_num NUM 0
-ZMK_HOLD_TAP(smart_num, bindings = <&mo>, <&num_dance>; flavor = "balanced";
-            tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>;)
-ZMK_TAP_DANCE(num_dance, bindings = <&num_word NUM>, <&sl NUM>;
-                tapping-term-ms = <200>;)
-
-
 /* #urob to implement
 https://github.com/Hypoactivity/urob-zmk-config-fork/blob/3ee00d589a477d2b2345a1bfd7aadfe352171574/config/base.keymap#L1 
 
