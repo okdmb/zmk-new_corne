@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '-', h: _, s: _}
-  - {t: '$$mdi:backspace$$', h: F19}
+  - {t: '$$mdi:keyboard-esc$$', h: F19}
   - {t: A, h: L10}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: Mouse, s: ':'}
   - {t: '''', h: Mouse, s: '"'}
-  - {t: '$$mdi:keyboard-esc$$', h: BUTTON}
+  - {t: '$$mdi:backspace$$', h: BUTTON}
   - Z
   - X
   - {t: C, h: Ctl+C}
