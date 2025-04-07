@@ -15,11 +15,11 @@ layers:
   - P
   - {t: '-', h: _, s: _}
   - {t: '$$mdi:keyboard-esc$$', h: F19}
-  - {t: A, h: L10}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: G, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: G, h: L10}
   - $$mdi:arrow-down-bold$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
@@ -505,11 +505,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:arrow-left-bold$$
   - Alt+$$mdi:arrow-right-bold$$
   - Ctl+$$mdi:keyboard-space$$
-  - {t: Qwerty, h: toggle}
+  - {t: Qwerty, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:arrow-left-bold$$
