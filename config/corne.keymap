@@ -28,6 +28,8 @@
 };
 
 
+
+/* 
 /* Magic-shift & auto-layers */
 
 // Tap: repeat after alpha, else sticky-shift |
@@ -49,7 +51,7 @@ ZMK_ADAPTIVE_KEY(
 
 };
 
-/* #urob to implement
+#urob to implement
 https://github.com/Hypoactivity/urob-zmk-config-fork/blob/3ee00d589a477d2b2345a1bfd7aadfe352171574/config/base.keymap#L1 
 
 
