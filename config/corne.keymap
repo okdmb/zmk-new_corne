@@ -16,19 +16,6 @@
 #define ___ &trans
 #define QUICK_TAP_MS 175
 
-/* #urob to implement
-https://github.com/Hypoactivity/urob-zmk-config-fork/blob/3ee00d589a477d2b2345a1bfd7aadfe352171574/config/base.keymap#L1 
-
-
-
-- Alt+Tab swapper, requires tri-state module.       ZMK_TRI_STATE(swapper, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-- "Timeless" homerow mods
-- Combos instead of symbol layer
-- Auto-toggle off numbers and mouse layers
-- Magic thumb quadrupling as Repeat/Sticky-shift/Capsword/Shift
-- Leader key sequences for Unicode input and system commands
-- Arrow-cluster doubles as , ,  on long-press home  end begin/end of document
-- magic shift
 
 
 
@@ -62,8 +49,22 @@ ZMK_ADAPTIVE_KEY(
 
 };
 
+/* #urob to implement
+https://github.com/Hypoactivity/urob-zmk-config-fork/blob/3ee00d589a477d2b2345a1bfd7aadfe352171574/config/base.keymap#L1 
 
 
+
+- Alt+Tab swapper, requires tri-state module.       ZMK_TRI_STATE(swapper, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+- "Timeless" homerow mods
+- Combos instead of symbol layer
+- Auto-toggle off numbers and mouse layers
+- Magic thumb quadrupling as Repeat/Sticky-shift/Capsword/Shift
+- Leader key sequences for Unicode input and system commands
+- Arrow-cluster doubles as , ,  on long-press home  end begin/end of document
+- magic shift
+*/
+
+/*
 NUM-WORD 
 
     #include "zmk-helpers/helper.h" ???
