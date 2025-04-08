@@ -719,3 +719,5 @@ combos:
   k: {t: Nav, h: toggle}
 - p: [15, 16]
   k: $$mdi:keyboard-tab$$
+- p: [22, 21]
+  k: {t: '$$mdi:backspace$$', type: backspace}
