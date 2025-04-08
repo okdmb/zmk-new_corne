@@ -63,7 +63,7 @@ https://github.com/Hypoactivity/urob-zmk-config-fork/blob/3ee00d589a477d2b2345a1
 
 
 
-- Alt+Tab swapper, requires tri-state module.       ZMK_TRI_STATE(swapper, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+// - Alt+Tab swapper, requires tri-state module.       ZMK_TRI_STATE(swapper, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
 - "Timeless" homerow mods
 - Combos instead of symbol layer
 - Auto-toggle off numbers and mouse layers
