@@ -721,3 +721,9 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [22, 21]
   k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [29, 28]
+  k: Ctl+C
+- p: [29, 30]
+  k: Ctl+V
+- p: [27, 28]
+  k: Ctl+X
