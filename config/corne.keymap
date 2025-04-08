@@ -294,6 +294,11 @@ urob_LAYER_LIST
             bindings = <&kp TAB>;
             key-positions = <15 16>;
         };
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <22 21>;
+        };
     };
 
     keymap {
