@@ -21,6 +21,18 @@
 
 /*
 
+#define T_1        &kp LG(LC(N1))
+#define T_2        &kp LG(LC(N2))
+#define T_3        &kp LG(LC(N3))
+#define T_4        &kp LG(LC(N4))
+#define T_5        &kp LG(LC(N5))
+#define T_6        &kp LG(LC(N6))
+#define T_7        &kp LG(LC(N7))
+#define T_8        &kp LG(LC(N8))
+#define T_9        &kp LG(LC(N9))
+#define T_0        &kp LG(LC(N0))
+
+
 MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
 MIRYOKU_X(EXTRA,  "Extra") \
