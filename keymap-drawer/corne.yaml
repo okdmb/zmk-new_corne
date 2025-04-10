@@ -267,8 +267,8 @@ layers:
   - {t: Qwerty, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: Nav, h: toggle}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
   - {t: LGUI, type: held}
   - {type: held alternate}
