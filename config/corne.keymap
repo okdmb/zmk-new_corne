@@ -340,9 +340,9 @@ urob_LAYER_LIST
 
         Mouse {
             bindings = <
-&bootloader  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_UP      &mmv MOVE_UP     &trans     &msc SCRL_RIGHT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_LEFT  &trans
-&kp ESCAPE   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &to 0             &mmv MOVE_DOWN   &to 4      &kp RCTRL        &kp RIGHT_SHIFT  &kp LALT      &kp LGUI        &trans
-&to 0        &trans          &trans          &trans           &trans          &msc SCRL_DOWN    &mmv MOVE_LEFT   &trans     &trans           &trans           &trans        &trans          &to 0
+&bootloader  &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &msc SCRL_UP    &msc SCRL_UP      &mmv MOVE_UP     &trans     &msc SCRL_RIGHT  &msc SCRL_DOWN        &msc SCRL_UP  &msc SCRL_LEFT  &trans
+&kp ESCAPE   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &to 0             &mmv MOVE_DOWN   &to 4      &mt RCTRL UP     &mt RIGHT_SHIFT DOWN  &kp LALT      &kp LGUI        &trans
+&to 0        &trans          &trans          &trans           &trans          &msc SCRL_DOWN    &mmv MOVE_LEFT   &trans     &trans           &trans                &trans        &trans          &to 0
                              &to 0           &mkp MCLK        &mkp RCLK       &mkp LCLK         &mmv MOVE_RIGHT  &mkp LCLK  &mkp RCLK        &mkp MCLK
                                                                                                 &to 0
             >;
