@@ -25,21 +25,17 @@ manifest:
       import: app/west.yml
 
     # ZMK modules
-    - name: zmk-helpers
-      remote: urob
-      revision: main
-    - name: zmk-tri-state
-      remote: urob
-      revision: main
-    - name: zmk-auto-layer
-      remote: urob
-      revision: main
     - name: zmk-adaptive-key
-      remote: urob
-      revision: main
+      path: modules/zmk/adaptive-key
+    - name: zmk-auto-layer
+      path: modules/zmk/auto-layer
+    - name: zmk-helpers
+      path: modules/zmk/helpers
     - name: zmk-leader-key
-      remote: urob
-      revision: main
+      path: modules/zmk/leader-key
+    - name: zmk-tri-state
+      path: modules/zmk/tri-state
+
 
     # Display
     - name: nice-view-gem
