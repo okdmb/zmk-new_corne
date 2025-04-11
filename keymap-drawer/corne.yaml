@@ -41,7 +41,7 @@ layers:
   - {t: /, h: END, s: '?'}
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:volume-off$$', h: Media}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:alpha-w-box$$
   - {t: '$$mdi:keyboard-space$$', h: Nav}
   - {t: '$$mdi:keyboard-tab$$', h: Media}
   - $$mdi:arrow-right-bold$$
