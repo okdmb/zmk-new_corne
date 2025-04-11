@@ -298,7 +298,7 @@ urob_LAYER_LIST
   │ LB5  LB4  LB3  LB2  LB1  LB0 │ │ LEC │  ╰───╮ JS4 ╭───╯  │ RB0  RB1  RB2  RB3  RB4  RB5 │
   ╰──────────────╮ LH2  LH1  LH0 │ ╰─────╯      ╰─────╯      │ RH0  RH1  RH2 ╭──────────────╯
                  ╰───────────────╯                           ╰───────────────╯
-*/
+
 
 #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS)                                 \
   ZMK_HOLD_TAP(
@@ -344,6 +344,9 @@ ZMK_TAP_DANCE(
     tapping-term-ms = <200>;
 
     )
+
+*/
+
 
     keymap {
         compatible = "zmk,keymap";
@@ -531,5 +534,4 @@ ZMK_TAP_DANCE(
             then-layer = <0>;
         };
     };
-};
 };
