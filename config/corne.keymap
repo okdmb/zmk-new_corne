@@ -289,8 +289,7 @@ urob_LAYER_LIST
     #define KEYS_L LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5  // left hand
 #define KEYS_R RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5  // right hand
 #define THUMBS LH2 LH1 LH0 RH0 RH1 RH2   // thumbs
-
-/*                42 KEY MATRIX with ENCODER and JOYSTICK / LAYOUT MAPPING
+    /*                42 KEY MATRIX with ENCODER and JOYSTICK / LAYOUT MAPPING
 
   ╭──────────────────────────────╮              ╭─────╮      ╭──────────────────────────────╮
   │ LT5  LT4  LT3  LT2  LT1  LT0 │          ╭───╯ JS0 ╰───╮  │ RT0  RT1  RT2  RT3  RT4  RT5 │
@@ -346,7 +345,6 @@ ZMK_TAP_DANCE(
     )
 
 */
-
 
     keymap {
         compatible = "zmk,keymap";
@@ -454,7 +452,7 @@ ZMK_TAP_DANCE(
         Symbol {
             bindings = <
 &bootloader     &kp LEFT_BRACE   &kp AMPERSAND  &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &kp LCTRL  &kp AMPERSAND   &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &bootloader
-&trans          &kp EXCLAMATION  &kp AT_SIGN    &kp HASH              &kp DOLLAR             &kp PERCENT        &trans  &kp CARET  &kp AMPERSAND   &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &flash_macro
+&trans          &kp EXCLAMATION  &kp AT_SIGN    &kp HASH              &kp DOLLAR             &kp PERCENT        &trans  &kp CARET  &kp AMPERSAND   &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &sys_reset
 &bt BT_CLR_ALL  &kp TILDE        &kp EXCL       &kp AT_SIGN           &kp POUND              &kp PIPE           &trans  &kp GRAVE  &as PLUS EQUAL  &as DOUBLE_QUOTES SQT  &as PIPE BACKSLASH    &kp DELETE             &bt BT_CLR_ALL
                                  &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &trans  &trans     &trans          &trans
                                                                                                                 &trans
