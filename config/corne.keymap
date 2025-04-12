@@ -127,7 +127,7 @@ urob_LAYER_LIST
             quick-tap-ms = <175>;
             flavor = "balanced";
             require-prior-idle-ms = <75>;
-            hold-trigger-key-positions = <21 22 23>;
+            hold-trigger-key-positions = <21 22 23 41>;
         };
 
         hmr: homerow_mods_right {
