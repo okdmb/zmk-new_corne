@@ -181,7 +181,8 @@ urob_LAYER_LIST
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-            tap-ms = <30>;
+            tap-ms = <100>;
+            label = "scroll_encoder";
         };
 
         bspc_del: backspace_delete {
