@@ -727,3 +727,5 @@ combos:
   k: Ctl+V
 - p: [27, 28]
   k: Ctl+X
+- p: [18, 17]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
