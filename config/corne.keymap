@@ -126,8 +126,8 @@ urob_LAYER_LIST
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             flavor = "balanced";
-            require-prior-idle-ms = <125>;
-            hold-trigger-key-positions = <14 15 16 17 18>;
+            require-prior-idle-ms = <75>;
+            hold-trigger-key-positions = <21 22 23>;
         };
 
         hmr: homerow_mods_right {
@@ -139,8 +139,8 @@ urob_LAYER_LIST
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             flavor = "balanced";
-            require-prior-idle-ms = <125>;
-            hold-trigger-key-positions = <21 22 23 24>;
+            require-prior-idle-ms = <75>;
+            hold-trigger-key-positions = <14 15 16 17>;
         };
 
         ltq: ltq {
