@@ -418,7 +418,7 @@ layers:
   - '*'
   - (
   - )
-  - '&flash_macro'
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - BT CLR ALL
   - '~'
   - '!'
