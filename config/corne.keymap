@@ -114,6 +114,13 @@ urob_LAYER_LIST
             bindings = <&none>;
             label = "DOTCAP";
         };
+
+        to_mouse: to_mouse {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(RG(H)) &to 5>;
+            label = "TO_MOUSE";
+        };
     };
 
     behaviors {
@@ -251,8 +258,8 @@ urob_LAYER_LIST
             layers = <1>;
         };
 
-        to5 {
-            bindings = <&to 5>;
+        to_mouse {
+            bindings = <&to_mouse>;
             key-positions = <14 15>;
         };
 
