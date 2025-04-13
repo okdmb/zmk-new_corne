@@ -651,9 +651,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -951,9 +949,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -1238,9 +1234,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -1556,9 +1550,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -1872,9 +1864,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -2182,9 +2172,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -2508,9 +2496,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -2817,9 +2803,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -3114,9 +3098,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -3402,9 +3384,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -3692,9 +3672,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -3991,9 +3969,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -4306,9 +4282,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
@@ -4600,9 +4574,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="110" width="28" height="26" class="combo"/>
-<a href="#Mouse">
-<text x="112" y="123" class="combo tap layer-activator">Mouse</text>
-</a><text x="112" y="134" class="combo hold">toggle</text>
+<text x="112" y="123" class="combo tap"><tspan style="font-size: 67%">&amp;to_mouse</tspan></text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>

@@ -714,7 +714,7 @@ combos:
   k: '|'
   l: [EXTRA]
 - p: [14, 15]
-  k: {t: Mouse, h: toggle}
+  k: '&to_mouse'
 - p: [24, 23]
   k: {t: Nav, h: toggle}
 - p: [17, 16]
