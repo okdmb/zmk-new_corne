@@ -41,11 +41,11 @@ layers:
   - {t: /, h: END, s: '?'}
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:volume-off$$', h: Media}
-  - $$mdi:alpha-w-box$$
+  - {t: '$$mdi:backspace$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: Nav}
-  - {t: '$$mdi:keyboard-tab$$', h: Media}
+  - {t: '$$mdi:keyboard-tab$$', h: Num}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: '$$mdi:keyboard-return$$', h: Media}
   - {t: '$$mdi:backspace$$', h: Num}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Fn}
   - {t: Mouse, h: toggle}
@@ -266,7 +266,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-down$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: Qwerty, h: toggle}
+  - Sft+Gui+D
   - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
@@ -286,7 +286,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Qwerty, h: toggle}
   - {t: Qwerty, h: toggle}
-  - $$mdi:mouse-scroll-wheel$$
+  - Sft+Gui+D
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -337,9 +337,9 @@ layers:
   - {type: held}
   - Hyper+F9
   - Hyper+F11
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:arrow-right-bold$$
-  - Gui+$$mdi:keyboard-tab$$
+  - {t: 'Gui+$$mdi:keyboard-tab$$', type: held alternate}
   - PLAY PAUSE
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -386,10 +386,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ., s: '>'}
   - {t: '0', s: )}
-  - {t: '-', s: _}
+  - {t: '-', s: _, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Sym:
@@ -437,7 +437,7 @@ layers:
   - )
   - _
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -482,13 +482,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   L10:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -713,19 +713,19 @@ combos:
 - p: [31, 33]
   k: '|'
   l: [EXTRA]
-- p: [14, 15]
+- p: [1, 11]
   k: '&to_mouse'
 - p: [24, 23]
   k: {t: Nav, h: toggle}
 - p: [17, 16]
   k: $$mdi:keyboard-tab$$
 - p: [22, 21]
-  k: {t: '$$mdi:backspace$$', type: backspace}
+  k: $$mdi:alpha-w-box$$
 - p: [29, 28]
   k: Ctl+C
 - p: [29, 30]
   k: Ctl+V
 - p: [27, 28]
   k: Ctl+X
-- p: [18, 17]
+- p: [17, 3]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
