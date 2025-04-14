@@ -260,10 +260,10 @@ urob_LAYER_LIST
 
         to_mouse {
             bindings = <&to_mouse>;
-            key-positions = <1 11>;
+            key-positions = <14 24>;
         };
 
-        to4 {
+        to_nav {
             bindings = <&to 4>;
             key-positions = <18 21>;
         };
