@@ -108,14 +108,14 @@ urob_LAYER_LIST
             bindings = <&bootloader>;
         };
 
-        DOTCAP: DOTCAP {
+        dot_shift: dot_shift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
-            label = "DOTCAP";
+            bindings = <&kp DOT &kp SPACE &sk LSHFT>;
+            label = "dot_shift";
         };
 
-        to_mouse: to_mouse {
+        mouse_jump: to_mouse {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(RG(D)) &to 5>;
@@ -266,7 +266,7 @@ urob_LAYER_LIST
         };
 
         to_mouse {
-            bindings = <&to_mouse>;
+            bindings = <&mouse_jump>;
             key-positions = <14 24>;
         };
 
