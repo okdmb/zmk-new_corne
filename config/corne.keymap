@@ -121,6 +121,13 @@ urob_LAYER_LIST
             bindings = <&kp LS(RG(D)) &to 5>;
             label = "TO_MOUSE";
         };
+
+        to_0_click: to_0_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp RCLK &to 0>;
+            label = "TO_0_CLICK";
+        };
     };
 
     behaviors {
@@ -437,11 +444,11 @@ ZMK_TAP_DANCE(
 
         Mouse {
             bindings = <
-&to 0       &kp LS(F10)     &mmv MOVE_UP    &kp RET          &mkp LCLK  &msc SCRL_UP      &mmv MOVE_UP     &trans         &msc SCRL_DOWN        &msc SCRL_UP          &msc SCRL_UP  &msc SCRL_LEFT  &trans
-&kp ESCAPE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK  &msc SCRL_DOWN    &mmv MOVE_DOWN   &kp LS(LG(D))  &hmr RCTRL LG(RS(D))  &mt RIGHT_SHIFT DOWN  &kp LALT      &kp LGUI        &trans
-&to 0       &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &trans     &msc SCRL_DOWN    &mmv MOVE_LEFT   &trans         &msc SCRL_LEFT        &msc SCRL_LEFT        &trans        &trans          &to 0
-                            &to 0           &mkp MCLK        &mkp RCLK  &mkp LCLK         &mmv MOVE_RIGHT  &mkp LCLK      &mkp RCLK             &kp LS(LG(D))
-                                                                                          &to 0
+&to 0       &kp LS(F10)     &mmv MOVE_UP    &kp RET          &mkp LCLK    &msc SCRL_UP      &mmv MOVE_UP     &trans         &msc SCRL_DOWN        &msc SCRL_UP          &msc SCRL_UP  &msc SCRL_LEFT  &trans
+&kp ESCAPE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK    &msc SCRL_DOWN    &mmv MOVE_DOWN   &kp LS(LG(D))  &hmr RCTRL LG(RS(D))  &mt RIGHT_SHIFT DOWN  &kp LALT      &kp LGUI        &trans
+&to 0       &msc SCRL_LEFT  &trans          &msc SCRL_RIGHT  &to_0_click  &msc SCRL_DOWN    &mmv MOVE_LEFT   &trans         &msc SCRL_LEFT        &msc SCRL_LEFT        &trans        &trans          &to 0
+                            &to 0           &mkp MCLK        &mkp RCLK    &mkp LCLK         &mmv MOVE_RIGHT  &mkp LCLK      &mkp RCLK             &kp LS(LG(D))
+                                                                                            &to 0
             >;
 
             label = "Mouse";
