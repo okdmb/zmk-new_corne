@@ -318,7 +318,7 @@ urob_LAYER_LIST
 
         caps_word {
             bindings = <&caps_word>;
-            key-positions = <18 20>;
+            key-positions = <20 21>;
         };
 
         dot_shift {
