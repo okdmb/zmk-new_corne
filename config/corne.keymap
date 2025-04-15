@@ -128,6 +128,20 @@ urob_LAYER_LIST
             bindings = <&mkp RCLK &to 0>;
             label = "TO_0_CLICK";
         };
+
+        macro_sel_word: macro_sel_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LEFT) &kp LC(LS(RIGHT))>;
+            label = "MACRO_SEL_WORD";
+        };
+
+        macro_sel_line: macro_sel_line {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp END &kp LS(HOME)>;
+            label = "MACRO_SEL_LINE";
+        };
     };
 
     behaviors {
