@@ -219,7 +219,7 @@ urob_LAYER_LIST
 
         left_bkt {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <3 4 2 42>;
+            key-positions = <3 2 4>;
             layers = <0>;
         };
 
@@ -282,7 +282,7 @@ urob_LAYER_LIST
 
         Enter-rh {
             bindings = <&kp RET>;
-            key-positions = <21 22>;
+            key-positions = <25 38>;
             require-prior-idle-ms = <25>;
         };
 
@@ -323,7 +323,7 @@ urob_LAYER_LIST
 
         dot_shift {
             bindings = <&dot_shift>;
-            key-positions = <38>;
+            key-positions = <22 21>;
         };
 
         ctrl_space {
@@ -397,10 +397,10 @@ ZMK_TAP_DANCE(
 
         QWERTY {
             bindings = <
-&ltq 12 GRAVE     &as LS(F10) Q  &kp W            &kp E              &kp R         &kp T              &kp UP_ARROW    &kp Y             &kp U         &kp I                &kp O               &kp P             &kp EQUAL
-&as F19 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &kp DOWN_ARROW  &kp H             &hmr RCTRL J  &hmr LEFT_SHIFT K    &hmr LEFT_ALT L     &ltq 5 SEMICOLON  &ltq 5 SQT
-&ltq 3 BACKSPACE  &hml LGUI Z    &hml LALT X      &hml LSHFT C       &hml LCTRL V  &as LG(V) B        &kp LEFT        &kp N             &as HOME M    &as PAGE_DOWN COMMA  &as PAGE_UP PERIOD  &as END SLASH     &kp MINUS
-                                 &ltq 6 C_MUTE    &ltq 9 BSPC        &ltq 4 SPACE  &ltq 6 RET         &kp RIGHT       &ltq 8 BACKSPACE  &ltq 7 SPACE  &ltq 9 DELETE
+&ltq 12 GRAVE     &as LS(F10) Q  &kp W            &kp E              &kp R         &kp T              &kp UP_ARROW    &kp Y       &kp U             &kp I                &kp O               &kp P             &kp EQUAL
+&as F19 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &kp DOWN_ARROW  &kp H       &hmr RCTRL J      &hmr LEFT_SHIFT K    &hmr LEFT_ALT L     &ltq 5 SEMICOLON  &ltq 5 SQT
+&ltq 3 BACKSPACE  &hml LGUI Z    &hml LALT X      &hml LSHFT C       &hml LCTRL V  &as LG(V) B        &kp LEFT        &kp N       &as HOME M        &as PAGE_DOWN COMMA  &as PAGE_UP PERIOD  &as END SLASH     &kp MINUS
+                                 &ltq 6 C_MUTE    &ltq 9 BSPC        &ltq 4 SPACE  &ltq 6 TAB         &kp RIGHT       &ltq 8 RET  &ltq 7 BACKSPACE  &ltq 9 DELETE
                                                                                                       &to 5
             >;
 
