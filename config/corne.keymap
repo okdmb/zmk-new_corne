@@ -227,6 +227,8 @@ urob_LAYER_LIST
             label = "tap_dot_shift";
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&dot_shift>;
+
+            tapping-term-ms = <400>;
         };
     };
 
