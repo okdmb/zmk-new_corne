@@ -591,12 +591,5 @@ ZMK_TAP_DANCE(
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        Flash {
-            if-layers = <12 8>;
-            then-layer = <0>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
