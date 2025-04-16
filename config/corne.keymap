@@ -96,7 +96,7 @@ urob_LAYER_LIST
 };
 
 &inc_dec_kp {
-    tap-ms = <120>;
+    tap-ms = <0>;
     bindings = <&kp>, <&kp>;
 };
 
