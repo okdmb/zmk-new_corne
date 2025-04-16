@@ -100,14 +100,11 @@ urob_LAYER_LIST
     bindings = <&kp>, <&kp>;
 };
 
+&sk {
+};
+
 / {
     macros {
-        flash_macro: flash_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&bootloader>;
-        };
-
         dot_shift: dot_shift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -305,13 +302,13 @@ urob_LAYER_LIST
 
         Enter-rh {
             bindings = <&kp RET>;
-            key-positions = <25 38>;
+            key-positions = <22 21>;
             require-prior-idle-ms = <25>;
         };
 
         Copy {
             bindings = <&kp LC(C)>;
-            key-positions = <29 28>;
+            key-positions = <28 29>;
         };
 
         Paste {
@@ -346,7 +343,7 @@ urob_LAYER_LIST
 
         dot_shift {
             bindings = <&dot_shift>;
-            key-positions = <22 21>;
+            key-positions = <38 12>;
         };
 
         ctrl_space {
