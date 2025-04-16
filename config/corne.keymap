@@ -100,9 +100,6 @@ urob_LAYER_LIST
     bindings = <&kp>, <&kp>;
 };
 
-&sk {
-};
-
 / {
     macros {
         dot_shift: dot_shift {
@@ -225,7 +222,7 @@ urob_LAYER_LIST
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&dot_shift>;
 
-            tapping-term-ms = <500>;
+            tapping-term-ms = <400>;
         };
 
         tap_copy_cut: tap_copy_cut {
