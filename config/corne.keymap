@@ -225,7 +225,15 @@ urob_LAYER_LIST
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&dot_shift>;
 
-            tapping-term-ms = <400>;
+            tapping-term-ms = <500>;
+        };
+
+        tap_copy_cut: tap_copy_cut {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_COPY_CUT";
+            #binding-cells = <0>;
+            tapping-term-ms = <500>;
+            bindings = <&kp LC(C)>, <&kp LC(X)>;
         };
     };
 
@@ -306,19 +314,14 @@ urob_LAYER_LIST
             require-prior-idle-ms = <25>;
         };
 
-        Copy {
-            bindings = <&kp LC(C)>;
+        tap_copy_cut {
+            bindings = <&tap_copy_cut>;
             key-positions = <28 29>;
         };
 
         Paste {
             bindings = <&kp LC(V)>;
             key-positions = <29 30>;
-        };
-
-        Cut {
-            bindings = <&kp LC(X)>;
-            key-positions = <>;
         };
 
         Enter {
