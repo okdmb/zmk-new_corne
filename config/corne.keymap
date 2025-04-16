@@ -546,11 +546,11 @@ ZMK_TAP_DANCE(
 
         L10 {
             bindings = <
-&trans  &trans  &trans        &trans          &trans            &trans        &trans  &trans        &trans        &trans        &trans      &trans         &kp LC(LA(DEL))
-&trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)   &kp LC(SPACE)     &to 0         &trans  &trans        &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans
-&trans  &trans  &trans        &trans          &trans            &trans        &trans  &trans        &trans        &trans        &trans      &trans         &kp RS(RC(ESC))
-                &trans        &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &trans  &kp QUESTION  &kp QUESTION  &kp CAPS
-                                                                              &trans
+&trans  &trans  &trans              &trans                &trans              &trans        &trans  &trans        &trans        &trans        &trans      &trans         &kp LC(LA(DEL))
+&trans  &trans  &hml LALT LA(LEFT)  &hml LSHFT LA(RIGHT)  &hml LCTRL LA(TAB)  &to 0         &trans  &trans        &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans
+&trans  &trans  &trans              &trans                &trans              &trans        &trans  &trans        &trans        &trans        &trans      &trans         &kp RS(RC(ESC))
+                &trans              &kp C_PREVIOUS        &kp C_PLAY_PAUSE    &kp C_NEXT    &trans  &kp QUESTION  &kp QUESTION  &kp CAPS
+                                                                                            &trans
             >;
 
             label = "L10";
