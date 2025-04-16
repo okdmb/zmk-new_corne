@@ -152,7 +152,7 @@ urob_LAYER_LIST
             quick-tap-ms = <150>;
             flavor = "balanced";
             require-prior-idle-ms = <0>;
-            hold-trigger-key-positions = <21 22 23 41 20 7 8 33 34 35 36 37 38 25 24 11 12 10 9 44 45 46>;
+            hold-trigger-key-positions = <21 22 23 41 20 7 8 33 34 35 36 37 38 25 24 11 12 10 9 44 45 46 14 40 42>;
         };
 
         hmr: homerow_mods_right {
@@ -165,7 +165,7 @@ urob_LAYER_LIST
             quick-tap-ms = <150>;
             flavor = "balanced";
             require-prior-idle-ms = <0>;
-            hold-trigger-key-positions = <14 15 16 17 0 1 13 26 27 28 29 30 31 5 2 3 4 18>;
+            hold-trigger-key-positions = <14 15 16 17 0 1 13 26 27 28 29 30 31 5 2 3 4 18 23 45 46 44>;
         };
 
         ltq: ltq {
