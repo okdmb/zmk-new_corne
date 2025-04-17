@@ -469,7 +469,7 @@ ZMK_TAP_DANCE(
             bindings = <
 &bootloader     &kp LS(F10)      &kp LA(F4)             &kp ENTER                    &trans              &trans     &kp UP_ARROW    &kp C_BRIGHTNESS_INC   &kp HOME            &kp PG_DN       &kp PG_UP     &kp END              &trans
 &kp ESCAPE      &hml LGUI SPACE  &hml LALT LC(LS(TAB))  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &to 0      &kp DOWN_ARROW  &to 0                  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &trans
-&bt BT_CLR_ALL  &trans           &trans                 &trans                       &kp LG(V)           &trans     &kp LEFT        &kp C_BRIGHTNESS_AUTO  &kp LA(LEFT_ARROW)  &kp LC(HOME)    &kp LA(END)   &kp LA(RIGHT_ARROW)  &kp C_BRIGHTNESS_MAXIMUM
+&bt BT_CLR_ALL  &trans           &kp LC(W)              &trans                       &kp LG(V)           &trans     &kp LEFT        &kp C_BRIGHTNESS_AUTO  &kp LA(LEFT_ARROW)  &kp LC(HOME)    &kp LA(END)   &kp LA(RIGHT_ARROW)  &kp C_BRIGHTNESS_MAXIMUM
                                  &to 0                  &kp F19                      &kp SPACE           &kp TAB    &kp RIGHT       &kp BACKSPACE          &kp SPACE           &kp DEL
                                                                                                                     &to 0
             >;
