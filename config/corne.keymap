@@ -319,7 +319,7 @@ urob_LAYER_LIST
             key-positions = <18 21>;
         };
 
-        Tab {
+        Tab_v1 {
             bindings = <&kp TAB>;
             key-positions = <17 16>;
         };
@@ -340,7 +340,7 @@ urob_LAYER_LIST
             key-positions = <29 30>;
         };
 
-        Enter {
+        Enter_v2 {
             bindings = <&kp RET>;
             key-positions = <17 3>;
         };
@@ -373,6 +373,11 @@ urob_LAYER_LIST
         Shift_tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <17 16 15>;
+        };
+
+        Tab_v2 {
+            bindings = <&kp TAB>;
+            key-positions = <17 4>;
         };
     };
 
