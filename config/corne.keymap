@@ -105,7 +105,7 @@ urob_LAYER_LIST
         dot_shift: dot_shift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DOT &kp SPACE &sk LSHFT &kp K_CANCEL>;
+            bindings = <&kp DOT &kp SPACE &sk_qr LSHFT>;
             label = "dot_shift";
         };
 
@@ -240,6 +240,15 @@ urob_LAYER_LIST
             #binding-cells = <0>;
             tapping-term-ms = <500>;
             bindings = <&kp LC(C)>, <&kp LC(X)>;
+        };
+
+        sk_qr: sk_qr {
+            compatible = "zmk,behavior-sticky-key";
+            label = "SK_QR";
+            bindings = <&sk>;
+            #binding-cells = <1>;
+            quick-release;
+            release-after-ms = <900>;
         };
     };
 
