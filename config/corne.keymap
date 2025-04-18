@@ -183,7 +183,7 @@ urob_LAYER_LIST
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             flavor = "balanced";
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <75>;
             hold-trigger-key-positions = <21 22 23 24>;
         };
 
