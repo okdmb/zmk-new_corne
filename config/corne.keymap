@@ -194,7 +194,7 @@ urob_LAYER_LIST
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             quick-tap-ms = <250>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             require-prior-idle-ms = <300>;
         };
 
