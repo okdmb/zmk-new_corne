@@ -463,11 +463,11 @@ ZMK_TAP_DANCE(
 
         BUTTON {
             bindings = <
-&trans  &kp LS(LG(LC(LA(Q))))  &kp LA(F4)          &kp LG(LC(LA(E)))    &kp LC(F24)        &kp LS(LG(LC(LA(T))))    &trans  &trans             &trans              &trans             &trans      &kp LG(LC(LA(P)))    &trans
-&trans  &kp LG(LC(LA(T)))      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LG(LC(LA(F)))  &kp LG(LC(LA(G)))        &trans  &kp LG(LC(LA(H)))  &kp LG(LEFT_ARROW)  &kp LG(DOWN)       &kp LG(UP)  &kp LG(RIGHT_ARROW)  &trans
-&trans  &trans                 &trans              &kp LG(LC(LA(C)))    &kp LS(LC(V))      &kp LS(LG(LC(LA(B))))    &trans  &trans             &trans              &trans             &trans      &trans               &trans
-                               &trans              &kp LG(LC(LA(H)))    &kp F24            &kp LS(F24)              &trans  &kp F24            &kp RS(F24)         &kp LG(LC(LA(H)))
-                                                                                                                    &trans
+&trans  &kp LS(LG(LC(LA(Q))))  &kp LA(F4)  &kp LG(LC(LA(E)))  &kp LC(F24)        &kp LS(LG(LC(LA(T))))    &trans  &trans             &trans              &trans             &trans      &kp LG(LC(LA(P)))    &trans
+&trans  &kp LG(LC(LA(T)))      &kp F24     &kp LS(F24)        &kp LG(LC(LA(F)))  &kp LG(LC(LA(G)))        &trans  &kp LG(LC(LA(H)))  &kp LG(LEFT_ARROW)  &kp LG(DOWN)       &kp LG(UP)  &kp LG(RIGHT_ARROW)  &trans
+&trans  &trans                 &trans      &kp LG(LC(LA(C)))  &kp LS(LC(V))      &kp LS(LG(LC(LA(B))))    &trans  &trans             &trans              &trans             &trans      &trans               &trans
+                               &trans      &kp LG(LC(LA(H)))  &kp F24            &kp LS(F24)              &trans  &kp F24            &kp RS(F24)         &kp LG(LC(LA(H)))
+                                                                                                          &trans
             >;
 
             label = "BUTTON";
