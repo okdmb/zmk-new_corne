@@ -136,6 +136,15 @@ urob_LAYER_LIST
             bindings = <&kp END &kp LS(HOME)>;
             label = "MACRO_SEL_LINE";
         };
+
+        win_sleep: win_sleep {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(X) &kp U &kp S>;
+            label = "WIN_SLEEP";
+            wait-ms = <500>;
+            tap-ms = <5>;
+        };
     };
 
     behaviors {
