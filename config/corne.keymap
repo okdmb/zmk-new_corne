@@ -213,7 +213,7 @@ urob_LAYER_LIST
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-            tap-ms = <100>;
+            tap-ms = <5>;
             label = "scroll_encoder";
         };
 
