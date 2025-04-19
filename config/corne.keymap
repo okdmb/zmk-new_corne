@@ -102,25 +102,25 @@ urob_LAYER_LIST
 
 / {
     macros {
-        dot_shift: dot_shift {
+        macro_dot_shift: macro_dot_shift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp DOT &kp SPACE &sk_qr LSHFT>;
-            label = "dot_shift";
+            label = "MACRO_DOT_SHIFT";
         };
 
-        mouse_jump: to_mouse {
+        macro_mouse_jump: to_mouse {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(RG(D)) &to 5>;
             label = "TO_MOUSE";
         };
 
-        to_0_click: to_0_click {
+        macro_to_0_click: macro_to_0_click {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&mkp RCLK &to 0>;
-            label = "TO_0_CLICK";
+            label = "MACRO_TO_0_CLICK";
         };
 
         macro_sel_word: macro_sel_word {
@@ -137,13 +137,27 @@ urob_LAYER_LIST
             label = "MACRO_SEL_LINE";
         };
 
-        win_sleep: win_sleep {
+        macro_win_sleep: macro_win_sleep {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LG(X) &kp U &kp S>;
-            label = "WIN_SLEEP";
+            label = "MACRO_WIN_SLEEP";
             wait-ms = <500>;
             tap-ms = <5>;
+        };
+
+        macro_swapper: macro_swapper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp TAB>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "MACRO_SWAPPER";
         };
     };
 
@@ -230,7 +244,7 @@ urob_LAYER_LIST
             compatible = "zmk,behavior-tap-dance";
             label = "tap_dot_shift";
             #binding-cells = <0>;
-            bindings = <&kp DOT>, <&dot_shift>;
+            bindings = <&kp DOT>, <&macro_dot_shift>;
 
             tapping-term-ms = <400>;
         };
@@ -310,7 +324,7 @@ urob_LAYER_LIST
         };
 
         to_mouse {
-            bindings = <&mouse_jump>;
+            bindings = <&macro_mouse_jump>;
             key-positions = <14 24>;
         };
 
@@ -361,7 +375,7 @@ urob_LAYER_LIST
         };
 
         dot_shift {
-            bindings = <&dot_shift>;
+            bindings = <&macro_dot_shift>;
             key-positions = <38 12>;
         };
 
@@ -490,7 +504,7 @@ ZMK_TAP_DANCE(
             bindings = <
 &trans  &kp LS(LG(LC(LA(Q))))  &kp LA(F4)  &kp LG(LC(LA(E)))  &kp LC(F24)        &kp LS(LG(LC(LA(T))))    &trans  &trans             &trans              &trans             &trans      &kp LG(LC(LA(P)))    &trans
 &trans  &kp LG(LC(LA(T)))      &kp F24     &kp LS(F24)        &kp LG(LC(LA(F)))  &kp LG(LC(LA(G)))        &trans  &kp LG(LC(LA(H)))  &kp LG(LEFT_ARROW)  &kp LG(DOWN)       &kp LG(UP)  &kp LG(RIGHT_ARROW)  &trans
-&trans  &win_sleep             &trans      &kp LG(LC(LA(C)))  &kp LS(LC(V))      &kp LS(LG(LC(LA(B))))    &trans  &trans             &trans              &trans             &trans      &trans               &trans
+&trans  &macro_win_sleep       &trans      &kp LG(LC(LA(C)))  &kp LS(LC(V))      &kp LS(LG(LC(LA(B))))    &trans  &trans             &trans              &trans             &trans      &trans               &trans
                                &trans      &kp LG(LC(LA(H)))  &kp F24            &kp LS(F24)              &trans  &kp F24            &kp RS(F24)         &kp LG(LC(LA(H)))
                                                                                                           &trans
             >;
@@ -514,11 +528,11 @@ ZMK_TAP_DANCE(
 
         Mouse {
             bindings = <
-&to 0       &kp LS(F10)     &mmv MOVE_UP    &kp RET          &mkp LCLK    &msc SCRL_UP      &mmv MOVE_Y(-600)  &trans         &msc SCRL_DOWN        &msc SCRL_UP           &msc SCRL_UP  &msc SCRL_LEFT  &trans
-&kp ESCAPE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK    &msc SCRL_DOWN    &mmv MOVE_Y(-600)  &kp LS(LG(D))  &hmr RCTRL LG(RS(D))  &hmr RIGHT_SHIFT DOWN  &kp LALT      &kp LGUI        &trans
-&to 0       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &to_0_click  &msc SCRL_DOWN    &mmv MOVE_X(-600)  &trans         &msc SCRL_LEFT        &msc SCRL_LEFT         &trans        &trans          &to 0
-                            &to 0           &mkp MCLK        &mkp RCLK    &mkp LCLK         &mmv MOVE_X(600)   &mkp LCLK      &mkp RCLK             &kp LS(LG(D))
-                                                                                            &to 0
+&to 0       &kp LS(F10)     &mmv MOVE_UP    &kp RET          &mkp LCLK          &msc SCRL_UP      &mmv MOVE_Y(-600)  &trans         &msc SCRL_DOWN        &msc SCRL_UP           &msc SCRL_UP  &msc SCRL_LEFT  &trans
+&kp ESCAPE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK          &msc SCRL_DOWN    &mmv MOVE_Y(-600)  &kp LS(LG(D))  &hmr RCTRL LG(RS(D))  &hmr RIGHT_SHIFT DOWN  &kp LALT      &kp LGUI        &trans
+&to 0       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &macro_to_0_click  &msc SCRL_DOWN    &mmv MOVE_X(-600)  &trans         &msc SCRL_LEFT        &msc SCRL_LEFT         &trans        &trans          &to 0
+                            &to 0           &mkp MCLK        &mkp RCLK          &mkp LCLK         &mmv MOVE_X(600)   &mkp LCLK      &mkp RCLK             &kp LS(LG(D))
+                                                                                                  &to 0
             >;
 
             label = "Mouse";
