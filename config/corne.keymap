@@ -213,6 +213,24 @@ urob_LAYER_LIST
             require-prior-idle-ms = <300>;
         };
 
+        num_word: num_word {
+            compatible = "zmk,behavior-auto-layer";
+            #binding-cells = <1>;
+            continue-list = <BSPC DEL KP_DOT DOT COMMA KP_PLUS PLUS KP_MINUS MINUS KP_MULTIPLY STAR KP_DIVIDE FSLH EQUAL>;
+            ignore-numbers;
+        };
+
+        smart_num: smart_num {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SMART_NUM";
+            bindings = <&mo>, <&num_word>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            flavor = "tap-preferred";
+            hold-trigger-key-positions = <4>;
+        };
+
         rgb_encoder: rgb_encoder {
             compatible = "zmk,behavior-sensor-rotate";
             label = "RGB_ENCODER";
