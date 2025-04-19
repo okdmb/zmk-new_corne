@@ -13,9 +13,10 @@
 **If you already have a ZMK config repository, [you can add this one as a module instead of forking](https://zmk.dev/docs/features/modules#building-with-modules).**
 
 ## Forked 
+- https://github.com/urob/zmk-config
+- https://github.com/manna-harbour/miryoku_zmk
 
-
-## Keymap Diagram
+<!-- ## Keymap Diagram
 No longer up to date
-<img src="keymap-drawer/corne.svg" >
+<img src="keymap-drawer/corne.svg" > -->
 
