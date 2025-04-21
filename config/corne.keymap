@@ -281,6 +281,16 @@ urob_LAYER_LIST
             quick-release;
             release-after-ms = <900>;
         };
+
+        morph_column: morph_column {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MORPH_COLUMN";
+            bindings = <&kp COLON>, <&kp SEMICOLON>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
     };
 
     combos {
