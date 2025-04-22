@@ -14,12 +14,6 @@
 
 #define ___ &trans
 
-/* Global defaults */
-
-#define QUICK_TAP_MS 175
-
-/*
-
 #define T_1        &kp LG(LC(N1))
 #define T_2        &kp LG(LC(N2))
 #define T_3        &kp LG(LC(N3))
@@ -98,7 +92,14 @@ urob_LAYER_LIST
     bindings = <&kp>, <&kp>;
 };
 
-&sk { quick-release; };
+/* Global settings */
+
+#define QUICK_TAP_MS 175
+
+&sk {  // sticky-key config
+    release-after-ms = <900>;  // release after 0.6s
+    quick-release;             // no double capitalization when rolling keys
+};
 
 &sl {  // sticky-layer config
     ignore-modifiers;          // allow chording sticky mods & layers
@@ -109,6 +110,7 @@ urob_LAYER_LIST
     tapping-term-ms = <200>;
     quick-tap-ms = <QUICK_TAP_MS>;
 };
+
 
 / {
     macros {
