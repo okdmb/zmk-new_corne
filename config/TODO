@@ -1,5 +1,19 @@
 
 
+
+//https://github.com/urob/zmk-helpers/blob/main/examples/zmk-config/config/cradio.keymap
+
+// tap: backspace | shift + tap: delete | hold: num layer
+ZMK_MOD_MORPH(bs_del_num,
+    bindings = <&lt NUM BSPC>, <&kp DEL>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
+
+
+
+
+
+
 //https://github.com/arilebedey/urob-zmk-config/blob/main/config/base.keymap
 
 // tap: space | shift + tap: dot -> space -> sticky shift | hold: activate layer
