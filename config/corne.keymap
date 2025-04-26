@@ -509,7 +509,7 @@ ZMK_TAP_DANCE(
 &ltq 12 F19       &as LS(F10) Q  &kp W            &kp E              &kp R         &kp T              &kp UP_ARROW    &kp Y       &kp U             &as HOME I           &as END O        &kp P             &kp EQUAL
 &as F19 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &kp DOWN_ARROW  &kp H       &hmr RCTRL J      &hmr LEFT_SHIFT K    &hmr LEFT_ALT L  &ltq 5 SEMICOLON  &ltq 5 SQT
 &ltq 3 BACKSPACE  &hml LGUI Z    &hml LALT X      &hml LSHFT C       &hml LCTRL V  &as LG(V) B        &kp LEFT        &kp N       &as HOME M        &as PAGE_DOWN COMMA  &tap_dot_shift   &as END SLASH     &kp MINUS
-                                 &ltq 6 C_MUTE    &key_repeat        &ltq 4 SPACE  &ltq 6 TAB         &kp RIGHT       &ltq 9 RET  &ltq 8 BACKSPACE  &smart_num 7 0
+                                 &ltq 6 C_MUTE    &key_repeat        &ltq 4 SPACE  &ltq 6 TAB         &kp RIGHT       &ltq 9 RET  &ltq 8 BACKSPACE  &smart_num 7 7
                                                                                                       &to 5
             >;
 
