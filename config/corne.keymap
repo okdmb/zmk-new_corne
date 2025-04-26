@@ -374,12 +374,15 @@ urob_LAYER_LIST
         Tab_v1 {
             bindings = <&kp TAB>;
             key-positions = <17 16>;
+            layers = <9>;
+            require-prior-idle-ms = <25>;
         };
 
         Enter-rh {
             bindings = <&kp RET>;
             key-positions = <22 21>;
             require-prior-idle-ms = <25>;
+            layers = <9>;
         };
 
         tap_copy_cut {
@@ -629,10 +632,10 @@ ZMK_TAP_DANCE(
 
         L10 {
             bindings = <
-&sys_reset      &soft_off  &kp LA(F4)          &trans                    &trans                   &trans                            &sys_reset  &trans        &trans                      &trans        &trans      &trans                        &kp LC(LA(DEL))
-&macro_swapper  &trans     &hml LALT LA(LEFT)  &hml LSHFT LA(RIGHT)      &hml LCTRL LA(TAB)       &to 0                             &trans      &kp LG(TAB)   &hmr RG(RS(LEFT)) LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &hmr RG(RS(RIGHT)) RG(RIGHT)  &trans
-&morph_column   &trans     &trans              &trans                    &kp LC(LS(V))            &trans                            &trans      &trans        &trans                      &trans        &trans      &trans                        &kp RS(RC(ESC))
-                           &trans              &as LC(LA(LS(M))) C_PREV  &as C_MUTE C_PLAY_PAUSE  &as LS(LA(LC(LG(F11)))) C_NEXT    &trans      &kp QUESTION  &kp QUESTION                &kp CAPS
+&sys_reset      &soft_off  &kp LA(F4)          &trans                    &trans                   &trans                            &trans  &trans        &trans                      &trans        &trans      &trans                        &kp LC(LA(DEL))
+&macro_swapper  &trans     &hml LALT LA(LEFT)  &hml LSHFT LA(RIGHT)      &hml LCTRL LA(TAB)       &to 0                             &trans  &kp LG(TAB)   &hmr RG(RS(LEFT)) LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &hmr RG(RS(RIGHT)) RG(RIGHT)  &trans
+&morph_column   &trans     &trans              &trans                    &kp LC(LS(V))            &trans                            &trans  &trans        &trans                      &trans        &trans      &trans                        &kp RS(RC(ESC))
+                           &trans              &as LC(LA(LS(M))) C_PREV  &as C_MUTE C_PLAY_PAUSE  &as LS(LA(LC(LG(F11)))) C_NEXT    &trans  &kp QUESTION  &kp QUESTION                &kp CAPS
                                                                                                                                     &trans
             >;
 
