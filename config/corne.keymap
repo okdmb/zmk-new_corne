@@ -556,9 +556,9 @@ ZMK_TAP_DANCE(
 
         NAV {
             bindings = <
-&bootloader     &kp LS(F10)         &kp LA(F4)           &kp ENTER                    &trans              &trans     &kp UP_ARROW    &kp PG_UP  &kp HOME        &kp UP          &kp END    &kp END              &trans
-&kp ESCAPE      &hml LGUI LA(LEFT)  &hml LALT LA(RIGHT)  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &to 0      &kp DOWN_ARROW  &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp RET              &trans
-&bt BT_CLR_ALL  &trans              &kp LC(W)            &trans                       &kp LG(V)           &trans     &kp LEFT        &trans     &kp BACKSPACE   &kp TAB         &kp DEL    &kp LA(RIGHT_ARROW)  &kp C_BRIGHTNESS_MAXIMUM
+&bootloader     &kp LS(F10)         &kp LA(F4)           &kp ENTER                    &trans              &trans     &kp UP_ARROW    &kp PG_UP  &kp HOME        &kp UP          &kp END        &kp END              &trans
+&kp ESCAPE      &hml LGUI LA(LEFT)  &hml LALT LA(RIGHT)  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &to 0      &kp DOWN_ARROW  &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp RET              &trans
+&bt BT_CLR_ALL  &trans              &kp LC(W)            &trans                       &kp LG(V)           &trans     &kp LEFT        &trans     &kp RA(LEFT)    &kp TAB         &kp RA(RIGHT)  &kp LA(RIGHT_ARROW)  &kp C_BRIGHTNESS_MAXIMUM
                                     &to 0                &kp F19                      &kp SPACE           &kp TAB    &kp RIGHT       &kp RET    &kp BACKSPACE   &kp DEL
                                                                                                                      &to 0
             >;
