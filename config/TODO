@@ -130,3 +130,53 @@ behaviours -
             display-name = "Adaptive E";
         };
     };
+
+
+
+
+---
+
+KEYMAP
+
+
+&lt {
+    flavor = "balanced";
+    quick-tap-ms = <220>;
+}; 
+
+
+/ {
+    hold-tap {
+        lt_del: layer_tap_del {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <220>;
+            quick-tap-ms = <220>;
+            bindings = <&mo>, <&bspc_del>;
+            display-name = "Layer-BSp";
+        };
+
+        lt_qt: layer_tap_qt {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <220>;
+            quick-tap-ms = <220>;
+            bindings = <&mo>, <&qt_grv>;
+            display-name = "Layer-Qt";
+        };
+
+        lt_e: layer_tap_ad_e {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <220>;
+            quick-tap-ms = <220>;
+            bindings = <&mo>, <&ad_e>;
+            display-name = "Layer-AdE";
+        };
+
+
+
+
