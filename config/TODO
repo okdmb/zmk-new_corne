@@ -180,3 +180,27 @@ KEYMAP
 
 
 
+/ {
+    mod-morph {
+        SM(qexcl,    SM Qmark-Excl, &kp DE_QMARK,  &kp DE_EXCL)
+        SM(bspc_del, SM BSp-Del,    &kp BSPC,      &kp DEL)
+
+        SM(sqt_dqt,       SM Sqt-Dqt,       &kp DE_SQT,   &kp DE_DQT)
+        CM(qt_grv,        CM Qt-Grv,        &sqt_dqt,     &kp DE_ACUTE)
+        SM(sqt_dqt_macro, SM Macro Sqt-Dqt, &sqt_macro,   &dqt_macro)
+        SM(grv_dgrv,      SM Grv-DGrqu,     &kp DE_GRAVE, &dgrv_macro)
+
+        SM(lpar_lbkt, SM LPar-LBkt,     &kp DE_LPAR, &kp DE_LBKT)
+        SM(rpar_rbkt, SM RPar-RBkt,     &kp DE_RPAR, &kp DE_RBKT)
+        SM(par_bkt,   SM Macro Par-Bkt, &par_macro,  &bkt_macro)
+
+        SM(lbrc_lt, SM LBrc-LT,       &kp DE_LBRC, &kp DE_LT)
+        SM(rbrc_gt, SM RBrc-GT,       &kp DE_RBRC, &kp DE_GT)
+        SM(brc_lgt, SM Macro Brc-LGT, &brc_macro,  &lgt_macro)
+
+        SM(p_tab_desk, SM Prev Tab-Desk, &kp LC(LS(TAB)), &kp LC(LG(LEFT)))
+        SM(n_tab_desk, SM Next Tab-Desk, &kp LC(TAB), &kp LC(LG(RIGHT)))
+
+        MASKED(left_masked, Masked Left, (MOD_RSFT|MOD_LSFT), &kp LEFT)
+        MASKED(u_masked,    Masked U,    (MOD_RSFT|MOD_LSFT), &kp U)
+    };
