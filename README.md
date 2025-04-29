@@ -1,4 +1,4 @@
-#     Corne ZMK Repository
+#    Eyelash Corne ZMK Repository
 
 **This keyboard is not the same as [foostan's Corne](https://github.com/foostan/crkbd). It will not work with standard `corne` firmware.**
 
@@ -12,7 +12,7 @@
 
 **If you already have a ZMK config repository, [you can add this one as a module instead of forking](https://zmk.dev/docs/features/modules#building-with-modules).**
 
-## Forked 
+## Credit
 - https://github.com/urob/zmk-config
 - https://github.com/manna-harbour/miryoku_zmk
 
