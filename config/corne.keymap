@@ -307,7 +307,7 @@ urob_LAYER_LIST
         ltq_mouse_column: ltq_mouse_column {
             compatible = "zmk,behavior-hold-tap";
             label = "LTQ_MOUSE_COLUMN";
-            bindings = <&ltq>, <&morph_column>;
+            bindings = <&mo>, <&morph_column>;
 
             #binding-cells = <2>;
             flavor = "balanced";
