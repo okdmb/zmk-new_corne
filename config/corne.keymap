@@ -363,7 +363,7 @@ urob_LAYER_LIST
 
         to_mouse {
             bindings = <&macro_mouse_jump>;
-            key-positions = <14 24>;
+            key-positions = <23 24>;
         };
 
         to_nav {
@@ -420,8 +420,8 @@ urob_LAYER_LIST
             key-positions = <38 12>;
         };
 
-        ctrl_space {
-            bindings = <&kp LC(SPACE)>;
+        alt_tab {
+            bindings = <&kp LA(TAB)>;
             key-positions = <17 41>;
         };
 
@@ -509,7 +509,7 @@ ZMK_TAP_DANCE(
 &ltq 12 F19       &as LS(F10) Q  &kp W            &kp E              &kp R         &kp T              &kp UP_ARROW    &as PAGE_UP Y    &as HOME U        &as HOME I           &as END O         &kp P             &kp EQUAL
 &as F19 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &kp DOWN_ARROW  &as PAGE_DOWN H  &hmr RCTRL J      &hmr LEFT_SHIFT K    &hmr RIGHT_ALT L  &ltq 5 SEMICOLON  &ltq 5 SQT
 &ltq 3 BACKSPACE  &hml LGUI Z    &hml LALT X      &hml LSHFT C       &hml LCTRL V  &as LG(V) B        &kp LEFT        &kp N            &as RA(LEFT) M    &as PAGE_DOWN COMMA  &tap_dot_shift    &as END SLASH     &kp MINUS
-                                 &ltq 6 C_MUTE    &ltq 9 LA(TAB)     &ltq 4 SPACE  &ltq 6 TAB         &kp RIGHT       &ltq 9 RET       &ltq 8 BACKSPACE  &smart_num 7 7
+                                 &ltq 6 C_MUTE    &ltq 9 LC(SPACE)   &ltq 4 SPACE  &ltq 6 TAB         &kp RIGHT       &ltq 9 RET       &ltq 8 BACKSPACE  &smart_num 7 7
                                                                                                       &to 5
             >;
 
