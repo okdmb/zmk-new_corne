@@ -303,6 +303,19 @@ urob_LAYER_LIST
             mods = <(MOD_LSFT)>;
             keep-mods = <(MOD_LSFT)>;
         };
+
+        ltq_mouse_column: ltq_mouse_column {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LTQ_MOUSE_COLUMN";
+            bindings = <&ltq>, <&morph_column>;
+
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <175>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <50>;
+            hold-trigger-key-positions = <15 14 2 16 4 17 41 42 44 45 20>;
+        };
     };
 
     combos {
@@ -506,9 +519,9 @@ ZMK_TAP_DANCE(
 
         BASE {
             bindings = <
-&ltq 12 F19       &as LS(F10) Q  &kp W            &kp E              &kp R         &kp T              &kp UP_ARROW    &as PAGE_UP Y    &as HOME U        &as HOME I           &as END O         &kp P             &kp EQUAL
-&as F19 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &kp DOWN_ARROW  &as PAGE_DOWN H  &hmr RCTRL J      &hmr LEFT_SHIFT K    &hmr RIGHT_ALT L  &ltq 5 SEMICOLON  &ltq 5 SQT
-&ltq 3 BACKSPACE  &hml LGUI Z    &hml LALT X      &hml LSHFT C       &hml LCTRL V  &as LG(V) B        &kp LEFT        &kp N            &as RA(LEFT) M    &as PAGE_DOWN COMMA  &tap_dot_shift    &as END SLASH     &kp MINUS
+&ltq 12 F19       &as LS(F10) Q  &kp W            &kp E              &kp R         &kp T              &kp UP_ARROW    &as PAGE_UP Y    &as HOME U        &as HOME I           &as END O         &kp P                  &kp EQUAL
+&as F19 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &kp DOWN_ARROW  &as PAGE_DOWN H  &hmr RCTRL J      &hmr LEFT_SHIFT K    &hmr RIGHT_ALT L  &ltq_mouse_column 5 0  &ltq 5 SQT
+&ltq 3 BACKSPACE  &hml LGUI Z    &hml LALT X      &hml LSHFT C       &hml LCTRL V  &as LG(V) B        &kp LEFT        &kp N            &as RA(LEFT) M    &as PAGE_DOWN COMMA  &tap_dot_shift    &as END SLASH          &kp MINUS
                                  &ltq 6 C_MUTE    &ltq 9 LC(SPACE)   &ltq 4 SPACE  &ltq 6 TAB         &kp RIGHT       &ltq 9 RET       &ltq 8 BACKSPACE  &smart_num 7 7
                                                                                                       &to 5
             >;
