@@ -274,7 +274,7 @@ urob_LAYER_LIST
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&macro_dot_shift>;
 
-            tapping-term-ms = <400>;
+            tapping-term-ms = <150>;
         };
 
         tap_copy_cut: tap_copy_cut {
