@@ -368,7 +368,7 @@ urob_LAYER_LIST
 
         to_nav {
             bindings = <&to 4>;
-            key-positions = <18 21>;
+            key-positions = <41 45>;
         };
 
         Tab_v1 {
