@@ -437,7 +437,7 @@ SENSIBLE_LAYER_LIST?
 
         ctrl_space {
             bindings = <&kp LC(SPACE)>;
-            key-positions = <41 45>;
+            key-positions = <41 17>;
             timeout-ms = <30>;
             require-prior-idle-ms = <30>;
         };
