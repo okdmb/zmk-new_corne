@@ -376,7 +376,7 @@ SENSIBLE_LAYER_LIST?
             layers = <1>;
         };
 
-        to_mouse {
+        mouse_jump {
             bindings = <&macro_mouse_jump>;
             key-positions = <23 24>;
         };
@@ -455,6 +455,12 @@ SENSIBLE_LAYER_LIST?
         Enter_v {
             bindings = <&kp RET>;
             key-positions = <21 8>;
+        };
+
+        to_mouse {
+            bindings = <&to 5>;
+            key-positions = <10 11>;
+            layers = <1>;
         };
     };
 
