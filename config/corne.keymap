@@ -28,7 +28,7 @@
 #define U_UND   LC(Z)
 
 // Switch program by taskbar position
-#define T_1 &kp LG(LC(N1))
+#define T_1 &kp LC(LG(N1))
 #define T_2 &kp LG(LC(N2))
 #define T_3 &kp LG(LC(N3))
 #define T_4 &kp LG(LC(N4))
