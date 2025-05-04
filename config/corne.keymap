@@ -522,7 +522,7 @@ ZMK_TAP_DANCE(
 &ltq 12 F19       &as LS(F10) Q  &kp W            &kp E              &kp R         &kp T              &kp UP_ARROW    &as PAGE_UP Y    &as HOME U        &as HOME I           &as END O         &kp P                  &kp EQUAL
 &as F19 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &kp DOWN_ARROW  &as PAGE_DOWN H  &hmr RCTRL J      &hmr LEFT_SHIFT K    &hmr RIGHT_ALT L  &ltq_mouse_column 5 0  &ltq 5 SQT
 &ltq 3 BACKSPACE  &hml LGUI Z    &hml LALT X      &hml LSHFT C       &hml LCTRL V  &as LG(V) B        &kp LEFT        &kp N            &as RA(LEFT) M    &as PAGE_DOWN COMMA  &tap_dot_shift    &as END SLASH          &kp MINUS
-                                 &ltq 6 C_MUTE    &ltq 9 LC(SPACE)   &ltq 4 SPACE  &ltq 6 TAB         &kp RIGHT       &ltq 9 RET       &ltq 8 BACKSPACE  &smart_num 7 7
+                                 &ltq 6 C_MUTE    &ltq 9 LC(SPACE)   &ltq 6 SPACE  &ltq 4 TAB         &kp RIGHT       &ltq 9 RET       &ltq 8 BACKSPACE  &smart_num 7 7
                                                                                                       &to 5
             >;
 
@@ -569,10 +569,10 @@ ZMK_TAP_DANCE(
 
         NAV {
             bindings = <
-&bootloader     &kp LS(F10)         &kp LA(F4)           &kp ENTER                    &trans              &trans     &kp UP_ARROW    &kp PG_UP  &kp HOME        &kp UP          &kp END        &kp END  &trans
-&kp ESCAPE      &hml LGUI LA(LEFT)  &hml LALT LA(RIGHT)  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &to 0      &kp DOWN_ARROW  &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp RET  &trans
-&bt BT_CLR_ALL  &trans              &kp LC(W)            &trans                       &kp LG(V)           &trans     &kp LEFT        &trans     &kp RA(LEFT)    &kp TAB         &kp RA(RIGHT)  &kp TAB  &kp C_BRIGHTNESS_MAXIMUM
-                                    &to 0                &kp F19                      &kp SPACE           &kp TAB    &kp RIGHT       &kp RET    &kp BACKSPACE   &kp DEL
+&bootloader     &kp LS(F10)         &kp LA(F4)           &kp ENTER                    &trans              &trans     &kp UP_ARROW    &kp PG_UP  &kp RET        &kp UP          &kp TAB        &kp END  &trans
+&kp ESCAPE      &hml LGUI LA(LEFT)  &hml LALT LA(RIGHT)  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &to 0      &kp DOWN_ARROW  &kp PG_DN  &as HOME LEFT  &kp DOWN_ARROW  &as END RIGHT  &kp RET  &trans
+&bt BT_CLR_ALL  &trans              &kp LC(W)            &trans                       &kp LG(V)           &trans     &kp LEFT        &trans     &kp RA(LEFT)   &kp TAB         &kp RA(RIGHT)  &kp TAB  &kp C_BRIGHTNESS_MAXIMUM
+                                    &to 0                &kp F19                      &kp SPACE           &kp TAB    &kp RIGHT       &kp RET    &kp BACKSPACE  &kp DEL
                                                                                                                      &to 0
             >;
 
