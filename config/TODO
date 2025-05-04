@@ -1,5 +1,16 @@
 
 
+// look at an macros and config
+// https://github.com/arilebedey/urob-zmk-config/blob/main/config/my.keymap
+
+
+ZMK_BEHAVIOR(claude, macro,
+    wait-ms = <10>;
+    tap-ms = <5>;
+    bindings = <&kp LS(ENTER) &kp GRAVE &kp GRAVE &kp GRAVE &kp LS(ENTER) &kp LC(V) &kp DOWN &kp LS(ENTER) &kp BSPC>;
+)
+
+
 
 //https://github.com/urob/zmk-helpers/blob/main/examples/zmk-config/config/cradio.keymap
 
