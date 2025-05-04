@@ -204,3 +204,23 @@ KEYMAP
         MASKED(left_masked, Masked Left, (MOD_RSFT|MOD_LSFT), &kp LEFT)
         MASKED(u_masked,    Masked U,    (MOD_RSFT|MOD_LSFT), &kp U)
     };
+
+
+
+
+// homerow individual finger timings 
+// https://github.com/englmaxi/zmk-config/blob/main/config/keymap/behaviors.dtsi
+
+
+
+/ {
+    home-row-mod {
+        HM(hsl,   HRM Shift Left,      &kp,  KEYS_R,   0, hold-while-undecided;)
+        HM(hcl,   HRM Ctrl Left,       &kp,  KEYS_R, 200, hold-while-undecided;)
+        HM(hml,   HRM Mods Left,       &kp,  KEYS_R, 200)
+        HM(hml_m, HRM Mods-Mouse Left, &mkp, KEYS_R, 200)
+        HM(hsr,   HRM Shift Right,     &kp,  KEYS_L,   0, hold-while-undecided;)
+        HM(hcr,   HRM Ctrl Right,      &kp,  KEYS_L, 200, hold-while-undecided;)
+        HM(hmr,   HRM Mods Left,       &kp,  KEYS_L, 200)
+    };
+};
