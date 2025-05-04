@@ -12,7 +12,45 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
+
+
+// Special Aliases
 #define ___ &trans
+
+#define MEH     LC(LS(LALT))
+#define HYPER   LC(LS(LA(LGUI)))
+
+#define U_RDO   LC(Y)
+#define U_PST   LC(V)
+#define U_PST_P LS(LC(V))
+#define U_CPY   LC(C)
+#define U_CUT   LC(X)
+#define U_UND   LC(Z)
+
+// Switch program by taskbar position
+#define T_1        &kp LG(LC(N1))
+#define T_2        &kp LG(LC(N2))
+#define T_3        &kp LG(LC(N3))
+#define T_4        &kp LG(LC(N4))
+#define T_5        &kp LG(LC(N5))
+#define T_6        &kp LG(LC(N6))
+#define T_7        &kp LG(LC(N7))
+#define T_8        &kp LG(LC(N8))
+#define T_9        &kp LG(LC(N9))
+#define T_0        &kp LG(LC(N0))
+// Switch monitor layout
+#define M_1        &kp LG(LC(LA(N1)))
+#define M_2        &kp LG(LC(LA(N2)))
+#define M_3        &kp LG(LC(LA(N3)))
+#define M_4        &kp LG(LC(LA(N4)))
+#define M_5        &kp LG(LC(LA(N5)))
+#define M_6        &kp LG(LC(LA(N6)))
+#define M_7        &kp LG(LC(LA(N7)))
+#define M_8        &kp LG(LC(LA(N8)))
+#define M_9        &kp LG(LC(LA(N9)))
+#define M_0        &kp LG(LC(LA(N0)))
+
+
 
 /* Global defaults */
 
@@ -30,7 +68,6 @@
 #define T_8        &kp LG(LC(N8))
 #define T_9        &kp LG(LC(N9))
 #define T_0        &kp LG(LC(N0))
-
 
 MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
