@@ -383,7 +383,7 @@ SENSIBLE_LAYER_LIST?
 
         to_nav {
             bindings = <&to 4>;
-            key-positions = <41 45>;
+            key-positions = <22 23>;
         };
 
         Tab_v1 {
