@@ -579,10 +579,10 @@ ZMK_TAP_DANCE(
 
         NAV {
             bindings = <
-&bootloader     &kp LS(F10)         &kp LA(F4)           &kp ENTER                    &trans              &msc SCRL_UP      &kp UP_ARROW    &kp PG_UP  &kp RET        &kp PAGE_DOWN   &kp PAGE_UP   &kp END        &trans
-&kp ESCAPE      &hml LGUI LA(LEFT)  &hml LALT LA(RIGHT)  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &msc SCRL_DOWN    &kp DOWN_ARROW  &kp PG_DN  &as HOME LEFT  &kp DOWN_ARROW  &kp UP        &as END RIGHT  &trans
-&bt BT_CLR_ALL  &trans              &kp LC(W)            &trans                       &kp LG(V)           &trans            &kp LEFT        &trans     &kp RA(LEFT)   &msc SCRL_DOWN  &msc SCRL_UP  &kp TAB        &kp C_BRIGHTNESS_MAXIMUM
-                                    &to 0                &kp F19                      &kp SPACE           &kp TAB           &kp RIGHT       &kp RET    &kp BACKSPACE  &kp DEL
+&bootloader     &kp LS(F10)         &kp LA(F4)           &kp ENTER                    &trans              &msc SCRL_UP      &kp UP_ARROW    &kp PG_UP  &kp RET          &kp PAGE_DOWN   &kp PAGE_UP   &kp END        &trans
+&kp ESCAPE      &hml LGUI LA(LEFT)  &hml LALT LA(RIGHT)  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &msc SCRL_DOWN    &kp DOWN_ARROW  &kp PG_DN  &as HOME LEFT    &kp DOWN_ARROW  &kp UP        &as END RIGHT  &trans
+&bt BT_CLR_ALL  &trans              &kp LC(W)            &trans                       &kp LG(V)           &trans            &kp LEFT        &trans     &kp LS(LC(TAB))  &msc SCRL_DOWN  &msc SCRL_UP  &kp LC(TAB)    &kp C_BRIGHTNESS_MAXIMUM
+                                    &to 0                &kp F19                      &kp SPACE           &kp TAB           &kp RIGHT       &kp RET    &kp BACKSPACE    &kp DEL
                                                                                                                             &to 0
             >;
 
