@@ -383,7 +383,7 @@ SENSIBLE_LAYER_LIST?
 
         to_nav {
             bindings = <&to 4>;
-            key-positions = <22 23>;
+            key-positions = <22 46>;
         };
 
         Tab_v1 {
@@ -459,8 +459,17 @@ SENSIBLE_LAYER_LIST?
 
         to_mouse {
             bindings = <&to 5>;
-            key-positions = <10 11>;
-            layers = <1>;
+            key-positions = <24 45>;
+        };
+
+        Mouse_jump_2 {
+            bindings = <&macro_mouse_jump>;
+            key-positions = <46 21>;
+        };
+
+        To_NAV_2 {
+            bindings = <&to 4>;
+            key-positions = <22 21 23>;
         };
     };
 
