@@ -592,9 +592,9 @@ ZMK_TAP_DANCE(
 
         Mouse {
             bindings = <
-&to 0       &kp LS(F10)     &mmv MOVE_UP    &kp RET          &mkp LCLK          &msc SCRL_UP      &mmv MOVE_Y(600)   &trans         &msc SCRL_DOWN  &msc SCRL_UP    &msc SCRL_UP     &msc SCRL_LEFT  &trans
-&kp ESCAPE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK          &msc SCRL_DOWN    &mmv MOVE_Y(-600)  &kp LS(LG(D))  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &to 0           &trans
-&to 0       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &macro_to_0_click  &msc SCRL_DOWN    &mmv MOVE_X(-600)  &trans         &msc SCRL_LEFT  &msc SCRL_LEFT  &trans           &trans          &to 0
+&to 0       &kp LS(F10)     &mmv MOVE_UP    &kp RET          &mkp LCLK          &msc SCRL_UP      &mmv MOVE_Y(600)   &trans         &msc SCRL_DOWN  &msc SCRL_UP    &msc SCRL_UP  &msc SCRL_LEFT  &trans
+&kp ESCAPE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK          &msc SCRL_DOWN    &mmv MOVE_Y(-600)  &kp LS(LG(D))  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &to 0           &trans
+&to 0       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &macro_to_0_click  &msc SCRL_DOWN    &mmv MOVE_X(-600)  &trans         &msc SCRL_LEFT  &msc SCRL_LEFT  &trans        &trans          &to 0
                             &to 0           &mkp MCLK        &mkp RCLK          &mkp LCLK         &mmv MOVE_X(600)   &mkp LCLK      &mkp RCLK       &kp LS(LG(D))
                                                                                                   &to 0
             >;
@@ -655,10 +655,10 @@ ZMK_TAP_DANCE(
 
         L10 {
             bindings = <
-&sys_reset      &soft_off  &kp LA(F4)          &trans                    &trans                   &trans                            &trans  &trans        &kp F13       &kp F14   &kp F15  &kp F16  &kp LC(LA(DEL))
-&macro_swapper  &trans     &hml LALT LA(LEFT)  &hml LSHFT LA(RIGHT)      &hml LCTRL LA(TAB)       &to 0                             &trans  &kp LG(TAB)   &kp F13       &kp F14   &kp F15  &kp F16  &trans
-&morph_column   &trans     &trans              &trans                    &kp LC(LS(V))            &trans                            &trans  &trans        &kp F17       &kp F18   &kp F19  &kp F20  &kp RS(RC(ESC))
-                           &trans              &as LC(LA(LS(M))) C_PREV  &as C_MUTE C_PLAY_PAUSE  &as LS(LA(LC(LG(F11)))) C_NEXT    &trans  &kp QUESTION  &kp QUESTION  &kp CAPS
+&sys_reset      &soft_off  &kp LA(F4)          &trans                    &trans                   &trans                            &trans  &trans        &kp RS(RA(F13))  &kp RS(RA(F14))  &kp RS(RA(F15))  &kp RS(RA(F16))  &kp LC(LA(DEL))
+&macro_swapper  &trans     &hml LALT LA(LEFT)  &hml LSHFT LA(RIGHT)      &hml LCTRL LA(TAB)       &to 0                             &trans  &kp LG(TAB)   &kp F13          &kp F14          &kp F15          &kp F16          &trans
+&morph_column   &trans     &trans              &trans                    &kp LC(LS(V))            &trans                            &trans  &trans        &kp F17          &kp F18          &kp F19          &kp F20          &kp RS(RC(ESC))
+                           &trans              &as LC(LA(LS(M))) C_PREV  &as C_MUTE C_PLAY_PAUSE  &as LS(LA(LC(LG(F11)))) C_NEXT    &trans  &kp QUESTION  &kp QUESTION     &kp CAPS
                                                                                                                                     &trans
             >;
 
