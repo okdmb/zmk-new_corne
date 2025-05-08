@@ -325,7 +325,7 @@ SENSIBLE_LAYER_LIST?
 
         to0 {
             bindings = <&to 0>;
-            key-positions = <0 1>;
+            key-positions = <45 21>;
         };
 
         left_bkt {
@@ -381,18 +381,6 @@ SENSIBLE_LAYER_LIST?
             key-positions = <23 24>;
         };
 
-        to_nav {
-            bindings = <&to 4>;
-            key-positions = <22 46>;
-        };
-
-        Tab_v1 {
-            bindings = <&kp TAB>;
-            key-positions = <17 16>;
-            layers = <9>;
-            require-prior-idle-ms = <25>;
-        };
-
         Enter-rh {
             bindings = <&kp RET>;
             key-positions = <22 21>;
@@ -442,16 +430,6 @@ SENSIBLE_LAYER_LIST?
             require-prior-idle-ms = <30>;
         };
 
-        Shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <17 16 15>;
-        };
-
-        Tab_v2 {
-            bindings = <&kp TAB>;
-            key-positions = <17 4>;
-        };
-
         Enter_v {
             bindings = <&kp RET>;
             key-positions = <21 8>;
@@ -464,12 +442,12 @@ SENSIBLE_LAYER_LIST?
 
         Mouse_jump_2 {
             bindings = <&macro_mouse_jump>;
-            key-positions = <46 21>;
+            key-positions = <45 23>;
         };
 
         To_NAV_2 {
             bindings = <&to 4>;
-            key-positions = <22 21 23>;
+            key-positions = <22 45>;
         };
     };
 
@@ -546,7 +524,7 @@ ZMK_TAP_DANCE(
             >;
 
             label = "BASE";
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&inc_dec_kp LC(LS(Z)) LC(Z)>;
         };
 
         EXTRA {
