@@ -579,8 +579,8 @@ ZMK_TAP_DANCE(
 
         Mouse {
             bindings = <
-&to 0       &kp LS(F10)     &mmv MOVE_UP    &kp RET          &mkp LCLK          &msc SCRL_UP      &mmv MOVE_Y(600)   &trans         &msc SCRL_DOWN  &msc SCRL_UP    &msc SCRL_UP  &msc SCRL_LEFT  &trans
-&kp ESCAPE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK          &msc SCRL_DOWN    &mmv MOVE_Y(-600)  &kp LS(LG(D))  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &to 0           &trans
+&to 0       &kp LS(F10)     &mmv MOVE_UP    &kp RET          &mkp LCLK          &msc SCRL_UP      &mmv MOVE_Y(-600)  &trans         &msc SCRL_DOWN  &msc SCRL_UP    &msc SCRL_UP  &msc SCRL_LEFT  &trans
+&kp ESCAPE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK          &msc SCRL_DOWN    &mmv MOVE_Y(600)   &kp LS(LG(D))  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &to 0           &trans
 &to 0       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &macro_to_0_click  &msc SCRL_DOWN    &mmv MOVE_X(-600)  &trans         &msc SCRL_LEFT  &msc SCRL_LEFT  &trans        &trans          &to 0
                             &to 0           &mkp MCLK        &mkp RCLK          &mkp LCLK         &mmv MOVE_X(600)   &mkp LCLK      &mkp RCLK       &kp LS(LG(D))
                                                                                                   &to 0
