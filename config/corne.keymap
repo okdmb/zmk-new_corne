@@ -516,11 +516,11 @@ ZMK_TAP_DANCE(
 
         BASE {
             bindings = <
-&ltq 12 F19     &as LS(F10) Q  &kp W            &kp E              &kp R         &kp T              &kp UP_ARROW    &as PAGE_UP Y    &kp U             &kp I              &kp O             &kp P        &kp MINUS
-&as F19 ESCAPE  &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &kp DOWN_ARROW  &as PAGE_DOWN H  &hmr RCTRL J      &hmr LEFT_SHIFT K  &hmr RIGHT_ALT L  &ltq 5 SEMI  &ltq 5 SQT
-&ltq 3 LA(TAB)  &hml LGUI Z    &hml LALT X      &hml LSHFT C       &hml LCTRL V  &as LG(V) B        &kp LEFT        &kp N            &kp M             &kp COMMA          &tap_dot_shift    &kp FSLH     &kp EQUAL
-                               &ltq 6 C_MUTE    &ltq 9 LA(TAB)     &ltq 4 SPACE  &ltq 6 TAB         &kp RIGHT       &ltq 9 RET       &ltq 8 BACKSPACE  &smart_num 7 7
-                                                                                                    &to 5
+&ltq 12 LG(TAB)   &as LS(F10) Q  &kp W            &kp E              &kp R         &kp T              &kp UP_ARROW    &as PAGE_UP Y    &kp U             &kp I              &kp O             &kp P        &kp MINUS
+&as F19 ESCAPE    &ltq 10 A      &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &kp DOWN_ARROW  &as PAGE_DOWN H  &hmr RCTRL J      &hmr LEFT_SHIFT K  &hmr RIGHT_ALT L  &ltq 5 SEMI  &ltq 5 SQT
+&ltq 3 BACKSPACE  &hml LGUI Z    &hml LALT X      &hml LSHFT C       &hml LCTRL V  &as LG(V) B        &kp LEFT        &kp N            &kp M             &kp COMMA          &tap_dot_shift    &kp FSLH     &kp EQUAL
+                                 &ltq 6 C_MUTE    &ltq 9 LA(TAB)     &ltq 4 SPACE  &ltq 6 TAB         &kp RIGHT       &ltq 9 RET       &ltq 8 BACKSPACE  &smart_num 7 7
+                                                                                                      &to 5
             >;
 
             label = "BASE";
