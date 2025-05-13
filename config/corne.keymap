@@ -282,7 +282,7 @@ SENSIBLE_LAYER_LIST?
             compatible = "zmk,behavior-tap-dance";
             label = "tap_dot_shift";
             #binding-cells = <0>;
-            bindings = <&kp DOT>, <&macro_dot_shift>;
+            bindings = <&dot_shift 0 DOT>, <&macro_dot_shift>;
 
             tapping-term-ms = <150>;
         };
