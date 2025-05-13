@@ -145,7 +145,7 @@ SENSIBLE_LAYER_LIST?
         macro_sel_line: macro_sel_line {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp END &kp LS(HOME)>;
+            bindings = <&kp HOME &kp LS(END)>;
             label = "MACRO_SEL_LINE";
         };
 
