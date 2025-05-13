@@ -175,7 +175,7 @@ SENSIBLE_LAYER_LIST?
         double_click: double_click {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mkp LCLK &mkp LCLK>;
+            bindings = <&mkp RCLK &mkp RCLK>;
             label = "DOUBLE_CLICK";
         };
     };
@@ -609,7 +609,7 @@ ZMK_TAP_DANCE(
             bindings = <
 &bootloader     &kp LS(F10)         &as LC(F4) LC(W)     &kp ENTER                    &kp LS(F10)         &msc SCRL_UP      &kp UP_ARROW    &kp PG_UP             &tap_copy_cut     &as LG(V) RC(V)   &kp PAGE_UP     &kp LC(V)          &trans
 &kp ESCAPE      &hml LGUI LA(LEFT)  &hml LALT LA(RIGHT)  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &msc SCRL_DOWN    &kp DOWN_ARROW  &kp PG_DN             &as HOME LEFT     &kp DOWN_ARROW    &kp UP          &as END RIGHT      &trans
-&bt BT_CLR_ALL  &trans              &kp LC(W)            &trans                       &kp LG(V)           &trans            &kp LEFT        &as LC(HOME) LC(END)  &kp RS(RC(LEFT))  &kp RC(RS(DOWN))  &kp RC(RS(UP))  &kp RS(RC(RIGHT))  &kp C_BRIGHTNESS_MAXIMUM
+&bt BT_CLR_ALL  &trans              &kp LC(W)            &trans                       &kp LG(V)           &kp LC(N0)        &kp LEFT        &as LC(HOME) LC(END)  &kp RS(RC(LEFT))  &kp RC(RS(DOWN))  &kp RC(RS(UP))  &kp RS(RC(RIGHT))  &kp C_BRIGHTNESS_MAXIMUM
                                     &to 0                &to 0                        &kp SPACE           &kp TAB           &kp RIGHT       &kp RET               &kp BACKSPACE     &kp DEL
                                                                                                                             &to 0
             >;
@@ -620,9 +620,9 @@ ZMK_TAP_DANCE(
 
         Mouse {
             bindings = <
-&to 0       &kp LS(F10)     &mmv MOVE_UP    &kp RET          &mkp LCLK          &msc SCRL_UP      &mmv MOVE_Y(-600)  &kp PAGE_UP           &tap_copy_cut        &kp RC(V)            &msc SCRL_UP        &msc SCRL_LEFT  &trans
-&kp ESCAPE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK          &msc SCRL_DOWN    &mmv MOVE_Y(600)   &kp PAGE_DOWN         &hmr_clk RCTRL RCLK  &hmr_clk LSHFT LCLK  &hmr_clk RALT MCLK  &to 0           &trans
-&to 0       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &macro_to_0_click  &msc SCRL_DOWN    &mmv MOVE_X(-600)  &as LC(HOME) LC(END)  &msc SCRL_LEFT       &msc SCRL_RIGHT      &trans              &trans          &to 0
+&to 0       &kp LS(F10)     &mmv MOVE_UP    &kp RET          &mkp LCLK          &msc SCRL_UP      &mmv MOVE_Y(-600)  &kp PAGE_UP           &tap_copy_cut        &as LG(V) RC(V)      &msc SCRL_UP        &msc SCRL_LEFT  &trans
+&kp ESCAPE  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &double_click      &msc SCRL_DOWN    &mmv MOVE_Y(600)   &kp PAGE_DOWN         &hmr_clk RCTRL RCLK  &hmr_clk LSHFT LCLK  &hmr_clk RALT MCLK  &to 0           &trans
+&to 0       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &macro_to_0_click  &kp LC(N0)        &mmv MOVE_X(-600)  &as LC(HOME) LC(END)  &msc SCRL_LEFT       &msc SCRL_RIGHT      &trans              &trans          &to 0
                             &to 0           &mkp MCLK        &mkp RCLK          &mkp LCLK         &mmv MOVE_X(600)   &mkp LCLK             &mkp RCLK            &kp LS(LG(D))
                                                                                                   &to 0
             >;
