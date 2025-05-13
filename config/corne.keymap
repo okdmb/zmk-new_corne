@@ -340,6 +340,18 @@ SENSIBLE_LAYER_LIST?
             require-prior-idle-ms = <150>;
             hold-trigger-on-release;
         };
+
+        hmr_clk: hmr_clk {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR_CLK";
+            bindings = <&hmr>, <&mkp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <250>;
+            quick-tap-ms = <200>;
+            flavor = "tap-preferred";
+            require-prior-idle-ms = <150>;
+        };
     };
 
     combos {
