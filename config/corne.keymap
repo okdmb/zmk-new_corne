@@ -268,13 +268,14 @@ SENSIBLE_LAYER_LIST?
             label = "scroll_encoder";
         };
 
-        bspc_del: backspace_delete {
+        backspace_delete: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RSFT)>;
+            label = "BACKSPACE_DELETE";
         };
 
         tap_dot_shift: tap_dot_shift {
@@ -358,6 +359,14 @@ SENSIBLE_LAYER_LIST?
             quick-tap-ms = <200>;
             flavor = "tap-preferred";
             require-prior-idle-ms = <150>;
+        };
+
+        tap_paste: tap_paste {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_PASTE";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp LC(V)>, <&kp LC(LS(V))>, <&kp LG(V)>;
         };
     };
 
