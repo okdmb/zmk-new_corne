@@ -171,6 +171,13 @@ SENSIBLE_LAYER_LIST?
 
             label = "MACRO_SWAPPER";
         };
+
+        double_click: double_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK &mkp LCLK>;
+            label = "DOUBLE_CLICK";
+        };
     };
 
     behaviors {
