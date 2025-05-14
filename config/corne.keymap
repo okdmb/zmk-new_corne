@@ -429,11 +429,6 @@ SENSIBLE_LAYER_LIST?
             key-positions = <20 21>;
         };
 
-        dot_shift {
-            bindings = <&macro_dot_shift>;
-            key-positions = <38 12>;
-        };
-
         ctrl_space {
             bindings = <&kp LC(SPACE)>;
             key-positions = <41 17>;
@@ -459,6 +454,7 @@ SENSIBLE_LAYER_LIST?
         macro_dot_shift {
             bindings = <&macro_dot_shift>;
             key-positions = <16 41>;
+            layers = <0>;
         };
 
         to_0v2 {
