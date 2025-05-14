@@ -394,64 +394,9 @@ SENSIBLE_LAYER_LIST?
             key-positions = <45 21>;
         };
 
-        left_bkt {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <3 2 4>;
-            layers = <0>;
-        };
-
-        right_bkt {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <9 8 10>;
-            layers = <0>;
-        };
-
-        left_par {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <4 5>;
-            layers = <0>;
-        };
-
-        right_par {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <7 8>;
-            layers = <0>;
-        };
-
-        left_brace {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <29 30 28>;
-            layers = <0>;
-        };
-
-        right_brace {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <34 35 36>;
-            layers = <0>;
-        };
-
-        bac {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <5 7>;
-            layers = <1>;
-        };
-
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <31 33>;
-            layers = <1>;
-        };
-
         mouse_jump {
             bindings = <&macro_mouse_jump>;
             key-positions = <23 24>;
-        };
-
-        Enter-rh {
-            bindings = <&kp RET>;
-            key-positions = <22 21>;
-            require-prior-idle-ms = <25>;
-            layers = <9>;
         };
 
         tap_copy_cut {
@@ -494,11 +439,6 @@ SENSIBLE_LAYER_LIST?
             key-positions = <41 17>;
             timeout-ms = <30>;
             require-prior-idle-ms = <30>;
-        };
-
-        Enter_v {
-            bindings = <&kp RET>;
-            key-positions = <21 8>;
         };
 
         to_mouse {
