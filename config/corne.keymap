@@ -384,6 +384,14 @@ SENSIBLE_LAYER_LIST?
             tapping-term-ms = <250>;
             bindings = <&kp LC(C)>, <&kp LC(X)>;
         };
+
+        tap_dot_shift_capsword: tap_dot_shift_capsword {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DOT_SHIFT_CAPSWORD";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&macro_dot_shift>, <&caps_word>;
+        };
     };
 
     combos {
