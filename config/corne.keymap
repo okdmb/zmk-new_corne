@@ -539,7 +539,7 @@ ZMK_TAP_DANCE(
             >;
 
             label = "BASE";
-            sensor-bindings = <&inc_dec_kp LC(LS(Z)) LC(Z)>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         EXTRA {
