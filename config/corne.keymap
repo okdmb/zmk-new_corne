@@ -432,11 +432,6 @@ SENSIBLE_LAYER_LIST?
             key-positions = <26 27>;
         };
 
-        caps_word {
-            bindings = <&caps_word>;
-            key-positions = <20 21>;
-        };
-
         ctrl_space {
             bindings = <&kp LC(SPACE)>;
             key-positions = <41 17>;
@@ -460,7 +455,7 @@ SENSIBLE_LAYER_LIST?
         };
 
         macro_dot_shift {
-            bindings = <&macro_dot_shift>;
+            bindings = <&tap_dot_shift_capsword>;
             key-positions = <16 41>;
             layers = <0>;
         };
