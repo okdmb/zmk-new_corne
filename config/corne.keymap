@@ -392,6 +392,17 @@ SENSIBLE_LAYER_LIST?
             tapping-term-ms = <250>;
             bindings = <&macro_dot_shift>, <&caps_word>;
         };
+
+        tap_key_repeat_lt: tap_key_repeat_lt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAP_KEY_REPEAT_LT";
+            #binding-cells = <2>;
+            tapping-term-ms = <175>;
+            quick-tap-ms = <150>;
+            flavor = "balanced";
+            require-prior-idle-ms = <50>;
+            bindings = <&lt>, <&key_repeat>;
+        };
     };
 
     combos {
