@@ -455,12 +455,12 @@ SENSIBLE_LAYER_LIST?
         };
 
         tap_copy_cut {
-            bindings = <&c_tap_copy_cut>;
+            bindings = <&tap_copy_cut>;
             key-positions = <28 29>;
         };
 
-        Paste {
-            bindings = <&kp LC(V)>;
+        tap_paste {
+            bindings = <&tap_paste>;
             key-positions = <29 30>;
         };
 
