@@ -390,7 +390,7 @@ SENSIBLE_LAYER_LIST?
             label = "TAP_DOT_SHIFT_CAPSWORD";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&macro_dot_shift>, <&caps_word>;
+            bindings = <&dot_shift 0 PERIOD>, <&macro_dot_shift>, <&caps_word>;
         };
 
         tap_key_repeat_lt: tap_key_repeat_lt {
@@ -474,6 +474,11 @@ SENSIBLE_LAYER_LIST?
         to_ov3 {
             bindings = <&to 0>;
             key-positions = <44 45>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <16 17>;
         };
     };
 
