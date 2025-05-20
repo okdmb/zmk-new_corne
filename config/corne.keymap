@@ -425,12 +425,12 @@ SENSIBLE_LAYER_LIST?
 
         Undo {
             bindings = <&kp LC(Z)>;
-            key-positions = <27 28>;
+            key-positions = <35 34>;
         };
 
         Redo {
             bindings = <&kp LS(LC(Z))>;
-            key-positions = <26 27>;
+            key-positions = <35 36>;
         };
 
         ctrl_space {
@@ -469,6 +469,11 @@ SENSIBLE_LAYER_LIST?
         to_ov3 {
             bindings = <&to 0>;
             key-positions = <44 45>;
+        };
+
+        Select_all {
+            bindings = <&kp LC(A)>;
+            key-positions = <27 28>;
         };
     };
 
