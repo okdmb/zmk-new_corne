@@ -178,6 +178,13 @@ SENSIBLE_LAYER_LIST?
             bindings = <&mkp RCLK &mkp RCLK>;
             label = "DOUBLE_CLICK";
         };
+
+        mouse_jiggle: mouse_jiggle {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_UP &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT>;
+            label = "MOUSE_JIGGLE";
+        };
     };
 
     behaviors {
