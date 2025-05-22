@@ -403,6 +403,18 @@ SENSIBLE_LAYER_LIST?
             require-prior-idle-ms = <50>;
             bindings = <&lt>, <&key_repeat>;
         };
+
+        mod_to: mod_to {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOD_TO";
+            bindings = <&to>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <225>;
+            quick-tap-ms = <175>;
+            flavor = "tap-preferred";
+            require-prior-idle-ms = <50>;
+        };
     };
 
     combos {
