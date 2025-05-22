@@ -476,8 +476,8 @@ SENSIBLE_LAYER_LIST?
             key-positions = <24 23>;
         };
 
-        To_NAV_2 {
-            bindings = <&to 4>;
+        f21 {
+            bindings = <&kp F21>;
             key-positions = <23 22>;
         };
 
@@ -652,7 +652,7 @@ ZMK_TAP_DANCE(
 &bootloader     &trans                &kp LA(F4)            &trans                  &trans                &trans              &kp LG(UP)     &kp LG(LC(LA(N1)))  &kp LG(LC(LA(N2)))       &kp LG(LC(LA(N3)))              &kp LG(LC(LA(N4)))  &kp LG(LC(LA(N5)))  &bootloader
 &mod_to 0 ESC   &kp LC(LG(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))    &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))      &kp LG(DOWN)   &kp LC(LG(N6))      &kp LC(LG(N7))           &kp LG(LC(N8))                  &kp LC(LG(N9))      &kp LC(LG(N0))      &soft_off
 &bt BT_CLR_ALL  &kp LC(LG(N0))        &kp LC(LG(N9))        &kp LC(LG(N8))          &kp LC(LG(N7))        &kp LC(LG(N6))      &kp LG(LEFT)   &bt BT_NXT          &bt BT_PRV               &trans                          &trans              &trans              &bt BT_CLR_ALL
-                                      &trans                &kp LS(LA(LC(LG(F9))))  &ltq 10 LA(F4)            &mod_to 0 LA(F4)    &kp LG(RIGHT)  &as RG(TAB) C_PREV  &as C_MUTE C_PLAY_PAUSE  &as RS(RA(RC(RG(F11)))) C_NEXT
+                                      &trans                &kp LS(LA(LC(LG(F9))))  &ltq 10 LA(F4)        &mod_to 0 LA(F4)    &kp LG(RIGHT)  &as RG(TAB) C_PREV  &as C_MUTE C_PLAY_PAUSE  &as RS(RA(RC(RG(F11)))) C_NEXT
                                                                                                                               &trans
             >;
 
@@ -702,7 +702,7 @@ ZMK_TAP_DANCE(
 &sys_reset             &trans             &kp LA(F4)           &trans                    &kp LC(LA(LS(F20)))      &kp F21                           &kp LA(F15)  &trans       &kp RC(RA(F13))  &kp RC(RA(F14))  &kp RC(RA(F15))  &kp RC(RA(F16))  &kp LC(LA(DEL))
 &macro_swapper         &hml LEFT_WIN F17  &hml LALT F18        &hml LSHFT LS(F13)        &hml LCTRL LS(F16)       &kp LS(F20)                       &kp LA(F14)  &kp LG(TAB)  &hmr RCTRL F13   &hmr RSHFT F14   &hmr RALT F15    &hmr LGUI F16    &trans
 &mod_mouse_jiggle 0 Z  &trans             &kp LC(LS(LA(F17)))  &trans                    &kp LC(LS(V))            &trans                            &kp LA(F13)  &trans       &kp RS(RA(F17))  &kp RS(RA(F18))  &kp F19          &kp F20          &kp RS(RC(ESC))
-                                          &trans               &as LC(LA(LS(M))) C_PREV  &as C_MUTE C_PLAY_PAUSE  &as LS(LA(LC(LG(F11)))) C_NEXT    &kp LA(F16)  &kp F20      &ltq 6 RA(F4)       &kp LA(LS(F18))
+                                          &trans               &as LC(LA(LS(M))) C_PREV  &as C_MUTE C_PLAY_PAUSE  &as LS(LA(LC(LG(F11)))) C_NEXT    &kp LA(F16)  &kp F20      &ltq 6 RA(F4)    &kp LA(LS(F18))
                                                                                                                                                     &trans
             >;
 
