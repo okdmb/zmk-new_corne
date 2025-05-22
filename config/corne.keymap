@@ -623,11 +623,11 @@ ZMK_TAP_DANCE(
 
         NAV {
             bindings = <
-&bootloader     &kp LS(F10)         &kp LA(F4)          &kp ENTER                    &kp LS(F10)         &msc SCRL_UP      &kp UP_ARROW    &kp PG_UP             &tap_copy_cut     &kp PAGE_DOWN     &kp PAGE_UP     &tap_paste         &kp LC(LS(ESC))
-&mod_to 0 ESC   &hml LGUI LA(LEFT)  &hml LALT LA(LEFT)  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &msc SCRL_DOWN    &kp DOWN_ARROW  &kp PG_DN             &as HOME LEFT     &kp DOWN_ARROW    &kp UP          &as END RIGHT      &to 0
-&bt BT_CLR_ALL  &trans              &kp LC(W)           &tap_copy_cut                &tap_paste          &kp LC(N0)        &kp LEFT        &as LC(END) LC(HOME)  &kp RS(RC(LEFT))  &kp RC(RS(DOWN))  &kp RC(RS(UP))  &kp RS(RC(RIGHT))  &kp RC(RA(DEL))
-                                    &to 0               &to 0                        &kp SPACE           &mod_to 0 TAB     &kp RIGHT       &mod_to 0 RET         &kp BACKSPACE     &kp DEL
-                                                                                                                           &to 0
+&bootloader     &kp LS(F10)         &kp LA(F4)           &kp ENTER                    &kp LS(F10)         &msc SCRL_UP      &kp UP_ARROW    &kp PG_UP             &tap_copy_cut     &kp PAGE_DOWN     &kp PAGE_UP     &tap_paste         &kp LC(LS(ESC))
+&mod_to 0 ESC   &hml LGUI LA(LEFT)  &hml LALT LA(RIGHT)  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &msc SCRL_DOWN    &kp DOWN_ARROW  &kp PG_DN             &as HOME LEFT     &kp DOWN_ARROW    &kp UP          &as END RIGHT      &to 0
+&bt BT_CLR_ALL  &trans              &kp LC(W)            &tap_copy_cut                &tap_paste          &kp LC(N0)        &kp LEFT        &as LC(END) LC(HOME)  &kp RS(RC(LEFT))  &kp RC(RS(DOWN))  &kp RC(RS(UP))  &kp RS(RC(RIGHT))  &kp RC(RA(DEL))
+                                    &to 0                &to 0                        &kp SPACE           &mod_to 0 TAB     &kp RIGHT       &mod_to 0 RET         &kp BACKSPACE     &kp DEL
+                                                                                                                            &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
@@ -649,11 +649,11 @@ ZMK_TAP_DANCE(
 
         SWAP {
             bindings = <
-&bootloader     &trans                &kp LA(F4)            &trans                  &trans                   &trans              &kp LG(UP)     &kp LG(LC(LA(N1)))  &kp LG(LC(LA(N2)))       &kp LG(LC(LA(N3)))              &kp LG(LC(LA(N4)))  &kp LG(LC(LA(N5)))  &bootloader
-&mod_to 0 ESC   &kp LC(LG(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))    &kp LC(LG(NUMBER_4))     &kp LC(LG(N5))      &kp LG(DOWN)   &kp LC(LG(N6))      &kp LC(LG(N7))           &kp LG(LC(N8))                  &kp LC(LG(N9))      &kp LC(LG(N0))      &soft_off
-&bt BT_CLR_ALL  &kp LC(LG(N0))        &kp LC(LG(N9))        &kp LC(LG(N8))          &kp LC(LG(N7))           &kp LC(LG(N6))      &kp LG(LEFT)   &bt BT_NXT          &bt BT_PRV               &trans                          &trans              &trans              &bt BT_CLR_ALL
-                                      &trans                &kp LS(LA(LC(LG(F9))))  &kp LS(LA(LC(LG(F11))))  &mod_to 0 LA(F4)    &kp LG(RIGHT)  &as RG(TAB) C_PREV  &as C_MUTE C_PLAY_PAUSE  &as RS(RA(RC(RG(F11)))) C_NEXT
-                                                                                                                                 &trans
+&bootloader     &trans                &kp LA(F4)            &trans                  &trans                &trans              &kp LG(UP)     &kp LG(LC(LA(N1)))  &kp LG(LC(LA(N2)))       &kp LG(LC(LA(N3)))              &kp LG(LC(LA(N4)))  &kp LG(LC(LA(N5)))  &bootloader
+&mod_to 0 ESC   &kp LC(LG(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))    &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))      &kp LG(DOWN)   &kp LC(LG(N6))      &kp LC(LG(N7))           &kp LG(LC(N8))                  &kp LC(LG(N9))      &kp LC(LG(N0))      &soft_off
+&bt BT_CLR_ALL  &kp LC(LG(N0))        &kp LC(LG(N9))        &kp LC(LG(N8))          &kp LC(LG(N7))        &kp LC(LG(N6))      &kp LG(LEFT)   &bt BT_NXT          &bt BT_PRV               &trans                          &trans              &trans              &bt BT_CLR_ALL
+                                      &trans                &kp LS(LA(LC(LG(F9))))  &kp LA(F4)            &mod_to 0 LA(F4)    &kp LG(RIGHT)  &as RG(TAB) C_PREV  &as C_MUTE C_PLAY_PAUSE  &as RS(RA(RC(RG(F11)))) C_NEXT
+                                                                                                                              &trans
             >;
 
             label = "Swap";
