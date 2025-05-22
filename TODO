@@ -1,4 +1,7 @@
 
+
+
+
 // features
 // https://github.com/rafaelromao/keyboards
 
@@ -28,8 +31,14 @@ ZMK_MOD_MORPH(bs_del_num,
 
 
 
+// UROB
+// https://github.com/arilebedey/urob-zmk-config/blob/main/config/base.keymap
 
-//https://github.com/arilebedey/urob-zmk-config/blob/main/config/base.keymap
+// Implement nav-word & mouse-word similar to num word
+https://github.com/urob/zmk-config/blob/main/config/base.keymap#L133
+
+https://github.com/urob/zmk-auto-layer?tab=readme-ov-file#example-general-case
+
 
 // tap: space | shift + tap: dot -> space -> sticky shift | hold: activate layer
 ZMK_BEHAVIOR(lt_spc, hold_tap,
@@ -152,12 +161,6 @@ behaviours -
 ---
 
 KEYMAP
-
-
-&lt {
-    flavor = "balanced";
-    quick-tap-ms = <220>;
-}; 
 
 
 / {
