@@ -607,7 +607,7 @@ ZMK_TAP_DANCE(
 &bootloader     &kp LS(F10)         &kp LA(F4)          &kp ENTER                    &kp LS(F10)         &msc SCRL_UP      &kp UP_ARROW    &kp PG_UP             &tap_copy_cut     &tap_paste        &kp PAGE_UP     &kp LC(V)          &kp LC(LS(ESC))
 &kp ESCAPE      &hml LGUI LA(LEFT)  &hml LALT LA(LEFT)  &hml LEFT_SHIFT LC(LS(TAB))  &hml LCTRL LC(TAB)  &msc SCRL_DOWN    &kp DOWN_ARROW  &kp PG_DN             &as HOME LEFT     &kp DOWN_ARROW    &kp UP          &as END RIGHT      &to 0
 &bt BT_CLR_ALL  &trans              &kp LC(W)           &tap_copy_cut                &tap_paste          &kp LC(N0)        &kp LEFT        &as LC(END) LC(HOME)  &kp RS(RC(LEFT))  &kp RC(RS(DOWN))  &kp RC(RS(UP))  &kp RS(RC(RIGHT))  &kp RC(RA(DEL))
-                                    &to 0               &to 0                        &kp SPACE           &kp TAB           &kp RIGHT       &kp RET               &kp BACKSPACE     &kp DEL
+                                    &to 0               &to 0                        &kp SPACE           &mod_to 0 TAB     &kp RIGHT       &mod_to 0 RET         &kp BACKSPACE     &kp DEL
                                                                                                                            &to 0
             >;
 
