@@ -1,6 +1,7 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 35    // 10
 
+#include <dt-bindings/zmk/outputs.h>
 #include <behaviors/num_word.dtsi> // Requires auto-layer module.
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
